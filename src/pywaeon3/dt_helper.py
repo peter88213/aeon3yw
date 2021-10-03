@@ -12,7 +12,7 @@ def fix_iso_dt(tlDateTime):
     and by the datetime.fromisoformat() method.
 
     Substitute missing time by "00:00:00".
-    If the date is empty or before 100-01-01, return None. 
+    If the date is empty or out of yWriter's range, return None. 
     """
     if not tlDateTime:
         return None
@@ -23,6 +23,9 @@ def fix_iso_dt(tlDateTime):
     dt = tlDateTime.split('-', 1)
 
     if int(dt[0]) < 100:
+        return None
+
+    if int(dt[0]) > 9999:
         return None
 
     dt[0] = dt[0].zfill(4)
