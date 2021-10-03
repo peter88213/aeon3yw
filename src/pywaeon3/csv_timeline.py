@@ -15,6 +15,8 @@ from pywriter.model.chapter import Chapter
 from pywriter.model.world_element import WorldElement
 from pywriter.model.character import Character
 
+from pywaeon3.dt_helper import fix_iso_dt
+
 
 class CsvTimeline(FileExport):
     """File representation of a csv file exported by Aeon Timeline 3. 
@@ -30,9 +32,6 @@ class CsvTimeline(FileExport):
     _SEPARATOR = ','
 
     TYPE_LABEL_V3 = 'Type'
-    TITLE_LABEL_V3 = 'Label'
-    SCENE_LABEL_V3 = 'Narrative Position'
-    DESCRIPTION_LABEL_V3 = 'Summary'
     EVENT_MARKER_V3 = 'Event'
     STRUCT_MARKER_V3 = 'Narrative Folder'
     SCENE_MARKER_V3 = 'Scene'
@@ -169,18 +168,7 @@ class CsvTimeline(FileExport):
         try:
             with open(self.filePath, newline='', encoding='utf-8') as f:
                 reader = csv.DictReader(f, delimiter=self._SEPARATOR)
-
-                if self.TYPE_LABEL_V3 in reader.fieldnames:
-                    aeonVersion = 3
-                    delimiter = ','
-                    self.titleLabel = self.TITLE_LABEL_V3
-                    self.sceneMarker = self.SCENE_MARKER_V3
-                    self.sceneLabel = self.SCENE_LABEL_V3
-                    self.descriptionLabel = self.DESCRIPTION_LABEL_V3
-
-                else:
-                    aeonVersion = 2
-                    delimiter = '|'
+                internalDelimiter = ','
 
                 for label in [self.sceneLabel, self.titleLabel, self.startDateTimeLabel, self.endDateTimeLabel]:
 
@@ -193,10 +181,10 @@ class CsvTimeline(FileExport):
 
                 for row in reader:
 
-                    if aeonVersion == 3 and row[self.TYPE_LABEL_V3] == self.STRUCT_MARKER_V3:
+                    if row[self.TYPE_LABEL_V3] == self.STRUCT_MARKER_V3:
                         continue
 
-                    elif aeonVersion == 3 and row[self.TYPE_LABEL_V3] != self.EVENT_MARKER_V3:
+                    elif row[self.TYPE_LABEL_V3] != self.EVENT_MARKER_V3:
                         continue
 
                     eventCount += 1
@@ -218,30 +206,25 @@ class CsvTimeline(FileExport):
                     self.scenes[scId].isNotesScene = noScene
                     self.scenes[scId].title = row[self.titleLabel]
 
-                    if row[self.startDateTimeLabel]:
+                    startDateTimeStr = fix_iso_dt(row[self.startDateTimeLabel])
 
-                        if not row[self.startDateTimeLabel] in scIdsByDate:
-                            scIdsByDate[row[self.startDateTimeLabel]] = []
+                    if startDateTimeStr is not None:
 
-                        scIdsByDate[row[self.startDateTimeLabel]].append(scId)
-                        startDateTime = row[self.startDateTimeLabel].split(' ')
-                        startYear = int(startDateTime[0].split('-')[0])
+                        if not startDateTimeStr in scIdsByDate:
+                            scIdsByDate[startDateTimeStr] = []
 
-                        if len(startDateTime) > 2 or startYear < 100:
+                        scIdsByDate[startDateTimeStr].append(scId)
+                        startDateTime = startDateTimeStr.split(' ')
+                        self.scenes[scId].date = startDateTime[0]
+                        self.scenes[scId].time = startDateTime[1]
+                        endDateTimeStr = fix_iso_dt(row[self.endDateTimeLabel])
 
-                            # Substitute date/time, so yWriter would not prefix them with '19' or '20'.
-
-                            self.scenes[scId].date = '-0001-01-01'
-                            self.scenes[scId].time = '00:00:00'
-
-                        else:
-                            self.scenes[scId].date = startDateTime[0]
-                            self.scenes[scId].time = startDateTime[1]
+                        if endDateTimeStr is not None:
 
                             # Calculate duration of scenes that begin after 99-12-31.
 
-                            sceneStart = datetime.fromisoformat(row[self.startDateTimeLabel])
-                            sceneEnd = datetime.fromisoformat(row[self.endDateTimeLabel])
+                            sceneStart = datetime.fromisoformat(startDateTimeStr)
+                            sceneEnd = datetime.fromisoformat(endDateTimeStr)
                             sceneDuration = sceneEnd - sceneStart
                             lastsHours = sceneDuration.seconds // 3600
                             lastsMinutes = (sceneDuration.seconds % 3600) // 60
@@ -252,6 +235,8 @@ class CsvTimeline(FileExport):
 
                     else:
                         scIdsUndated.append(scId)
+                        self.scenes[scId].date = '-0001-01-01'
+                        self.scenes[scId].time = '00:00:00'
 
                     if self.descriptionLabel in row:
                         self.scenes[scId].desc = row[self.descriptionLabel]
@@ -260,13 +245,13 @@ class CsvTimeline(FileExport):
                         self.scenes[scId].sceneNotes = row[self.notesLabel]
 
                     if self.tagLabel in row and row[self.tagLabel] != '':
-                        self.scenes[scId].tags = row[self.tagLabel].split(delimiter)
+                        self.scenes[scId].tags = row[self.tagLabel].split(internalDelimiter)
 
                     if self.locationLabel in row:
-                        self.scenes[scId].locations = get_lcIds(row[self.locationLabel].split(delimiter))
+                        self.scenes[scId].locations = get_lcIds(row[self.locationLabel].split(internalDelimiter))
 
                     if self.characterLabel in row:
-                        self.scenes[scId].characters = get_crIds(row[self.characterLabel].split(delimiter))
+                        self.scenes[scId].characters = get_crIds(row[self.characterLabel].split(internalDelimiter))
 
                     if self.viewpointLabel in row:
                         vpIds = get_crIds([row[self.viewpointLabel]])
@@ -283,7 +268,7 @@ class CsvTimeline(FileExport):
                             self.scenes[scId].characters.insert(0, vpId)
 
                     if self.itemLabel in row:
-                        self.scenes[scId].items = get_itIds(row[self.itemLabel].split(delimiter))
+                        self.scenes[scId].items = get_itIds(row[self.itemLabel].split(internalDelimiter))
 
                     # Set scene status = "Outline".
 
@@ -303,42 +288,21 @@ class CsvTimeline(FileExport):
 
         #--- Create document structure
 
-        if aeonVersion == 2:
+        # Build the chapter structure as defined with Aeon v3.
 
-            # Sort scenes by date/time and place them in one single chapter.
+        chId = '1'
+        self.chapters[chId] = Chapter()
+        self.chapters[chId].title = 'Chapter 1'
+        self.srtChapters = [chId]
 
-            chId = '1'
-            self.chapters[chId] = Chapter()
-            self.chapters[chId].title = 'Chapter 1'
-            self.srtChapters = [chId]
-            srtScenes = sorted(scIdsByDate.items())
-            self.chapters[chId].srtScenes = scIdsUndated
+        # Sort scenes by date/time
 
-            for date, scList in srtScenes:
+        srtScenes = sorted(scIdsByDate.items())
+        self.chapters[chId].srtScenes = scIdsUndated
 
-                for scId in scList:
-                    self.chapters[chId].srtScenes.append(scId)
+        for date, scList in srtScenes:
 
-        elif aeonVersion == 3:
-
-            # Build the chapter structure as defined with Aeon v3.
-
-            chId = '1'
-            self.chapters[chId] = Chapter()
-            self.chapters[chId].title = 'Chapter 1'
-            self.srtChapters = [chId]
-
-            # Sort scenes by date/time
-
-            srtScenes = sorted(scIdsByDate.items())
-            self.chapters[chId].srtScenes = scIdsUndated
-
-            for date, scList in srtScenes:
-
-                for scId in scList:
-                    self.chapters[chId].srtScenes.append(scId)
-
-        else:
-            return 'ERROR: Cann not recognize Aeon Timeline version.'
+            for scId in scList:
+                self.chapters[chId].srtScenes.append(scId)
 
         return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'
