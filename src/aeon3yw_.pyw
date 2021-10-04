@@ -32,7 +32,12 @@ SETTINGS = dict(
     location_label='Location',
     item_label='Item',
     character_label='Participant',
-    viewpoint_label='Viewpoint'
+    viewpoint_label='Viewpoint',
+    type_label='Type',
+    event_marker='Event',
+    struct_marker='Narrative Folder',
+    chapter_marker='Chapter',
+    part_marker='Part',
 )
 
 OPTIONS = dict(

@@ -1,9 +1,17 @@
 [![Screenshot: Example](Screenshots/screen01.png)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/screen01.png)
 
-- Events are converted to scenes in one single chapter.
-- The scenes are sorted chronologically.
-- Events tagged "Scene" are converted to regular scenes; other events become "Notes" scenes.
-- Locations and participant characters are imported.
+[yWriter](http://spacejock.com/yWriter7.html) is a free word processor written by Australian author and programmer Simon Haynes. yWriter's strengths are structuring novels and controlling the progress during the writing process. With the *aeon2yw* Python script, you can convert a novel outline created with Aeon Timeline 2 into a new yWriter project.
+
+## Features
+
+- A Python script that converts Aeon's csv export into a new yWriter project.
+- Events belonging to the narrative structure are converted to yWriter scenes.
+- Chapters are created according to the "Narrative Folder" structure.
+- Part headings are converted into headings of empty chapters that begin a new section in yWriter.
+- The scenes have a start time and a duration, if the year is between 100 and 9999.
+- Characters, locations and items are imported, if any.
+- Scene descriptions and scene notes are imported, if any.
+- Scene tags are imported, if any.
 
  
 ## Requirements
@@ -11,7 +19,7 @@
 - Windows.
 - [Python 3](https://www.python.org). Python 3.4 or more recent will work. However, Python 3.7 or above is highly recommended.
 - [yWriter](http://spacejock.com/yWriter7.html).
-- [Aeon Timeline 3](https://www.aeontimeline.com/). 
+- [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2 users](https://peter88213.github.io/aeon2yw).
 
 
 ## Download and install

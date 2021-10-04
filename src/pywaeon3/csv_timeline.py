@@ -31,13 +31,6 @@ class CsvTimeline(FileExport):
     SUFFIX = ''
     _SEPARATOR = ','
 
-    TYPE_LABEL_V3 = 'Type'
-    EVENT_MARKER_V3 = 'Event'
-    STRUCT_MARKER_V3 = 'Narrative Folder'
-    SCENE_MARKER_V3 = 'Scene'
-    CHAPTER_MARKER_V3 = 'Chapter'
-    PART_MARKER_V3 = 'Part'
-
     # Events assigned to the "narrative arc" (case insensitive) become
     # regular scenes, the others become Notes scenes.
 
@@ -46,7 +39,6 @@ class CsvTimeline(FileExport):
         defining instance variables.
         """
         FileExport.__init__(self, filePath, **kwargs)
-        self.sceneMarker = kwargs['scene_marker']
         self.titleLabel = kwargs['title_label']
         self.sceneLabel = kwargs['scene_label']
         self.startDateTimeLabel = kwargs['start_date_time_label']
@@ -58,6 +50,12 @@ class CsvTimeline(FileExport):
         self.itemLabel = kwargs['item_label']
         self.characterLabel = kwargs['character_label']
         self.viewpointLabel = kwargs['viewpoint_label']
+        self.typeLabel = kwargs['type_label']
+        self.eventMarker = kwargs['event_marker']
+        self.structMarker = kwargs['struct_marker']
+        self.sceneMarker = kwargs['scene_marker']
+        self.chapterMarker = kwargs['chapter_marker']
+        self.partMarker = kwargs['part_marker']
         self.exportAllEvents = kwargs['export_all_events']
 
     def read(self):
@@ -181,10 +179,10 @@ class CsvTimeline(FileExport):
 
                 for row in reader:
 
-                    if row[self.TYPE_LABEL_V3] == self.STRUCT_MARKER_V3:
+                    if row[self.typeLabel] == self.structMarker:
                         continue
 
-                    elif row[self.TYPE_LABEL_V3] != self.EVENT_MARKER_V3:
+                    elif row[self.typeLabel] != self.eventMarker:
                         continue
 
                     eventCount += 1

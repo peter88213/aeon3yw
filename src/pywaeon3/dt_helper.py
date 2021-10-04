@@ -6,7 +6,7 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 """
 
 
-def fix_iso_dt(tlDateTime):
+def fix_iso_dt(dateTimeStr):
     """Return a date/time string with a four-number year.
     This is required for comparing date/time strings, 
     and by the datetime.fromisoformat() method.
@@ -14,13 +14,13 @@ def fix_iso_dt(tlDateTime):
     Substitute missing time by "00:00:00".
     If the date is empty or out of yWriter's range, return None. 
     """
-    if not tlDateTime:
+    if not dateTimeStr:
         return None
 
-    if tlDateTime.startswith('BC '):
+    if dateTimeStr.startswith('BC'):
         return None
 
-    dt = tlDateTime.split('-', 1)
+    dt = dateTimeStr.split('-', 1)
 
     if int(dt[0]) < 100:
         return None
@@ -29,9 +29,9 @@ def fix_iso_dt(tlDateTime):
         return None
 
     dt[0] = dt[0].zfill(4)
-    tlDateTime = ('-').join(dt)
+    dateTimeStr = ('-').join(dt)
 
-    if not ':' in tlDateTime:
-        tlDateTime += ' 00:00:00'
+    if not ':' in dateTimeStr:
+        dateTimeStr += ' 00:00:00'
 
-    return tlDateTime
+    return dateTimeStr

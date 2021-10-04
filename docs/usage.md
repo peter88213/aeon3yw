@@ -31,7 +31,7 @@ The path of the Aeon Timeline 3 csv export file.
 
 ## Prepare your timeline for export
 
-The included installation script installs a "yWriter" template in the Aeon 2 configuration folder. 
+The included installation script installs a "yWriter" template in the Aeon 3 configuration folder. 
 The easiest way is to create new timelines based on this template. It provides the entities and event properties that are converted to yWriter by default.
 
 For existing timelines you have two choices:
@@ -69,20 +69,24 @@ This is the configuration explained:
 ```
 [SETTINGS]
 
-scene_marker = Yes
-
-# String that indicates an event to be exported as normal
-# scene, if "export_all_events" is "No"
-# If the scene marker is left blank, all events will be
-# imported as normal scenes.
-# In this case, the entry looks like "scene_marker ="
-
-scene_label = Scene
+scene_label = Narrative Position
 
 # Label of the csv field that contains the "scene_marker"
 # indicator.
 
-title_label = Title
+scene_marker = Scene
+
+# String in the "scene_label" field marking a scene.
+
+chapter_marker = Chapter
+
+# String in the "scene_label" field marking a chapter.
+
+part_marker = Part
+
+# String in the "scene_label" field marking a chapter that begins a new section.
+
+title_label = Label
 
 # Label of the csv field whose contents are exported
 # as the scene's title to yWriter.
@@ -97,7 +101,7 @@ end_date_time_label = End Date
 # Label of the csv field whose contents are used to
 # calculate the scene's duration.
 
-description_label = Description
+description_label = Summary
 
 # Label of the csv field whose contents are exported
 # as the scene's description to yWriter.
@@ -131,6 +135,18 @@ viewpoint_label = Viewpoint
 
 # Label of the csv field whose contents are exported
 # as the scene's viewpoint to yWriter.
+
+type_label = Type
+
+# Label of the csv field indicating the row type.
+
+event_marker = Event
+
+# String in the "type" field marking an event.
+
+struct_marker = Narrative Folder
+
+# String in the "type" field marking a part of the narrative structure.
 
 [OPTIONS]
 
