@@ -47,18 +47,26 @@ For existing timelines you have two choices:
 - Time format is like **17:43**.
 
 
-![Aeon 2 csv export settings](Screenshots/Aeon2_export_settings.png)
 
 
 ## Custom configuration
 
 You can override the default settings by providing a configuration file. Be always aware that faulty entries may cause program errors. 
 
-An optional project configuration file named `aeon3yw.ini` can be placed in your project directory, i.e. the folder containing your yWriter and Timeline project files. It is only applied to this project. Its entries override aeon3yw's built-in constants.
+### Global configuration
+
+An optional global configuration file can be placed in the configuration directory in your user profile. It is applied to any project. Its entries override aeon3yw's built-in constants. This is the path:
+`c:\Users\<user name>\AppData\Roaming\PyWriter\aeon3yw\config\aeon3yw.ini`
+  
+The **install.bat** installation script installs a sample configuration file containing aeon3yw's default values. You can modify or delete it. 
+
+### Local project configuration
+
+An optional project configuration file named `aeon3yw.ini` can be placed in your project directory, i.e. the folder containing your yWriter and Timeline project files. It is only applied to this project. Its entries override aeon3yw's built-in constants as well as the global configuration, if any.
 
 ### How to provide/modify a configuration file
 
-The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. You best make a copy and edit it.
+The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. This file is also automatically copied to the global configuration folder during installation. You best make a copy and edit it.
 
 - The SETTINGS section mainly refers to "labels", i.e. The csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon project and export settings. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
 - The OPTIONS section comprises options for regular program execution. 
