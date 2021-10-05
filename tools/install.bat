@@ -10,8 +10,8 @@ if not exist %cnfdir% md %cnfdir%
 
 copy /Y sample\aeon3yw.ini %cnfdir%
 
-set aeon3dir="%LOCALAPPDATA%\Scribble Code\Aeon Timeline 3\Templates"
-if exist %aeon3dir% copy /Y sample\yWriter.xml %aeon3dir%
+rem set aeon3dir="%LOCALAPPDATA%\Scribble Code\Aeon Timeline 3\Templates"
+rem if exist %aeon3dir% copy /Y sample\yWriter.xml %aeon3dir%
 
 if exist %USERPROFILE%\Desktop\%app%.lnk goto :end
 

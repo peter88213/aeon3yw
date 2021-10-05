@@ -29,20 +29,40 @@ The path of the Aeon Timeline 3 csv export file.
 
 `--silent`  suppress error messages and the request to confirm overwriting
 
-## Prepare your timeline for export
+## Set up your timeline for export
 
-The included installation script installs a "yWriter" template in the Aeon 3 configuration folder. 
-The easiest way is to create new timelines based on this template. It provides the entities and event properties that are converted to yWriter by default.
+The aeon3yw distribution comes with a "yWriter.aeonTpl" Aeon 3 template in the "sample" folder. You can install it via the *Aeon Timeline Preferences*.
+
+![Custom Templates settings](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/import_template.png)
+
+The easiest way is to create new timelines based on this template. It provides the required narrative strucuture and the "Viewpoint" character role.
 
 For existing timelines you have two choices:
 
-1. Add or rename the required entities and event properties in the Timeline settings.
-2. Customize the *aeon3yw* configuration to fit your timeline.
+### First option: Add or rename the required properties in the Timeline settings.
+
+Open the Timeline Settings. 
+
+In the "Narrative" settings select "Outline Style" as numbering system. Make sure that at least chapters are auto assigned to "folders", and scenes are auto assigned to "other types". 
+
+![Narrative settings](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/narrative_settings.png)
+
+In the "Advanced settings" make sure a "Viewpoint" relationship exists for characters that can be assigned to events. The easiest way is to rename an existing relationship, e.g. "Observer". 
+
+![Relationship settings](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/advanced_settings.png)
+
+
+### Second option: Customize the *aeon3yw* configuration to fit your timeline.
+
+(see "Custom configuration")
 
 
 ## csv export from Aeon Timeline 3
 
 - The csv file exported by Aeon Timeline 3 must be **comma**-separated.
+- At least the "Event" and "Narrative Folder" checkboxes must be ticked.
+
+![Aeon 3 Export settings](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/csv_export.png)
 
 
 ## Custom configuration

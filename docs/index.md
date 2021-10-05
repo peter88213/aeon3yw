@@ -4,7 +4,9 @@
 
 ## Features
 
-- A Python script that converts Aeon's csv export into a new yWriter project.
+- The release comes with a template for Aeon Timeline 3 that provides a suitable narrative folder structure and a "Viewpoint" character role.
+- With this template, events get a "Scene" checkbox. Events marked as scenes are converted to regular scenes; other events become "Notes" scenes.
+- The aeon3yw Python script converts Aeon's csv export into a new yWriter project.
 - Events belonging to the narrative structure are converted to yWriter scenes.
 - Chapters are created according to the "Narrative Folder" structure.
 - Events not belonging to the narrative structure are converted to "Notes" scenes and placed in the "Trash" chapter.
@@ -25,11 +27,12 @@
 
 ## Download and install
 
-[Download the latest release (version 0.1.7)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.1.7.zip)
+[Download the latest release (version 0.2.0)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.2.0.zip)
 
-- Unzip the downloaded zipfile "aeon3yw_v0.1.7.zip" into a new folder.
+- Unzip the downloaded zipfile "aeon3yw_v0.2.0.zip" into a new folder.
 - Move into this new folder and launch **install.bat**. This installs the script for the local user.
 - Create a shortcut on the desktop when asked.
+- Start Aeon Timeline 3 and import the "yWriter" template from the "sample" folder.
 - Open "README.md" for usage instructions.
 
 [Changelog](changelog)

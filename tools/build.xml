@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="aeon3yw" basedir=".">
-	<property name="release" value="0.1.7" />
+	<property name="release" value="0.2.0" />
 	<property name="src" location="../src" />
 	<property name="test" location="../test" />
 	<property name="build" location="../build" />
