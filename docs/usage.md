@@ -82,7 +82,7 @@ An optional project configuration file named `aeon3yw.ini` can be placed in your
 
 ### How to provide/modify a configuration file
 
-The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. This file is also automatically copied to the global configuration folder during installation. You best make a copy and edit it.
+The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. You can copy this file to the global configuration folder and edit it.
 
 - The SETTINGS section mainly refers to "labels", i.e. The csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon Timeline setup. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
 - Comment lines begin with a `#` number sign. In the example, they refer to the code line immediately above.
