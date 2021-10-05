@@ -29,7 +29,19 @@ class CsvTimeline(FileExport):
     EXTENSION = '.csv'
     DESCRIPTION = 'Aeon Timeline CSV export'
     SUFFIX = ''
+
+    # Aeon 3 csv export structure (fix part)
+
     _SEPARATOR = ','
+    _MAX_STRUCT_DEPTH = 3
+    _CHAPTER_MARKER = 'Chapter'
+    _PART_MARKER = 'Part'
+    _SCENE_LABEL = 'Narrative Position'
+    _TYPE_LABEL = 'Type'
+    _EVENT_MARKER = 'Event'
+    _STRUCT_MARKER = 'Narrative Folder'
+    _START_DATE_TIME_LABEL = 'Start Date'
+    _END_DATE_TIME_LABEL = 'End Date'
 
     # Events assigned to the "narrative arc" (case insensitive) become
     # regular scenes, the others become Notes scenes.
@@ -39,10 +51,8 @@ class CsvTimeline(FileExport):
         defining instance variables.
         """
         FileExport.__init__(self, filePath, **kwargs)
+        self.sceneMarker = kwargs['scene_marker']
         self.titleLabel = kwargs['title_label']
-        self.sceneLabel = kwargs['scene_label']
-        self.startDateTimeLabel = kwargs['start_date_time_label']
-        self.endDateTimeLabel = kwargs['end_date_time_label']
         self.descriptionLabel = kwargs['description_label']
         self.notesLabel = kwargs['notes_label']
         self.tagLabel = kwargs['tag_label']
@@ -50,12 +60,6 @@ class CsvTimeline(FileExport):
         self.itemLabel = kwargs['item_label']
         self.characterLabel = kwargs['character_label']
         self.viewpointLabel = kwargs['viewpoint_label']
-        self.typeLabel = kwargs['type_label']
-        self.eventMarker = kwargs['event_marker']
-        self.structMarker = kwargs['struct_marker']
-        self.sceneMarker = kwargs['scene_marker']
-        self.chapterMarker = kwargs['chapter_marker']
-        self.partMarker = kwargs['part_marker']
         self.exportAllEvents = kwargs['export_all_events']
 
     def read(self):
@@ -168,21 +172,38 @@ class CsvTimeline(FileExport):
                 reader = csv.DictReader(f, delimiter=self._SEPARATOR)
                 internalDelimiter = ','
 
-                for label in [self.sceneLabel, self.titleLabel, self.startDateTimeLabel, self.endDateTimeLabel]:
+                for label in [self._SCENE_LABEL, self.titleLabel, self._START_DATE_TIME_LABEL, self._END_DATE_TIME_LABEL]:
 
                     if not label in reader.fieldnames:
                         return 'ERROR: Label "' + label + '" is missing in the CSV file.'
 
+                scIdsByStruc = {}
                 scIdsByDate = {}
                 scIdsUndated = []
                 eventCount = 0
 
                 for row in reader:
 
-                    if row[self.typeLabel] == self.structMarker:
+                    if row[self._SCENE_LABEL]:
+                        type, nrStr = row[self._SCENE_LABEL].split(' ')
+                        numbers = nrStr.split('.')
+
+                        for i in range(len(numbers)):
+                            numbers[i] = numbers[i].zfill(4)
+
+                        while len(numbers) < self._MAX_STRUCT_DEPTH:
+                            numbers.append('.0000')
+
+                    else:
+                        type = ''
+                        numbers = ['0000'] * self._MAX_STRUCT_DEPTH
+
+                    nrStr = ('.').join(numbers)
+
+                    if row[self._TYPE_LABEL] == self._STRUCT_MARKER:
                         continue
 
-                    elif row[self.typeLabel] != self.eventMarker:
+                    elif row[self._TYPE_LABEL] != self._EVENT_MARKER:
                         continue
 
                     eventCount += 1
@@ -190,7 +211,7 @@ class CsvTimeline(FileExport):
                     if self.sceneMarker == '':
                         noScene = False
 
-                    elif not self.sceneMarker in row[self.sceneLabel]:
+                    elif type != self.sceneMarker:
                         noScene = True
 
                         if not self.exportAllEvents:
@@ -204,7 +225,7 @@ class CsvTimeline(FileExport):
                     self.scenes[scId].isNotesScene = noScene
                     self.scenes[scId].title = row[self.titleLabel]
 
-                    startDateTimeStr = fix_iso_dt(row[self.startDateTimeLabel])
+                    startDateTimeStr = fix_iso_dt(row[self._START_DATE_TIME_LABEL])
 
                     if startDateTimeStr is not None:
 
@@ -215,7 +236,7 @@ class CsvTimeline(FileExport):
                         startDateTime = startDateTimeStr.split(' ')
                         self.scenes[scId].date = startDateTime[0]
                         self.scenes[scId].time = startDateTime[1]
-                        endDateTimeStr = fix_iso_dt(row[self.endDateTimeLabel])
+                        endDateTimeStr = fix_iso_dt(row[self._END_DATE_TIME_LABEL])
 
                         if endDateTimeStr is not None:
 

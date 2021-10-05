@@ -22,10 +22,7 @@ APPNAME = 'aeon3yw'
 
 SETTINGS = dict(
     scene_marker='Scene',
-    scene_label='Narrative Position',
     title_label='Label',
-    start_date_time_label='Start Date',
-    end_date_time_label='End Date',
     description_label='Summary',
     notes_label='Notes',
     tag_label='Tags',
@@ -33,11 +30,6 @@ SETTINGS = dict(
     item_label='Item',
     character_label='Participant',
     viewpoint_label='Viewpoint',
-    type_label='Type',
-    event_marker='Event',
-    struct_marker='Narrative Folder',
-    chapter_marker='Chapter',
-    part_marker='Part',
 )
 
 OPTIONS = dict(
