@@ -266,6 +266,7 @@
     <SCENE>
       <ID>10</ID>
       <Title><![CDATA[Mrs Hubbard has a nightmare about a man in her compartment and rings for the conductor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -288,6 +289,7 @@
     <SCENE>
       <ID>11</ID>
       <Title><![CDATA[M. Bouc observes the carriage was locked and chained on the inside, and it is apparent the murderer is still on the train.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -326,6 +328,7 @@
     <SCENE>
       <ID>13</ID>
       <Title><![CDATA[Greta Ohlsson sees Ratchett]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[This was the last time Ratchett was seen alive]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -383,6 +386,7 @@
     <SCENE>
       <ID>16</ID>
       <Title><![CDATA[Mrs Hubbard sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -422,6 +426,7 @@
     <SCENE>
       <ID>18</ID>
       <Title><![CDATA[The passengers all stab Mr. Ratchett]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[They were all in on it. Countess Andrenyi, though aware of the plan, was the only one that did not take part.
 The pipe and handkerchief were left in the compartment to confuse Poirot.
 This explains the different times of death and the different types of stabbing
@@ -622,6 +627,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>28</ID>
       <Title><![CDATA[Unknown murderer leaves through Mrs. Hubbards compartment]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[Leaves behind murder weapon and button from cloak]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -715,6 +721,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>33</ID>
       <Title><![CDATA[Greta Ohlsson asks Mrs Hubbard for some aspirin]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -859,6 +866,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>41</ID>
       <Title><![CDATA[The Conductor makes the bed for Count Andrenyi]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -995,6 +1003,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>49</ID>
       <Title><![CDATA[MacQueen and Colonel Arbuthnot step out onto the platform at Vincovci ]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1091,6 +1100,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>54</ID>
       <Title><![CDATA[Mrs Hubbard sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1181,6 +1191,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>59</ID>
       <Title><![CDATA[The Armstrong family and those connected are outraged by the miscarriage of justice, and wish to seek justice on their own.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1195,6 +1206,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>60</ID>
       <Title><![CDATA[After taking down his memoranda of letters, MacQueen drugs Mr. Ratchett]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1285,6 +1297,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>65</ID>
       <Title><![CDATA[Suicide is ruled out, as Ratchett was stabbed 10-15 times. The coroner determines the death occurred between midnight and 2am.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1307,6 +1320,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>66</ID>
       <Title><![CDATA[Poirot interviews the passengers about the murder]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1578,6 +1592,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>82</ID>
       <Title><![CDATA[The Valet sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1619,6 +1634,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>84</ID>
       <Title><![CDATA[Taurus Express Train departs Aleppo, Syria headed for Stamboul]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1655,6 +1671,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>86</ID>
       <Title><![CDATA[Princess Dragonmiroff sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1692,6 +1709,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>88</ID>
       <Title><![CDATA[Orient Express train departs from Belgrade]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1710,6 +1728,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>89</ID>
       <Title><![CDATA[Unknown murderer enters Mr. Ratchett’s apartment and stabs him]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1731,6 +1750,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>90</ID>
       <Title><![CDATA[Mary Debenham sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1808,6 +1828,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>94</ID>
       <Title><![CDATA[MacQueen sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1829,6 +1850,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>95</ID>
       <Title><![CDATA[ Train leaves Vincovci (late)]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1866,6 +1888,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>97</ID>
       <Title><![CDATA[Hildegarde Schmidt sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1887,6 +1910,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>98</ID>
       <Title><![CDATA[Antonio Foscarelli sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2001,6 +2025,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>104</ID>
       <Title><![CDATA[Train becomes stuck in a snow drift]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[After this time it was impossible for anyone to leave the train]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2019,6 +2044,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>105</ID>
       <Title><![CDATA[Hildegarde Schmidt returns to her compartment and sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2059,6 +2085,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>107</ID>
       <Title><![CDATA[Unknown murderer enters train at Vincovci]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2117,6 +2144,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>110</ID>
       <Title><![CDATA[One of the woman passengers dresses in a scarlett dressing gown and walks up the corridor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2135,6 +2163,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>111</ID>
       <Title><![CDATA[Hildegare Schmidt sees an imposter conductor in the corridor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2266,6 +2295,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>118</ID>
       <Title><![CDATA[Poirot interviews Hildegarde Schmidt]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2287,6 +2317,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>119</ID>
       <Title><![CDATA[Colonel Arbuthnot returns to his compartment and sleeps]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2381,6 +2412,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>124</ID>
       <Title><![CDATA[The passengers burn their threatening letters]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2413,6 +2445,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>125</ID>
       <Title><![CDATA[MacQueen leaves Ratchett]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2558,6 +2591,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>133</ID>
       <Title><![CDATA[M. Bouc observes that the window was left open, but as there are no footprints outside, this is an obvious ruse.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[Given the train has been stuck in a snowdrift since then and has not moved position, the lack of footprints rules out the window as an escape route.]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2580,6 +2614,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>134</ID>
       <Title><![CDATA[Hildegarde Schimdt sees imposter conductor in the corridor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[She lied about the time to try to shield the Princess]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2661,6 +2696,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>138</ID>
       <Title><![CDATA[Unknown murderer leaves the train]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2789,6 +2825,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>145</ID>
       <Title><![CDATA[No one enters or leaves Rachett's apartment, according to the Conductor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2818,6 +2855,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>147</ID>
       <Title><![CDATA[No one enters or leaves Rachett's apartment, according to the Conductor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2866,6 +2904,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>150</ID>
       <Title><![CDATA[Rachett's body found]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2924,6 +2963,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>153</ID>
       <Title><![CDATA[Another passenger enters Mr. Ratchett's compartment and finds him dead. He rings the bell for the conductor, then panics and pretends to be Mr. Ratchett when answering as he doesn’t want to be found with the body.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2976,6 +3016,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>156</ID>
       <Title><![CDATA[Mrs Hubbard rings for the conductor with her story regarding an intruder in her room.]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[She lies about hearing a man in her compartment]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3013,6 +3054,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>158</ID>
       <Title><![CDATA[Cyrus Hardman stays awake in his compartment, watching the corridor]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[Alibi from midnight to 2am (substantiated by MacQueen and the conductor)]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3080,6 +3122,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>162</ID>
       <Title><![CDATA[One of the male passengers rings the conductors bell from Mr. Ratchett's apartment and answers in French]]></Title>
+      <BelongsToChID>36</BelongsToChID>
       <Desc><![CDATA[As Mr. Ratchett does not speak French, this is to imply to Poirot that he was already dead at this point]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3731,6 +3774,58 @@ Some weak, some strong]]></Desc>
         <ScID>99</ScID>
         <ScID>67</ScID>
         <ScID>34</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>36</ID>
+      <SortOrder>36</SortOrder>
+      <Title><![CDATA[Other events]]></Title>
+      <Desc><![CDATA[Scenes generated from events that ar not assigned to the narrative structure.]]></Desc>
+      <ChapterType>1</ChapterType>
+      <Scenes>
+        <ScID>10</ScID>
+        <ScID>11</ScID>
+        <ScID>13</ScID>
+        <ScID>16</ScID>
+        <ScID>18</ScID>
+        <ScID>28</ScID>
+        <ScID>33</ScID>
+        <ScID>41</ScID>
+        <ScID>49</ScID>
+        <ScID>54</ScID>
+        <ScID>59</ScID>
+        <ScID>60</ScID>
+        <ScID>65</ScID>
+        <ScID>66</ScID>
+        <ScID>82</ScID>
+        <ScID>84</ScID>
+        <ScID>86</ScID>
+        <ScID>88</ScID>
+        <ScID>89</ScID>
+        <ScID>90</ScID>
+        <ScID>94</ScID>
+        <ScID>95</ScID>
+        <ScID>97</ScID>
+        <ScID>98</ScID>
+        <ScID>104</ScID>
+        <ScID>105</ScID>
+        <ScID>107</ScID>
+        <ScID>110</ScID>
+        <ScID>111</ScID>
+        <ScID>118</ScID>
+        <ScID>119</ScID>
+        <ScID>124</ScID>
+        <ScID>125</ScID>
+        <ScID>133</ScID>
+        <ScID>134</ScID>
+        <ScID>138</ScID>
+        <ScID>145</ScID>
+        <ScID>147</ScID>
+        <ScID>150</ScID>
+        <ScID>153</ScID>
+        <ScID>156</ScID>
+        <ScID>158</ScID>
+        <ScID>162</ScID>
       </Scenes>
     </CHAPTER>
   </CHAPTERS>

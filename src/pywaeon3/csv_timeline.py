@@ -189,6 +189,7 @@ class CsvTimeline(FileExport):
 
                 scIdsByStruc = {}
                 chIdsByStruc = {}
+                otherEvents = []
                 eventCount = 0
                 chapterCount = 0
 
@@ -247,6 +248,7 @@ class CsvTimeline(FileExport):
 
                     else:
                         self.scenes[scId].isNotesScene = True
+                        otherEvents.append(scId)
 
                     self.scenes[scId].title = row[self.sceneTitleLabel]
 
@@ -347,5 +349,16 @@ class CsvTimeline(FileExport):
             else:
                 partNr += 1
                 self.chapters[ch[1]].title = self.partNrPrefix + str(partNr)
+
+        # Create a chapter for the non-narrative events.
+
+        chapterNr += 1
+        chId = str(chapterCount + 1)
+        self.chapters[chId] = Chapter()
+        self.chapters[chId].title = 'Other events'
+        self.chapters[chId].desc = 'Scenes generated from events that ar not assigned to the narrative structure.'
+        self.chapters[chId].chType = 1
+        self.chapters[chId].srtScenes = otherEvents
+        self.srtChapters.append(chId)
 
         return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'

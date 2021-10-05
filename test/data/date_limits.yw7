@@ -98,5 +98,12 @@
         <ScID>6</ScID>
       </Scenes>
     </CHAPTER>
+    <CHAPTER>
+      <ID>2</ID>
+      <SortOrder>2</SortOrder>
+      <Title><![CDATA[Other events]]></Title>
+      <Desc><![CDATA[Scenes generated from events that ar not assigned to the narrative structure.]]></Desc>
+      <ChapterType>1</ChapterType>
+    </CHAPTER>
   </CHAPTERS>
 </YWRITER7>
