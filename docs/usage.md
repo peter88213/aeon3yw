@@ -54,7 +54,7 @@ In the "Advanced settings" make sure a "Viewpoint" relationship exists for chara
 
 ### Second option: Customize the *aeon3yw* configuration to fit your timeline.
 
-(see "Custom configuration")
+See [below](#custom-configuration)
 
 
 ## csv export from Aeon Timeline 3
