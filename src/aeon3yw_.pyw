@@ -21,7 +21,6 @@ SUFFIX = ''
 APPNAME = 'aeon3yw'
 
 SETTINGS = dict(
-    scene_marker='Scene',
     title_label='Label',
     description_label='Summary',
     notes_label='Notes',
@@ -30,10 +29,6 @@ SETTINGS = dict(
     item_label='Item',
     character_label='Participant',
     viewpoint_label='Viewpoint',
-)
-
-OPTIONS = dict(
-    export_all_events=True,
 )
 
 
@@ -58,7 +53,7 @@ def run(sourcePath, silentMode=True, installDir=''):
     iniFileName = APPNAME + '.ini'
     iniFiles = [installDir + iniFileName, sourceDir + iniFileName]
 
-    configuration = Configuration(SETTINGS, OPTIONS)
+    configuration = Configuration(SETTINGS)
 
     for iniFile in iniFiles:
         configuration.read(iniFile)

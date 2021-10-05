@@ -33,7 +33,7 @@ class CsvTimeline(FileExport):
     # Aeon 3 csv export structure (fix part)
 
     _SEPARATOR = ','
-    _MAX_STRUCT_DEPTH = 3
+    _SCENE_MARKER = 'Scene'
     _CHAPTER_MARKER = 'Chapter'
     _PART_MARKER = 'Part'
     _SCENE_LABEL = 'Narrative Position'
@@ -42,6 +42,7 @@ class CsvTimeline(FileExport):
     _STRUCT_MARKER = 'Narrative Folder'
     _START_DATE_TIME_LABEL = 'Start Date'
     _END_DATE_TIME_LABEL = 'End Date'
+    _HEADING_LABEL = 'Label'
 
     # Events assigned to the "narrative arc" (case insensitive) become
     # regular scenes, the others become Notes scenes.
@@ -51,7 +52,6 @@ class CsvTimeline(FileExport):
         defining instance variables.
         """
         FileExport.__init__(self, filePath, **kwargs)
-        self.sceneMarker = kwargs['scene_marker']
         self.titleLabel = kwargs['title_label']
         self.descriptionLabel = kwargs['description_label']
         self.notesLabel = kwargs['notes_label']
@@ -60,7 +60,6 @@ class CsvTimeline(FileExport):
         self.itemLabel = kwargs['item_label']
         self.characterLabel = kwargs['character_label']
         self.viewpointLabel = kwargs['viewpoint_label']
-        self.exportAllEvents = kwargs['export_all_events']
 
     def read(self):
         """Parse the csv file located at filePath, 
@@ -178,61 +177,67 @@ class CsvTimeline(FileExport):
                         return 'ERROR: Label "' + label + '" is missing in the CSV file.'
 
                 scIdsByStruc = {}
-                scIdsByDate = {}
-                scIdsUndated = []
+                chIdsByStruc = {}
                 eventCount = 0
+                chapterCount = 0
 
                 for row in reader:
 
                     if row[self._SCENE_LABEL]:
-                        type, nrStr = row[self._SCENE_LABEL].split(' ')
-                        numbers = nrStr.split('.')
+                        narrativeType, narrativePosition = row[self._SCENE_LABEL].split(' ')
+
+                        # Make the narrative position a sortable string.
+
+                        numbers = narrativePosition.split('.')
 
                         for i in range(len(numbers)):
                             numbers[i] = numbers[i].zfill(4)
-
-                        while len(numbers) < self._MAX_STRUCT_DEPTH:
-                            numbers.append('.0000')
+                            narrativePosition = ('.').join(numbers)
 
                     else:
-                        type = ''
-                        numbers = ['0000'] * self._MAX_STRUCT_DEPTH
-
-                    nrStr = ('.').join(numbers)
+                        narrativeType = ''
+                        narrativePosition = ''
 
                     if row[self._TYPE_LABEL] == self._STRUCT_MARKER:
+
+                        if narrativeType == self._CHAPTER_MARKER:
+                            chapterCount += 1
+                            chId = str(chapterCount)
+                            self.chapters[chId] = Chapter()
+                            self.chapters[chId].title = row[self._HEADING_LABEL]
+                            self.chapters[chId].chLevel = 0
+                            chIdsByStruc[narrativePosition] = chId
+
+                        elif narrativeType == self._PART_MARKER:
+                            chapterCount += 1
+                            chId = str(chapterCount)
+                            self.chapters[chId] = Chapter()
+                            self.chapters[chId].title = row[self._HEADING_LABEL]
+                            self.chapters[chId].chLevel = 1
+                            narrativePosition += '.0000'
+                            chIdsByStruc[narrativePosition] = chId
+
                         continue
 
                     elif row[self._TYPE_LABEL] != self._EVENT_MARKER:
                         continue
 
                     eventCount += 1
-
-                    if self.sceneMarker == '':
-                        noScene = False
-
-                    elif type != self.sceneMarker:
-                        noScene = True
-
-                        if not self.exportAllEvents:
-                            continue
-
-                    else:
-                        noScene = False
-
                     scId = str(eventCount)
                     self.scenes[scId] = Scene()
-                    self.scenes[scId].isNotesScene = noScene
+
+                    if narrativeType == self._SCENE_MARKER:
+                        self.scenes[scId].isNotesScene = False
+                        scIdsByStruc[narrativePosition] = scId
+
+                    else:
+                        self.scenes[scId].isNotesScene = True
+
                     self.scenes[scId].title = row[self.titleLabel]
 
                     startDateTimeStr = fix_iso_dt(row[self._START_DATE_TIME_LABEL])
 
                     if startDateTimeStr is not None:
-
-                        if not startDateTimeStr in scIdsByDate:
-                            scIdsByDate[startDateTimeStr] = []
-
-                        scIdsByDate[startDateTimeStr].append(scId)
                         startDateTime = startDateTimeStr.split(' ')
                         self.scenes[scId].date = startDateTime[0]
                         self.scenes[scId].time = startDateTime[1]
@@ -253,7 +258,6 @@ class CsvTimeline(FileExport):
                             self.scenes[scId].lastsMinutes = str(lastsMinutes)
 
                     else:
-                        scIdsUndated.append(scId)
                         self.scenes[scId].date = '-0001-01-01'
                         self.scenes[scId].time = '00:00:00'
 
@@ -305,23 +309,17 @@ class CsvTimeline(FileExport):
         except:
             return 'ERROR: Can not parse "' + os.path.normpath(self.filePath) + '".'
 
-        #--- Create document structure
-
         # Build the chapter structure as defined with Aeon v3.
 
-        chId = '1'
-        self.chapters[chId] = Chapter()
-        self.chapters[chId].title = 'Chapter 1'
-        self.srtChapters = [chId]
+        srtChpDict = sorted(chIdsByStruc.items())
+        srtScnDict = sorted(scIdsByStruc.items())
 
-        # Sort scenes by date/time
+        for ch in srtChpDict:
+            self.srtChapters.append(ch[1])
 
-        srtScenes = sorted(scIdsByDate.items())
-        self.chapters[chId].srtScenes = scIdsUndated
+            for sc in srtScnDict:
 
-        for date, scList in srtScenes:
-
-            for scId in scList:
-                self.chapters[chId].srtScenes.append(scId)
+                if sc[0].startswith(ch[0]):
+                    self.chapters[ch[1]].srtScenes.append(sc[1])
 
         return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'

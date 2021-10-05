@@ -7,6 +7,7 @@
 - A Python script that converts Aeon's csv export into a new yWriter project.
 - Events belonging to the narrative structure are converted to yWriter scenes.
 - Chapters are created according to the "Narrative Folder" structure.
+- Events not belonging to the narrative structure are converted to "Notes" scenes and placed in the "Trash" chapter.
 - Part headings are converted into headings of empty chapters that begin a new section in yWriter.
 - The scenes have a start time and a duration, if the year is between 100 and 9999.
 - Characters, locations and items are imported, if any.

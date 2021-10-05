@@ -43,10 +43,6 @@ For existing timelines you have two choices:
 ## csv export from Aeon Timeline 3
 
 - The csv file exported by Aeon Timeline 3 must be **comma**-separated.
-- Date format is like **1940-11-27**.
-- Time format is like **17:43**.
-
-
 
 
 ## Custom configuration
@@ -68,8 +64,7 @@ An optional project configuration file named `aeon3yw.ini` can be placed in your
 
 The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. This file is also automatically copied to the global configuration folder during installation. You best make a copy and edit it.
 
-- The SETTINGS section mainly refers to "labels", i.e. The csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon project and export settings. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
-- The OPTIONS section comprises options for regular program execution. 
+- The SETTINGS section mainly refers to "labels", i.e. The csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon Timeline setup. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
 - Comment lines begin with a `#` number sign. In the example, they refer to the code line immediately above.
 
 This is the configuration explained: 
@@ -77,37 +72,10 @@ This is the configuration explained:
 ```
 [SETTINGS]
 
-scene_label = Narrative Position
-
-# Label of the csv field that contains the "scene_marker"
-# indicator.
-
-scene_marker = Scene
-
-# String in the "scene_label" field marking a scene.
-
-chapter_marker = Chapter
-
-# String in the "scene_label" field marking a chapter.
-
-part_marker = Part
-
-# String in the "scene_label" field marking a chapter that begins a new section.
-
 title_label = Label
 
 # Label of the csv field whose contents are exported
 # as the scene's title to yWriter.
-
-start_date_time_label = Start Date
-
-# Label of the csv field whose contents are exported
-# as the scene's date/time to yWriter.
-
-end_date_time_label = End Date
-
-# Label of the csv field whose contents are used to
-# calculate the scene's duration.
 
 description_label = Summary
 
@@ -144,27 +112,6 @@ viewpoint_label = Viewpoint
 # Label of the csv field whose contents are exported
 # as the scene's viewpoint to yWriter.
 
-type_label = Type
-
-# Label of the csv field indicating the row type.
-
-event_marker = Event
-
-# String in the "type" field marking an event.
-
-struct_marker = Narrative Folder
-
-# String in the "type" field marking a part of the narrative structure.
-
-[OPTIONS]
-
-export_all_events = Yes
-
-# Yes: Export non-scene events as "Notes" type scenes
-#      to yWriter.
-# No:  Do not export non-scene events to yWriter.
-# This option exists only if the scene marker is not
-# left blank.
 
 ```
 
@@ -175,12 +122,10 @@ The changed entries are sufficient.
 
 The column labels refer to timelines based on the "yWriter" template. 
 
--   All events with the "Scene" property ticked are converted to regular scenes (*).
--   All events with the "Scene" property not ticked are converted to "Notes" scenes (*).
--   All scenes are placed in a single chapter.
--   All scenes are sorted chronologically (Note: "BC" is not evaluated). 
+-   All narrative scenes are converted to regular scenes placed in the right chapters.
+-   All non-narrative events are converted to "Notes" scenes placed in the "Trash" chapter.
 -   The scene status is "Outline". 
--	The event title is used as scene title (*).
+-	The event label is used as scene title (*).
 - 	The start date is used as scene date/time, if the start year is 100 or above.
 -	The scene duration is calculated by the end date, if the start year is 100 or above.
 -	Event tags are converted to scene tags, if any (*).

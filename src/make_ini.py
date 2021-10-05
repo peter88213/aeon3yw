@@ -12,7 +12,6 @@ import os
 
 from pywriter.config.configuration import Configuration
 from aeon3yw_ import SETTINGS
-from aeon3yw_ import OPTIONS
 from aeon3yw_ import APPNAME
 
 
@@ -22,7 +21,7 @@ def run(iniFile):
     if not os.path.isdir(iniDir):
         os.makedirs(iniDir)
 
-    configuration = Configuration(SETTINGS, OPTIONS)
+    configuration = Configuration(SETTINGS)
     configuration.write(iniFile)
 
     print(iniFile + ' written.')

@@ -101,7 +101,7 @@
     <SCENE>
       <ID>1</ID>
       <Title><![CDATA[The Conductor answers the bell of Mrs Hubbard]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -121,7 +121,7 @@
     <SCENE>
       <ID>2</ID>
       <Title><![CDATA[M. Bouc discusses details of the case with Poirot]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -141,7 +141,7 @@
     <SCENE>
       <ID>3</ID>
       <Title><![CDATA[M. Bouc and Dr Constantine express shock and doubt at this theory, given it runs contrary to much of the evidence and theories they have seen earlier]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -161,7 +161,7 @@
     <SCENE>
       <ID>4</ID>
       <Title><![CDATA[Poirot searches the passengers’ luggage to find the missing dressing gown and conductor’s uniform]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -179,7 +179,7 @@
     <SCENE>
       <ID>5</ID>
       <Title><![CDATA[Poirot finds conductors uniform in Hildegarde Schmidt's compartment]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -198,7 +198,7 @@
     <SCENE>
       <ID>6</ID>
       <Title><![CDATA[Poirot then proposes a second possible theory, that all of the passengers colluded and participated in the murder to exact justice against Ratchett.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -216,7 +216,7 @@
     <SCENE>
       <ID>7</ID>
       <Title><![CDATA[MacQueen talks politics with Colonel Arbuthnot]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>34</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -236,7 +236,7 @@
     <SCENE>
       <ID>8</ID>
       <Title><![CDATA[Poirot finds a bottle of a sleeping drug in Countess Andrenyi’s room]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -251,7 +251,7 @@
     <SCENE>
       <ID>9</ID>
       <Title><![CDATA[Poirot arrives in Stamboul and checks in at the Tokatlian Hotel, where Poirot books into the Orient Express]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>23</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -266,7 +266,6 @@
     <SCENE>
       <ID>10</ID>
       <Title><![CDATA[Mrs Hubbard has a nightmare about a man in her compartment and rings for the conductor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -289,7 +288,6 @@
     <SCENE>
       <ID>11</ID>
       <Title><![CDATA[M. Bouc observes the carriage was locked and chained on the inside, and it is apparent the murderer is still on the train.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -312,7 +310,7 @@
     <SCENE>
       <ID>12</ID>
       <Title><![CDATA[After Foscarelli leaves, M. Bouc shows his prejudice by insisting it must be him because Italians use knives.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>15</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -328,7 +326,6 @@
     <SCENE>
       <ID>13</ID>
       <Title><![CDATA[Greta Ohlsson sees Ratchett]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[This was the last time Ratchett was seen alive]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -350,7 +347,7 @@
     <SCENE>
       <ID>14</ID>
       <Title><![CDATA[Count Andrenyi sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>10</BelongsToChID>
       <Desc><![CDATA[This alibi does not cover the time period 1-1:15 am]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -369,7 +366,7 @@
     <SCENE>
       <ID>15</ID>
       <Title><![CDATA[Poirot observes the behaviour of Mary Debenham and Colonel Arbuthnot, and decides they are known to each other]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>19</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -386,7 +383,6 @@
     <SCENE>
       <ID>16</ID>
       <Title><![CDATA[Mrs Hubbard sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -408,7 +404,7 @@
     <SCENE>
       <ID>17</ID>
       <Title><![CDATA[The Valet returns to his compartment and reads]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -426,7 +422,6 @@
     <SCENE>
       <ID>18</ID>
       <Title><![CDATA[The passengers all stab Mr. Ratchett]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[They were all in on it. Countess Andrenyi, though aware of the plan, was the only one that did not take part.
 The pipe and handkerchief were left in the compartment to confuse Poirot.
 This explains the different times of death and the different types of stabbing
@@ -463,7 +458,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>19</ID>
       <Title><![CDATA[Over dinner, Poirot observes Ratchett and Hector MacQueen at a nearby table, and immediately distrusts Ratchett.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>23</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -480,7 +475,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>20</ID>
       <Title><![CDATA[Poirot interviews MacQueen]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>34</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -499,7 +494,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>21</ID>
       <Title><![CDATA[Poirot boards the train, where he shares a carriage with Hector MacQueen.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>23</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -515,7 +510,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>22</ID>
       <Title><![CDATA[Greta Ohlsson returns to her compartment and sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>8</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -534,7 +529,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>23</ID>
       <Title><![CDATA[Poirot has breakfast in the dining car with the other passengers, and observes that they are all nervously contacting family and friends.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -552,7 +547,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>24</ID>
       <Title><![CDATA[Mrs Hubbard finds bloody knife in her sponge-bag]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>33</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -571,7 +566,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>25</ID>
       <Title><![CDATA[Poirot examines the lock between Mrs Hubbard’s and Ratchett’s rooms, and believes it may have only been locked from Ratchett’s side.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>20</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -589,7 +584,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>26</ID>
       <Title><![CDATA[Poirot finds smashed watch showing the time 12:45, but is sceptical this indicates the time of death because he too has read too much Agatha Christie.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc><![CDATA[The hands point to 1:15]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -608,7 +603,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>27</ID>
       <Title><![CDATA[Poirot asks Arbuthnot about his conversation with Ms Debenham in Syria, which he refuses to answer.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>12</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -627,7 +622,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>28</ID>
       <Title><![CDATA[Unknown murderer leaves through Mrs. Hubbards compartment]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[Leaves behind murder weapon and button from cloak]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -648,7 +642,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>29</ID>
       <Title><![CDATA[Poirot finds tobacco pipe]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc><![CDATA[Matches Colonel Arthbutnots]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -667,7 +661,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>30</ID>
       <Title><![CDATA[The Valet comes forward to admit he was Colonel Armstrong’s assistant in the war, and apologises for his earlier deceipt.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>21</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -686,7 +680,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>31</ID>
       <Title><![CDATA[Hildegarde claims her dressing gown is dark blue]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -702,7 +696,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>32</ID>
       <Title><![CDATA[The Valet lies awake with a toothache]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -721,7 +715,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>33</ID>
       <Title><![CDATA[Greta Ohlsson asks Mrs Hubbard for some aspirin]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -744,7 +737,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>34</ID>
       <Title><![CDATA[Finally understanding why Poirot outlined his first potential solution, M. Bouc and Dr Constantine agree to go along with Poirot’s conspiracy, and present the decoy solution to police after all.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -762,7 +755,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>35</ID>
       <Title><![CDATA[Poirot interviews Mary Debenham, who is uncooperative and evasive during the interview]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>8</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -781,7 +774,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>36</ID>
       <Title><![CDATA[The Conductor talks with his co-workers in the adjacent carriage]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -800,7 +793,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>37</ID>
       <Title><![CDATA[Mrs Hubbard asks Greta Ohlsson to confirm the door to Ratchett’s room is bolted before she goes to bed.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -819,7 +812,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>38</ID>
       <Title><![CDATA[At a rest stop in Konya, Poirot overheats Mary say to Arbuthnot: “When it’s all over…"]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>19</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -835,7 +828,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>39</ID>
       <Title><![CDATA[Poirot informs Mrs Hubbard of Ratchett’s true identity, but she denies a connection.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -847,7 +840,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>40</ID>
       <Title><![CDATA[Poirot again confronts Colonel Arbuthnot regarding the pipe-cleaner, but Arbuthnot stonewalls him]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>12</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -866,7 +859,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>41</ID>
       <Title><![CDATA[The Conductor makes the bed for Count Andrenyi]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -889,7 +881,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>42</ID>
       <Title><![CDATA[Hardman reveals he had taken a job protecting Ratchett, and so kept watch all night. He corroborates the Conductor’s story.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>11</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -901,7 +893,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>43</ID>
       <Title><![CDATA[Poirot interviews Colonel Arbuthnot for a second time]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>12</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -916,7 +908,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>44</ID>
       <Title><![CDATA[MacQueen provides testimony that he last saw Ratchett when he took down a memoranda of letters]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -934,7 +926,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>45</ID>
       <Title><![CDATA[Poirot concludes the smashed watch was set to a fake time, and that MacQueen had lied about Ratchett not speaking French to make Poirot think Ratchett was dead at 12:37am, whereas the true murder occurred closer to 2:00am.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -952,7 +944,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>46</ID>
       <Title><![CDATA[Poirot discusses the case with the doctor and inspector]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>2</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -971,7 +963,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>47</ID>
       <Title><![CDATA[Greta Ohlsson confirms Mrs Hubbards recollections]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>4</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -987,7 +979,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>48</ID>
       <Title><![CDATA[Mary Debenham denies owning the scarlet dressing gown]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>8</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1003,7 +995,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>49</ID>
       <Title><![CDATA[MacQueen and Colonel Arbuthnot step out onto the platform at Vincovci ]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1064,7 +1055,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>52</ID>
       <Title><![CDATA[Poirot informs MacQueen of Ratchett’s real identity. MacQueen reacts with surprise, and reveals his connection to the Armstrong case.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>34</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1080,7 +1071,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>53</ID>
       <Title><![CDATA[MacQueen calls conductor and has him make up his bed]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1100,7 +1091,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>54</ID>
       <Title><![CDATA[Mrs Hubbard sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1122,7 +1112,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>55</ID>
       <Title><![CDATA[After falling asleep, Poirot is awakened by a a loud groan and ringing bell. He notices the train has stopped.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>14</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1140,7 +1130,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>56</ID>
       <Title><![CDATA[Greta denies having ever been to America]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>4</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1156,7 +1146,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>57</ID>
       <Title><![CDATA[Arbuthnot becomes defensive of Mary, and threatens Poirot with injury, before they both leave, denying Mary had any involvement in Ratchett’s murder.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>26</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1176,7 +1166,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>58</ID>
       <Title><![CDATA[Poirot boards the Taurus Express on his way to Istanbul]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>19</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1191,7 +1181,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>59</ID>
       <Title><![CDATA[The Armstrong family and those connected are outraged by the miscarriage of justice, and wish to seek justice on their own.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1206,7 +1195,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>60</ID>
       <Title><![CDATA[After taking down his memoranda of letters, MacQueen drugs Mr. Ratchett]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1228,7 +1216,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>61</ID>
       <Title><![CDATA[Mrs Hubbard claims the murderer entered her room the previous night, as she awoke to a shadowy figure. She called the conductor, as witnessed by Poirot.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1260,7 +1248,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>63</ID>
       <Title><![CDATA[MacQueen shows Poirot the threatening letters left for Ratchett, which Poirot determines were written by several different people.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1278,7 +1266,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>64</ID>
       <Title><![CDATA[Antonio Foscarelli reads in his compartment, which is confirmed by The Valet who shared his room]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1297,7 +1285,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>65</ID>
       <Title><![CDATA[Suicide is ruled out, as Ratchett was stabbed 10-15 times. The coroner determines the death occurred between midnight and 2am.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1320,7 +1307,6 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>66</ID>
       <Title><![CDATA[Poirot interviews the passengers about the murder]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1342,7 +1328,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>67</ID>
       <Title><![CDATA[Linda Arden confirms many details of Poirot’s theory, and confirms the remaining connections between the passengers and the Armstrong family. She insists it was an act of justice and not revenge.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1360,7 +1346,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>68</ID>
       <Title><![CDATA[Poirot finds scrap of paper with the words "-member little Daisy Armstrong"]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1379,7 +1365,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>69</ID>
       <Title><![CDATA[Foscarelli confirms the story of the Valet, that they both remained in their compartment all night]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>15</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1395,7 +1381,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>70</ID>
       <Title><![CDATA[Hardman volunteers that he knew MacQueen and had worked with his father]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>11</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1407,7 +1393,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>71</ID>
       <Title><![CDATA[Poirot interviews Cyrus Hardman]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>11</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1426,7 +1412,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>72</ID>
       <Title><![CDATA[Mrs Hubbard hands Poirot a button from a train conductor’s uniform which she found near her bed]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1441,7 +1427,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>73</ID>
       <Title><![CDATA[Upon investigation, no one was found, but the door to Ratchett’s room wasn’t bolted.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1456,7 +1442,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>74</ID>
       <Title><![CDATA[Countess Andrenyi takes a sleeping draught and sleeps, as witnessed by her husband]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>10</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1475,7 +1461,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>75</ID>
       <Title><![CDATA[Poirot returns to his compartment and sleeps until morning.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1493,7 +1479,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>76</ID>
       <Title><![CDATA[Mrs Hubbard denies owning a red dressing gown, and says the handkerchief with “H” written on it is not hers]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1505,7 +1491,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>77</ID>
       <Title><![CDATA[Poirot interviews the Valet]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1524,7 +1510,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>78</ID>
       <Title><![CDATA[The Countess claims her husband smokes cigarettes and cigars, but not a pipe]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>10</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1536,7 +1522,7 @@ This explains the different times of death and the different types of stabbing
     <SCENE>
       <ID>79</ID>
       <Title><![CDATA[Poirot examines the dead man's body and compartment]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc><![CDATA[12 stab wounds to the body
 Ratchett was already dead for some time before some of the stabs
 Some left handed, some right handed
@@ -1558,7 +1544,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>80</ID>
       <Title><![CDATA[At Belgrade, Poirot is moved to a first class carriage, directly next to Ratchett and near to Mrs Hubbard. He overhears MacQueen and Arbuthnot planning further discussion in MacQueen’s carriage]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>14</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1573,7 +1559,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>81</ID>
       <Title><![CDATA[Ratchett asks for his bed to be made while he was at dinner so he can retire early.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1592,7 +1578,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>82</ID>
       <Title><![CDATA[The Valet sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1634,7 +1619,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>84</ID>
       <Title><![CDATA[Taurus Express Train departs Aleppo, Syria headed for Stamboul]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1652,7 +1636,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>85</ID>
       <Title><![CDATA[Poirot interviews Antonio Foscarelli]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>15</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1671,7 +1655,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>86</ID>
       <Title><![CDATA[Princess Dragonmiroff sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1693,7 +1676,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>87</ID>
       <Title><![CDATA[The Conductor recounts bringing mineral water to Poirot]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1709,7 +1692,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>88</ID>
       <Title><![CDATA[Orient Express train departs from Belgrade]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1728,7 +1710,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>89</ID>
       <Title><![CDATA[Unknown murderer enters Mr. Ratchett’s apartment and stabs him]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1750,7 +1731,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>90</ID>
       <Title><![CDATA[Mary Debenham sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1772,7 +1752,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>91</ID>
       <Title><![CDATA[Poirot calls for Greta Ohlsson, and she admits she was Daisy Armstrong’s nurse.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>21</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1791,7 +1771,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>92</ID>
       <Title><![CDATA[Mary Debenham wakes and sees a women in a dressing gown in the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>8</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1810,7 +1790,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>93</ID>
       <Title><![CDATA[Poirot concludes the threatening letters, unknown assailant, conductor’s uniform and red dressing gown were all decoys designed to confuse the investigation.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1828,7 +1808,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>94</ID>
       <Title><![CDATA[MacQueen sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1850,7 +1829,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>95</ID>
       <Title><![CDATA[ Train leaves Vincovci (late)]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1869,7 +1847,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>96</ID>
       <Title><![CDATA[After multiple passengers hear a groan, the Conductor answers Ratchett’s ringing bell, and Rachett replies in French to assure him he is okay.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>14</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1888,7 +1866,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>97</ID>
       <Title><![CDATA[Hildegarde Schmidt sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1910,7 +1887,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>98</ID>
       <Title><![CDATA[Antonio Foscarelli sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1932,7 +1908,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>99</ID>
       <Title><![CDATA[Poirot concludes that Linda Arden, Daisy’s grandmother, was the mastermind behind her plan, at which point Mrs Hubbard announces herself as Linda.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1950,7 +1926,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>100</ID>
       <Title><![CDATA[Conductor makes the beds for The Valet and Antonio Foscarelli]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1971,7 +1947,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>101</ID>
       <Title><![CDATA[Arbuthnot volunteers that he smokes a pipe]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>29</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -1987,7 +1963,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>102</ID>
       <Title><![CDATA[Poirot interviews Greta Ohlsson]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2006,7 +1982,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>103</ID>
       <Title><![CDATA[Poirot recognises the name, and instantly knows the true identity of Ratchett as an American named Cassetti.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc><![CDATA[A man responsible for the kidnap and murder of a little girl called Daisy Armstrong]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2025,7 +2001,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>104</ID>
       <Title><![CDATA[Train becomes stuck in a snow drift]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[After this time it was impossible for anyone to leave the train]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2044,7 +2019,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>105</ID>
       <Title><![CDATA[Hildegarde Schmidt returns to her compartment and sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2066,7 +2040,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>106</ID>
       <Title><![CDATA[Poirot hears a noise and sees a women in a dressing gown in the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2085,7 +2059,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>107</ID>
       <Title><![CDATA[Unknown murderer enters train at Vincovci]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2106,7 +2079,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>108</ID>
       <Title><![CDATA[The Countess confirms Daisy’s household included a nursemaid, nurse, and governess.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>18</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2125,7 +2098,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>109</ID>
       <Title><![CDATA[Poirot sends for Mary Debenham, and suggests to her that she was living with the Armstrongs when Daisy was murdered. Mary admits this is true and that she previously lied.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>26</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2144,7 +2117,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>110</ID>
       <Title><![CDATA[One of the woman passengers dresses in a scarlett dressing gown and walks up the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2163,7 +2135,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>111</ID>
       <Title><![CDATA[Hildegare Schmidt sees an imposter conductor in the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2185,7 +2156,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>112</ID>
       <Title><![CDATA[Poirot accepts M. Bouc’s request to take the case.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2204,7 +2175,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>113</ID>
       <Title><![CDATA[Mary Debenham sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>8</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2223,7 +2194,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>114</ID>
       <Title><![CDATA[Poirot finds dressing gown in his own compartment]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2242,7 +2213,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>115</ID>
       <Title><![CDATA[Poirot interviews Count and Countess Andrenyi]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>10</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2262,7 +2233,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>116</ID>
       <Title><![CDATA[Hildegarde participates in a line up, and claims none of the three conductors was the person she saw when]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2279,7 +2250,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>117</ID>
       <Title><![CDATA[The Conductor confirms that MacQueen and Arbuthnot talked in their cabin late into the night.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2295,7 +2266,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>118</ID>
       <Title><![CDATA[Poirot interviews Hildegarde Schmidt]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2317,7 +2287,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>119</ID>
       <Title><![CDATA[Colonel Arbuthnot returns to his compartment and sleeps]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2339,7 +2308,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>120</ID>
       <Title><![CDATA[Poirot talks to MacQueen about the murder, as he had seen him with Ratchett previously.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2359,7 +2328,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>121</ID>
       <Title><![CDATA[MacQueen mentions that he believes Ratchett’s name is an alias]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2377,7 +2346,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>122</ID>
       <Title><![CDATA[Hildegarde corroborates Mary Debenham’s version of events.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2393,7 +2362,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>123</ID>
       <Title><![CDATA[Poirot interviews Mrs Hubbard]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2412,7 +2381,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>124</ID>
       <Title><![CDATA[The passengers burn their threatening letters]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2445,7 +2413,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>125</ID>
       <Title><![CDATA[MacQueen leaves Ratchett]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2467,7 +2434,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>126</ID>
       <Title><![CDATA[Hardman claims he is a traveling salesman, then comes clean and claims to be a private detective]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>11</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2495,7 +2462,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>128</ID>
       <Title><![CDATA[Mrs Hubbard hears someone in her compartment and rings for the conductor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2515,7 +2482,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>129</ID>
       <Title><![CDATA[Poirot finds women's handkerchief with the initial 'H']]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2534,7 +2501,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>130</ID>
       <Title><![CDATA[Poirot interviews the Conductor, who recounts his previous nights actions]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2553,7 +2520,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>131</ID>
       <Title><![CDATA[Under pressure from Poirot, the Countess confirms that she is Helena Goldenberg and therefore had motive, but insists she is not the killer.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>18</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2572,7 +2539,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>132</ID>
       <Title><![CDATA[M. Bouc calls Poirot to his cabin, and tells him that Ratchett has been stabbed.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2591,7 +2558,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>133</ID>
       <Title><![CDATA[M. Bouc observes that the window was left open, but as there are no footprints outside, this is an obvious ruse.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[Given the train has been stuck in a snowdrift since then and has not moved position, the lack of footprints rules out the window as an escape route.]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2614,7 +2580,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>134</ID>
       <Title><![CDATA[Hildegarde Schimdt sees imposter conductor in the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[She lied about the time to try to shield the Princess]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2637,7 +2602,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>135</ID>
       <Title><![CDATA[Poirot finds pipe cleaners in Arbuthnot’s compartment that match those found in Ratchett’s room]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2652,7 +2617,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>136</ID>
       <Title><![CDATA[Poirot asks Mary Debenham about her “when its all over” comment the previous day.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>3</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2668,7 +2633,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>137</ID>
       <Title><![CDATA[Poirot shares lunch on the train with M. Bouc, while observing the other passengers.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>13</BelongsToChID>
       <Desc><![CDATA[Each of the passengers is introduced and described in turn.]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2696,7 +2661,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>138</ID>
       <Title><![CDATA[Unknown murderer leaves the train]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2717,7 +2681,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>139</ID>
       <Title><![CDATA[Poirot, the coroner and M. Bouc share lunch, where Poirot explains the identity of the victim and details of the Armstrong case.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>30</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2735,7 +2699,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>140</ID>
       <Title><![CDATA[Poirot finds two different kinds of matches in compartment]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc><![CDATA[This indicates to him that something incriminating has been burnt]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2754,7 +2718,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>141</ID>
       <Title><![CDATA[Poirot proposes one possible theory, involving an unknown assailant who snuck onto the train, murdered Ratchett, discarded the uniform in Hildegarde’s luggage and left the train]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2772,7 +2736,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>142</ID>
       <Title><![CDATA[The passports and tickets of all passengers are gathered]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2790,7 +2754,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>143</ID>
       <Title><![CDATA[Ratchett approaches Poirot and asks him to investigate threats against him, which Poirot refuses.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>13</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2806,7 +2770,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>144</ID>
       <Title><![CDATA[Poirot confronts Arbuthnot with a guess that Mary Debenham was the Countess’s governess. Arbuthnot silence confirms to Poirot that he is correct.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>12</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2825,7 +2789,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>145</ID>
       <Title><![CDATA[No one enters or leaves Rachett's apartment, according to the Conductor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2855,7 +2818,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>147</ID>
       <Title><![CDATA[No one enters or leaves Rachett's apartment, according to the Conductor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2873,7 +2835,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>148</ID>
       <Title><![CDATA[Hildegarde claims not to own the handkerchief]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2885,7 +2847,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>149</ID>
       <Title><![CDATA[MacQueen takes down memoranda of letters with Mr Ratchett. This is observed by the Conductor, who states that no one else was seen entering Ratchett’s room that night.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2904,7 +2866,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>150</ID>
       <Title><![CDATA[Rachett's body found]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2925,7 +2886,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>151</ID>
       <Title><![CDATA[Poirot calls for Foscarelli and correctly guesses that he acted as the Armstrong’s chauffer.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>21</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2944,7 +2905,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>152</ID>
       <Title><![CDATA[Princess Dragomiroff claims ownership of the handkerchief, and admits she knew the Countess was related to the Armstrongs.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>28</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2963,7 +2924,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>153</ID>
       <Title><![CDATA[Another passenger enters Mr. Ratchett's compartment and finds him dead. He rings the bell for the conductor, then panics and pretends to be Mr. Ratchett when answering as he doesn’t want to be found with the body.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2986,7 +2946,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>154</ID>
       <Title><![CDATA[The Countess claims her dressing gown is yellow]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>10</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -2998,7 +2958,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>155</ID>
       <Title><![CDATA[Poirot determines that of the 13 guests who delivered 12 stab wounds, it was the Countess that did not take part, as she was the person with the greatest motive and her husband instead took her place.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3016,7 +2976,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>156</ID>
       <Title><![CDATA[Mrs Hubbard rings for the conductor with her story regarding an intruder in her room.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[She lies about hearing a man in her compartment]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3038,7 +2997,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>157</ID>
       <Title><![CDATA[The Conductor recounts responding to Ratchett’s bell, as Poirot had witnessed on the night]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>25</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3054,7 +3013,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>158</ID>
       <Title><![CDATA[Cyrus Hardman stays awake in his compartment, watching the corridor]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[Alibi from midnight to 2am (substantiated by MacQueen and the conductor)]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3076,7 +3034,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>159</ID>
       <Title><![CDATA[Poirot questions Hardman’s history with the Armstrongs, but he denies any connection.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>21</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3095,7 +3053,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>160</ID>
       <Title><![CDATA[When offered, Hardman opts for a cigarette rather than a tobacco pipe]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>11</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3107,7 +3065,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>161</ID>
       <Title><![CDATA[Hildegarde claims to have seen a conductor leave an apartment and ignore a ringing bell]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3122,7 +3080,6 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>162</ID>
       <Title><![CDATA[One of the male passengers rings the conductors bell from Mr. Ratchett's apartment and answers in French]]></Title>
-      <BelongsToChID>1</BelongsToChID>
       <Desc><![CDATA[As Mr. Ratchett does not speak French, this is to imply to Poirot that he was already dead at this point]]></Desc>
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3143,7 +3100,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>163</ID>
       <Title><![CDATA[Hildegarde reacts to being asked about a woman in a scarlett dressing gown, but denies seeing one]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>17</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3159,7 +3116,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>164</ID>
       <Title><![CDATA[Arbuthnot confirms he was up late in discussion with MacQueen]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>29</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3175,7 +3132,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>165</ID>
       <Title><![CDATA[Greta confirms that Mary Debenham never left the carriage they shared]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>4</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3191,7 +3148,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>166</ID>
       <Title><![CDATA[In front of the assembled passengers, Poirot announces he has two theories of the crime, and will leave it to M. Bouc and Dr Constantine to “judge" which is correct.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3209,7 +3166,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>167</ID>
       <Title><![CDATA[Poirot interviews Colonel Arbuthnot]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>29</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3228,7 +3185,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>168</ID>
       <Title><![CDATA[MacQueen mentions that he travels with Ratchett because Ratchett does not know any languages]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>22</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3246,7 +3203,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>169</ID>
       <Title><![CDATA[Arburthnot admits he remembers Colonel Armstrong when pushed by Poirot.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>29</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3262,7 +3219,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>170</ID>
       <Title><![CDATA[Poirot notices some stab wounds were delivered right handed, and others left handed; some are deep and some mere scratches.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>6</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3280,7 +3237,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>171</ID>
       <Title><![CDATA[The Valet leaves Ratchett with sleeping draught beside him]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3299,7 +3256,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>172</ID>
       <Title><![CDATA[The Condutor brings mineral water to Poirot]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>24</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3319,7 +3276,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>173</ID>
       <Title><![CDATA[Greta Ohlsson is observed by Mrs Hubbard entering Rachett's apartment by mistake]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>16</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3338,7 +3295,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>174</ID>
       <Title><![CDATA[Poirot asks The Valet if he is a pipe smoker, but he claims he only smokes cigarettes]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>5</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3354,7 +3311,7 @@ Some weak, some strong]]></Desc>
     <SCENE>
       <ID>175</ID>
       <Title><![CDATA[Poirot covers the known facts of the case, including the time of murder and that it was believed no one had departed the train.]]></Title>
-      <BelongsToChID>1</BelongsToChID>
+      <BelongsToChID>7</BelongsToChID>
       <Desc />
       <SceneContent />
       <WordCount>0</WordCount>
@@ -3372,133 +3329,83 @@ Some weak, some strong]]></Desc>
   </SCENES>
   <CHAPTERS>
     <CHAPTER>
-      <ID>1</ID>
+      <ID>27</ID>
       <SortOrder>1</SortOrder>
-      <Title><![CDATA[Chapter 1]]></Title>
+      <Title><![CDATA[The Facts]]></Title>
+      <SectionStart>-1</SectionStart>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>19</ID>
+      <SortOrder>2</SortOrder>
+      <Title><![CDATA[An Important Passenger on the Taurus Express]]></Title>
       <Scenes>
-        <ScID>8</ScID>
-        <ScID>9</ScID>
-        <ScID>12</ScID>
+        <ScID>58</ScID>
         <ScID>15</ScID>
+        <ScID>38</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>23</ID>
+      <SortOrder>3</SortOrder>
+      <Title><![CDATA[The Tokatlian Hotel]]></Title>
+      <Scenes>
+        <ScID>9</ScID>
         <ScID>19</ScID>
         <ScID>21</ScID>
-        <ScID>31</ScID>
-        <ScID>38</ScID>
-        <ScID>39</ScID>
-        <ScID>42</ScID>
-        <ScID>47</ScID>
-        <ScID>48</ScID>
-        <ScID>52</ScID>
-        <ScID>56</ScID>
-        <ScID>58</ScID>
-        <ScID>59</ScID>
-        <ScID>61</ScID>
-        <ScID>62</ScID>
-        <ScID>69</ScID>
-        <ScID>70</ScID>
-        <ScID>72</ScID>
-        <ScID>73</ScID>
-        <ScID>76</ScID>
-        <ScID>78</ScID>
-        <ScID>80</ScID>
-        <ScID>87</ScID>
-        <ScID>101</ScID>
-        <ScID>116</ScID>
-        <ScID>117</ScID>
-        <ScID>122</ScID>
-        <ScID>126</ScID>
-        <ScID>127</ScID>
-        <ScID>135</ScID>
-        <ScID>136</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>13</ID>
+      <SortOrder>4</SortOrder>
+      <Title><![CDATA[Poirot Refuses a Case]]></Title>
+      <Scenes>
         <ScID>137</ScID>
         <ScID>143</ScID>
-        <ScID>146</ScID>
-        <ScID>148</ScID>
-        <ScID>154</ScID>
-        <ScID>157</ScID>
-        <ScID>160</ScID>
-        <ScID>161</ScID>
-        <ScID>163</ScID>
-        <ScID>164</ScID>
-        <ScID>165</ScID>
-        <ScID>169</ScID>
-        <ScID>174</ScID>
-        <ScID>84</ScID>
-        <ScID>81</ScID>
-        <ScID>171</ScID>
-        <ScID>88</ScID>
-        <ScID>17</ScID>
-        <ScID>149</ScID>
-        <ScID>7</ScID>
-        <ScID>60</ScID>
-        <ScID>97</ScID>
-        <ScID>113</ScID>
-        <ScID>125</ScID>
-        <ScID>158</ScID>
-        <ScID>32</ScID>
-        <ScID>64</ScID>
-        <ScID>100</ScID>
-        <ScID>13</ScID>
-        <ScID>37</ScID>
-        <ScID>16</ScID>
-        <ScID>173</ScID>
-        <ScID>33</ScID>
-        <ScID>22</ScID>
-        <ScID>41</ScID>
-        <ScID>74</ScID>
-        <ScID>14</ScID>
-        <ScID>49</ScID>
-        <ScID>107</ScID>
-        <ScID>147</ScID>
-        <ScID>95</ScID>
-        <ScID>89</ScID>
-        <ScID>134</ScID>
-        <ScID>28</ScID>
-        <ScID>138</ScID>
-        <ScID>104</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>14</ID>
+      <SortOrder>5</SortOrder>
+      <Title><![CDATA[A Cry in the Night]]></Title>
+      <Scenes>
+        <ScID>80</ScID>
         <ScID>55</ScID>
         <ScID>96</ScID>
-        <ScID>153</ScID>
-        <ScID>162</ScID>
-        <ScID>50</ScID>
-        <ScID>83</ScID>
-        <ScID>53</ScID>
-        <ScID>36</ScID>
-        <ScID>86</ScID>
-        <ScID>105</ScID>
-        <ScID>1</ScID>
-        <ScID>10</ScID>
-        <ScID>111</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>24</ID>
+      <SortOrder>6</SortOrder>
+      <Title><![CDATA[The Crime]]></Title>
+      <Scenes>
         <ScID>128</ScID>
-        <ScID>145</ScID>
-        <ScID>156</ScID>
         <ScID>172</ScID>
-        <ScID>75</ScID>
         <ScID>106</ScID>
-        <ScID>110</ScID>
-        <ScID>18</ScID>
-        <ScID>94</ScID>
-        <ScID>119</ScID>
-        <ScID>54</ScID>
-        <ScID>124</ScID>
-        <ScID>82</ScID>
-        <ScID>98</ScID>
-        <ScID>92</ScID>
-        <ScID>90</ScID>
+        <ScID>75</ScID>
         <ScID>23</ScID>
-        <ScID>150</ScID>
-        <ScID>2</ScID>
-        <ScID>11</ScID>
-        <ScID>65</ScID>
         <ScID>132</ScID>
-        <ScID>133</ScID>
+        <ScID>2</ScID>
         <ScID>112</ScID>
-        <ScID>120</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>22</ID>
+      <SortOrder>7</SortOrder>
+      <Title><![CDATA[A Woman?]]></Title>
+      <Scenes>
         <ScID>142</ScID>
+        <ScID>120</ScID>
         <ScID>168</ScID>
-        <ScID>44</ScID>
-        <ScID>63</ScID>
         <ScID>121</ScID>
+        <ScID>63</ScID>
+        <ScID>44</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>6</ID>
+      <SortOrder>8</SortOrder>
+      <Title><![CDATA[The Body]]></Title>
+      <Scenes>
         <ScID>79</ScID>
         <ScID>170</ScID>
         <ScID>140</ScID>
@@ -3507,39 +3414,277 @@ Some weak, some strong]]></Desc>
         <ScID>26</ScID>
         <ScID>68</ScID>
         <ScID>103</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>30</ID>
+      <SortOrder>9</SortOrder>
+      <Title><![CDATA[The Armstrong Kidnapping Case]]></Title>
+      <Scenes>
         <ScID>139</ScID>
-        <ScID>20</ScID>
-        <ScID>66</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>32</ID>
+      <SortOrder>10</SortOrder>
+      <Title><![CDATA[The Evidence]]></Title>
+      <SectionStart>-1</SectionStart>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>25</ID>
+      <SortOrder>11</SortOrder>
+      <Title><![CDATA[The Evidence of the Wagon Lit Conductor]]></Title>
+      <Scenes>
         <ScID>130</ScID>
+        <ScID>81</ScID>
+        <ScID>149</ScID>
+        <ScID>157</ScID>
+        <ScID>117</ScID>
+        <ScID>53</ScID>
+        <ScID>36</ScID>
+        <ScID>1</ScID>
+        <ScID>87</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>34</ID>
+      <SortOrder>12</SortOrder>
+      <Title><![CDATA[The Evidence of the Secretary]]></Title>
+      <Scenes>
+        <ScID>20</ScID>
+        <ScID>52</ScID>
+        <ScID>7</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>5</ID>
+      <SortOrder>13</SortOrder>
+      <Title><![CDATA[The Evidence of the Valet]]></Title>
+      <Scenes>
         <ScID>77</ScID>
+        <ScID>171</ScID>
+        <ScID>17</ScID>
+        <ScID>100</ScID>
+        <ScID>32</ScID>
+        <ScID>64</ScID>
+        <ScID>174</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>16</ID>
+      <SortOrder>14</SortOrder>
+      <Title><![CDATA[The Evidence of the American Lady]]></Title>
+      <Scenes>
         <ScID>123</ScID>
-        <ScID>102</ScID>
+        <ScID>61</ScID>
+        <ScID>73</ScID>
+        <ScID>72</ScID>
+        <ScID>37</ScID>
+        <ScID>173</ScID>
+        <ScID>39</ScID>
+        <ScID>76</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>4</ID>
+      <SortOrder>15</SortOrder>
+      <Title><![CDATA[The Evidence of the Swedish Lady]]></Title>
+      <Scenes>
+        <ScID>47</ScID>
+        <ScID>165</ScID>
+        <ScID>56</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>1</ID>
+      <SortOrder>16</SortOrder>
+      <Title><![CDATA[The Evidence of the Russian Princess]]></Title>
+      <Scenes>
+        <ScID>146</ScID>
         <ScID>51</ScID>
+        <ScID>50</ScID>
+        <ScID>83</ScID>
+        <ScID>62</ScID>
+        <ScID>127</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>10</ID>
+      <SortOrder>17</SortOrder>
+      <Title><![CDATA[The Evidence of Count and Countess Andrenyi]]></Title>
+      <Scenes>
         <ScID>115</ScID>
+        <ScID>74</ScID>
+        <ScID>14</ScID>
+        <ScID>78</ScID>
+        <ScID>154</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>29</ID>
+      <SortOrder>18</SortOrder>
+      <Title><![CDATA[The Evidence of Colonel Arbuthnot]]></Title>
+      <Scenes>
         <ScID>167</ScID>
+        <ScID>101</ScID>
+        <ScID>169</ScID>
+        <ScID>164</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>11</ID>
+      <SortOrder>19</SortOrder>
+      <Title><![CDATA[The Evidence of Mr Hardman]]></Title>
+      <Scenes>
         <ScID>71</ScID>
+        <ScID>126</ScID>
+        <ScID>42</ScID>
+        <ScID>70</ScID>
+        <ScID>160</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>15</ID>
+      <SortOrder>20</SortOrder>
+      <Title><![CDATA[The Evidence of the Italian]]></Title>
+      <Scenes>
         <ScID>85</ScID>
+        <ScID>69</ScID>
+        <ScID>12</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>8</ID>
+      <SortOrder>21</SortOrder>
+      <Title><![CDATA[The Evidence of Miss Debenham]]></Title>
+      <Scenes>
         <ScID>35</ScID>
-        <ScID>118</ScID>
+        <ScID>113</ScID>
+        <ScID>48</ScID>
+        <ScID>92</ScID>
+        <ScID>22</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>17</ID>
+      <SortOrder>22</SortOrder>
+      <Title><![CDATA[The Evidence of the German Lady’s-Maid]]></Title>
+      <Scenes>
+        <ScID>102</ScID>
+        <ScID>122</ScID>
+        <ScID>31</ScID>
+        <ScID>163</ScID>
+        <ScID>161</ScID>
+        <ScID>148</ScID>
+        <ScID>116</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>33</ID>
+      <SortOrder>23</SortOrder>
+      <Title><![CDATA[Summary of the Passenger’s Evidence]]></Title>
+      <Scenes>
         <ScID>24</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>20</ID>
+      <SortOrder>24</SortOrder>
+      <Title><![CDATA[The Evidence of the Weapon]]></Title>
+      <Scenes>
         <ScID>25</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>3</ID>
+      <SortOrder>25</SortOrder>
+      <Title><![CDATA[The Evidence of the Passenger’s Luggage]]></Title>
+      <Scenes>
         <ScID>4</ScID>
+        <ScID>135</ScID>
+        <ScID>8</ScID>
+        <ScID>136</ScID>
         <ScID>5</ScID>
         <ScID>114</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>9</ID>
+      <SortOrder>26</SortOrder>
+      <Title><![CDATA[Hercule Poirot sits back and thinks]]></Title>
+      <SectionStart>-1</SectionStart>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>2</ID>
+      <SortOrder>27</SortOrder>
+      <Title><![CDATA[Which of Them?]]></Title>
+      <Scenes>
         <ScID>46</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>35</ID>
+      <SortOrder>28</SortOrder>
+      <Title><![CDATA[Ten Questions]]></Title>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>31</ID>
+      <SortOrder>29</SortOrder>
+      <Title><![CDATA[Certain Suggestive Points]]></Title>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>18</ID>
+      <SortOrder>30</SortOrder>
+      <Title><![CDATA[The Grease Spot on a Hungarian Passport]]></Title>
+      <Scenes>
         <ScID>131</ScID>
         <ScID>108</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>28</ID>
+      <SortOrder>31</SortOrder>
+      <Title><![CDATA[The Christian Name of Princess Dragomiroff]]></Title>
+      <Scenes>
         <ScID>152</ScID>
-        <ScID>27</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>12</ID>
+      <SortOrder>32</SortOrder>
+      <Title><![CDATA[A Second Interview with Colonel Arbuthnot]]></Title>
+      <Scenes>
         <ScID>43</ScID>
-        <ScID>144</ScID>
         <ScID>40</ScID>
-        <ScID>57</ScID>
-        <ScID>91</ScID>
+        <ScID>27</ScID>
+        <ScID>144</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>26</ID>
+      <SortOrder>33</SortOrder>
+      <Title><![CDATA[The Identity of Mary Debenham]]></Title>
+      <Scenes>
         <ScID>109</ScID>
+        <ScID>57</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>21</ID>
+      <SortOrder>34</SortOrder>
+      <Title><![CDATA[Further Surprising Revelations]]></Title>
+      <Scenes>
         <ScID>151</ScID>
+        <ScID>91</ScID>
         <ScID>30</ScID>
         <ScID>159</ScID>
+      </Scenes>
+    </CHAPTER>
+    <CHAPTER>
+      <ID>7</ID>
+      <SortOrder>35</SortOrder>
+      <Title><![CDATA[Poirot Propounds Two Solutions]]></Title>
+      <Scenes>
         <ScID>166</ScID>
         <ScID>175</ScID>
         <ScID>141</ScID>

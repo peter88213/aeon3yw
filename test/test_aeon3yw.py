@@ -23,12 +23,6 @@ TEST_EXEC_PATH = TEST_PATH + '/yw7/'
 # To be placed in TEST_DATA_PATH:
 NORMAL_YW7 = TEST_DATA_PATH + 'normal.yw7'
 NORMAL_CSV = TEST_DATA_PATH + 'normal.csv'
-ALL_EVENTS_YW7 = TEST_DATA_PATH + 'all_events.yw7'
-ALL_EVENTS_CSV = TEST_DATA_PATH + 'all_events.csv'
-ALL_EVENTS_INI = TEST_DATA_PATH + 'all_events.ini'
-SCENES_ONLY_YW7 = TEST_DATA_PATH + 'scenes_only.yw7'
-SCENES_ONLY_CSV = TEST_DATA_PATH + 'scenes_only.csv'
-SCENES_ONLY_INI = TEST_DATA_PATH + 'scenes_only.ini'
 DATE_LIMITS_YW7 = TEST_DATA_PATH + 'date_limits.yw7'
 DATE_LIMITS_CSV = TEST_DATA_PATH + 'date_limits.csv'
 
@@ -84,27 +78,13 @@ class NormalOperation(unittest.TestCase):
         copyfile(NORMAL_CSV, TEST_CSV)
         os.chdir(TEST_EXEC_PATH)
         aeon3yw.run(TEST_CSV, silentMode=True)
-        self.assertEqual(read_file(TEST_CSV), read_file(NORMAL_CSV))
+        self.assertEqual(read_file(TEST_YW7), read_file(NORMAL_YW7))
 
     def test_date_limits(self):
         copyfile(DATE_LIMITS_CSV, TEST_CSV)
         os.chdir(TEST_EXEC_PATH)
         aeon3yw.run(TEST_CSV, silentMode=True)
         self.assertEqual(read_file(TEST_YW7), read_file(DATE_LIMITS_YW7))
-
-    def test_scenes_only(self):
-        copyfile(NORMAL_CSV, TEST_CSV)
-        copyfile(SCENES_ONLY_INI, INI_FILE)
-        os.chdir(TEST_EXEC_PATH)
-        aeon3yw.run(TEST_CSV, silentMode=True)
-        self.assertEqual(read_file(TEST_YW7), read_file(SCENES_ONLY_YW7))
-
-    def test_all_events(self):
-        copyfile(NORMAL_CSV, TEST_CSV)
-        copyfile(ALL_EVENTS_INI, INI_FILE)
-        os.chdir(TEST_EXEC_PATH)
-        aeon3yw.run(TEST_CSV, silentMode=True)
-        self.assertEqual(read_file(TEST_YW7), read_file(ALL_EVENTS_YW7))
 
     def tearDown(self):
         remove_all_testfiles()
