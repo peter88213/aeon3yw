@@ -22,7 +22,7 @@
 - Windows.
 - [Python 3](https://www.python.org). Python 3.4 or more recent will work. However, Python 3.7 or above is highly recommended.
 - [yWriter](http://spacejock.com/yWriter7.html).
-- [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2 users](https://peter88213.github.io/aeon2yw).
+- [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2](https://peter88213.github.io/aeon2yw).
 
 
 ## Download and install
