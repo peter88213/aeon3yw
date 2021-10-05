@@ -5,7 +5,6 @@
 ## Features
 
 - The release comes with a template for Aeon Timeline 3 that provides a suitable narrative folder structure and a "Viewpoint" character role.
-- With this template, events get a "Scene" checkbox. Events marked as scenes are converted to regular scenes; other events become "Notes" scenes.
 - The aeon3yw Python script converts Aeon's csv export into a new yWriter project.
 - Events belonging to the narrative structure are converted to yWriter scenes.
 - Chapters are created according to the "Narrative Folder" structure.
