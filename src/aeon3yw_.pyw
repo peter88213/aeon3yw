@@ -21,8 +21,12 @@ SUFFIX = ''
 APPNAME = 'aeon3yw'
 
 SETTINGS = dict(
-    title_label='Label',
-    description_label='Summary',
+    part_number_prefix='Part',
+    chapter_number_prefix='Chapter',
+    part_desc_label='Label',
+    chapter_desc_label='Label',
+    scene_desc_label='Summary',
+    scene_title_label='Label',
     notes_label='Notes',
     tag_label='Tags',
     location_label='Location',

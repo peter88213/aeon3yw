@@ -8,7 +8,7 @@
 - Events belonging to the narrative structure are converted to yWriter scenes.
 - Chapters are created according to the "Narrative Folder" structure.
 - Events not belonging to the narrative structure are converted to "Notes" scenes and placed in the "Trash" chapter.
-- Part headings are converted into headings of empty chapters that begin a new section in yWriter.
+- Parts are converted into empty chapters that begin a new section in yWriter.
 - The scenes have a start time and a duration, if the year is between 100 and 9999.
 - Characters, locations and items are imported, if any.
 - Scene descriptions and scene notes are imported, if any.
@@ -25,9 +25,9 @@
 
 ## Download and install
 
-[Download the latest release (version 0.1.5)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.1.5.zip)
+[Download the latest release (version 0.1.6)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.1.6.zip)
 
-- Unzip the downloaded zipfile "aeon3yw_v0.1.5.zip" into a new folder.
+- Unzip the downloaded zipfile "aeon3yw_v0.1.6.zip" into a new folder.
 - Move into this new folder and launch **install.bat**. This installs the script for the local user.
 - Create a shortcut on the desktop when asked.
 - Open "README.md" for usage instructions.

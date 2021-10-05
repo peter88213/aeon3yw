@@ -42,7 +42,6 @@ class CsvTimeline(FileExport):
     _STRUCT_MARKER = 'Narrative Folder'
     _START_DATE_TIME_LABEL = 'Start Date'
     _END_DATE_TIME_LABEL = 'End Date'
-    _HEADING_LABEL = 'Label'
 
     # Events assigned to the "narrative arc" (case insensitive) become
     # regular scenes, the others become Notes scenes.
@@ -52,8 +51,20 @@ class CsvTimeline(FileExport):
         defining instance variables.
         """
         FileExport.__init__(self, filePath, **kwargs)
-        self.titleLabel = kwargs['title_label']
-        self.descriptionLabel = kwargs['description_label']
+        self.partNrPrefix = kwargs['part_number_prefix']
+
+        if self.partNrPrefix:
+            self.partNrPrefix += ' '
+
+        self.chapterNrPrefix = kwargs['chapter_number_prefix']
+
+        if self.chapterNrPrefix:
+            self.chapterNrPrefix += ' '
+
+        self.partDescLabel = kwargs['part_desc_label']
+        self.chapterDescLabel = kwargs['chapter_desc_label']
+        self.sceneDescLabel = kwargs['scene_desc_label']
+        self.sceneTitleLabel = kwargs['scene_title_label']
         self.notesLabel = kwargs['notes_label']
         self.tagLabel = kwargs['tag_label']
         self.locationLabel = kwargs['location_label']
@@ -171,7 +182,7 @@ class CsvTimeline(FileExport):
                 reader = csv.DictReader(f, delimiter=self._SEPARATOR)
                 internalDelimiter = ','
 
-                for label in [self._SCENE_LABEL, self.titleLabel, self._START_DATE_TIME_LABEL, self._END_DATE_TIME_LABEL]:
+                for label in [self._SCENE_LABEL, self.sceneTitleLabel, self._START_DATE_TIME_LABEL, self._END_DATE_TIME_LABEL]:
 
                     if not label in reader.fieldnames:
                         return 'ERROR: Label "' + label + '" is missing in the CSV file.'
@@ -203,19 +214,23 @@ class CsvTimeline(FileExport):
                         if narrativeType == self._CHAPTER_MARKER:
                             chapterCount += 1
                             chId = str(chapterCount)
-                            self.chapters[chId] = Chapter()
-                            self.chapters[chId].title = row[self._HEADING_LABEL]
-                            self.chapters[chId].chLevel = 0
                             chIdsByStruc[narrativePosition] = chId
+                            self.chapters[chId] = Chapter()
+                            self.chapters[chId].chLevel = 0
+
+                            if self.chapterDescLabel:
+                                self.chapters[chId].desc = row[self.chapterDescLabel]
 
                         elif narrativeType == self._PART_MARKER:
                             chapterCount += 1
                             chId = str(chapterCount)
+                            chIdsByStruc[narrativePosition] = chId
                             self.chapters[chId] = Chapter()
-                            self.chapters[chId].title = row[self._HEADING_LABEL]
                             self.chapters[chId].chLevel = 1
                             narrativePosition += '.0000'
-                            chIdsByStruc[narrativePosition] = chId
+
+                            if self.partDescLabel:
+                                self.chapters[chId].desc = row[self.partDescLabel]
 
                         continue
 
@@ -233,7 +248,7 @@ class CsvTimeline(FileExport):
                     else:
                         self.scenes[scId].isNotesScene = True
 
-                    self.scenes[scId].title = row[self.titleLabel]
+                    self.scenes[scId].title = row[self.sceneTitleLabel]
 
                     startDateTimeStr = fix_iso_dt(row[self._START_DATE_TIME_LABEL])
 
@@ -261,8 +276,8 @@ class CsvTimeline(FileExport):
                         self.scenes[scId].date = '-0001-01-01'
                         self.scenes[scId].time = '00:00:00'
 
-                    if self.descriptionLabel in row:
-                        self.scenes[scId].desc = row[self.descriptionLabel]
+                    if self.sceneDescLabel in row:
+                        self.scenes[scId].desc = row[self.sceneDescLabel]
 
                     if self.notesLabel in row:
                         self.scenes[scId].sceneNotes = row[self.notesLabel]
@@ -314,12 +329,23 @@ class CsvTimeline(FileExport):
         srtChpDict = sorted(chIdsByStruc.items())
         srtScnDict = sorted(scIdsByStruc.items())
 
+        partNr = 0
+        chapterNr = 0
+
         for ch in srtChpDict:
             self.srtChapters.append(ch[1])
 
-            for sc in srtScnDict:
+            if self.chapters[ch[1]].chLevel == 0:
+                chapterNr += 1
+                self.chapters[ch[1]].title = self.chapterNrPrefix + str(chapterNr)
 
-                if sc[0].startswith(ch[0]):
-                    self.chapters[ch[1]].srtScenes.append(sc[1])
+                for sc in srtScnDict:
+
+                    if sc[0].startswith(ch[0]):
+                        self.chapters[ch[1]].srtScenes.append(sc[1])
+
+            else:
+                partNr += 1
+                self.chapters[ch[1]].title = self.partNrPrefix + str(partNr)
 
         return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'

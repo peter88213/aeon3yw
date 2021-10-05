@@ -3331,13 +3331,15 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>27</ID>
       <SortOrder>1</SortOrder>
-      <Title><![CDATA[The Facts]]></Title>
+      <Title><![CDATA[Part 1]]></Title>
+      <Desc><![CDATA[The Facts]]></Desc>
       <SectionStart>-1</SectionStart>
     </CHAPTER>
     <CHAPTER>
       <ID>19</ID>
       <SortOrder>2</SortOrder>
-      <Title><![CDATA[An Important Passenger on the Taurus Express]]></Title>
+      <Title><![CDATA[Chapter 1]]></Title>
+      <Desc><![CDATA[An Important Passenger on the Taurus Express]]></Desc>
       <Scenes>
         <ScID>58</ScID>
         <ScID>15</ScID>
@@ -3347,7 +3349,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>23</ID>
       <SortOrder>3</SortOrder>
-      <Title><![CDATA[The Tokatlian Hotel]]></Title>
+      <Title><![CDATA[Chapter 2]]></Title>
+      <Desc><![CDATA[The Tokatlian Hotel]]></Desc>
       <Scenes>
         <ScID>9</ScID>
         <ScID>19</ScID>
@@ -3357,7 +3360,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>13</ID>
       <SortOrder>4</SortOrder>
-      <Title><![CDATA[Poirot Refuses a Case]]></Title>
+      <Title><![CDATA[Chapter 3]]></Title>
+      <Desc><![CDATA[Poirot Refuses a Case]]></Desc>
       <Scenes>
         <ScID>137</ScID>
         <ScID>143</ScID>
@@ -3366,7 +3370,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>14</ID>
       <SortOrder>5</SortOrder>
-      <Title><![CDATA[A Cry in the Night]]></Title>
+      <Title><![CDATA[Chapter 4]]></Title>
+      <Desc><![CDATA[A Cry in the Night]]></Desc>
       <Scenes>
         <ScID>80</ScID>
         <ScID>55</ScID>
@@ -3376,7 +3381,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>24</ID>
       <SortOrder>6</SortOrder>
-      <Title><![CDATA[The Crime]]></Title>
+      <Title><![CDATA[Chapter 5]]></Title>
+      <Desc><![CDATA[The Crime]]></Desc>
       <Scenes>
         <ScID>128</ScID>
         <ScID>172</ScID>
@@ -3391,7 +3397,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>22</ID>
       <SortOrder>7</SortOrder>
-      <Title><![CDATA[A Woman?]]></Title>
+      <Title><![CDATA[Chapter 6]]></Title>
+      <Desc><![CDATA[A Woman?]]></Desc>
       <Scenes>
         <ScID>142</ScID>
         <ScID>120</ScID>
@@ -3404,7 +3411,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>6</ID>
       <SortOrder>8</SortOrder>
-      <Title><![CDATA[The Body]]></Title>
+      <Title><![CDATA[Chapter 7]]></Title>
+      <Desc><![CDATA[The Body]]></Desc>
       <Scenes>
         <ScID>79</ScID>
         <ScID>170</ScID>
@@ -3419,7 +3427,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>30</ID>
       <SortOrder>9</SortOrder>
-      <Title><![CDATA[The Armstrong Kidnapping Case]]></Title>
+      <Title><![CDATA[Chapter 8]]></Title>
+      <Desc><![CDATA[The Armstrong Kidnapping Case]]></Desc>
       <Scenes>
         <ScID>139</ScID>
       </Scenes>
@@ -3427,13 +3436,15 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>32</ID>
       <SortOrder>10</SortOrder>
-      <Title><![CDATA[The Evidence]]></Title>
+      <Title><![CDATA[Part 2]]></Title>
+      <Desc><![CDATA[The Evidence]]></Desc>
       <SectionStart>-1</SectionStart>
     </CHAPTER>
     <CHAPTER>
       <ID>25</ID>
       <SortOrder>11</SortOrder>
-      <Title><![CDATA[The Evidence of the Wagon Lit Conductor]]></Title>
+      <Title><![CDATA[Chapter 9]]></Title>
+      <Desc><![CDATA[The Evidence of the Wagon Lit Conductor]]></Desc>
       <Scenes>
         <ScID>130</ScID>
         <ScID>81</ScID>
@@ -3449,7 +3460,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>34</ID>
       <SortOrder>12</SortOrder>
-      <Title><![CDATA[The Evidence of the Secretary]]></Title>
+      <Title><![CDATA[Chapter 10]]></Title>
+      <Desc><![CDATA[The Evidence of the Secretary]]></Desc>
       <Scenes>
         <ScID>20</ScID>
         <ScID>52</ScID>
@@ -3459,7 +3471,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>5</ID>
       <SortOrder>13</SortOrder>
-      <Title><![CDATA[The Evidence of the Valet]]></Title>
+      <Title><![CDATA[Chapter 11]]></Title>
+      <Desc><![CDATA[The Evidence of the Valet]]></Desc>
       <Scenes>
         <ScID>77</ScID>
         <ScID>171</ScID>
@@ -3473,7 +3486,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>16</ID>
       <SortOrder>14</SortOrder>
-      <Title><![CDATA[The Evidence of the American Lady]]></Title>
+      <Title><![CDATA[Chapter 12]]></Title>
+      <Desc><![CDATA[The Evidence of the American Lady]]></Desc>
       <Scenes>
         <ScID>123</ScID>
         <ScID>61</ScID>
@@ -3488,7 +3502,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>4</ID>
       <SortOrder>15</SortOrder>
-      <Title><![CDATA[The Evidence of the Swedish Lady]]></Title>
+      <Title><![CDATA[Chapter 13]]></Title>
+      <Desc><![CDATA[The Evidence of the Swedish Lady]]></Desc>
       <Scenes>
         <ScID>47</ScID>
         <ScID>165</ScID>
@@ -3498,7 +3513,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>1</ID>
       <SortOrder>16</SortOrder>
-      <Title><![CDATA[The Evidence of the Russian Princess]]></Title>
+      <Title><![CDATA[Chapter 14]]></Title>
+      <Desc><![CDATA[The Evidence of the Russian Princess]]></Desc>
       <Scenes>
         <ScID>146</ScID>
         <ScID>51</ScID>
@@ -3511,7 +3527,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>10</ID>
       <SortOrder>17</SortOrder>
-      <Title><![CDATA[The Evidence of Count and Countess Andrenyi]]></Title>
+      <Title><![CDATA[Chapter 15]]></Title>
+      <Desc><![CDATA[The Evidence of Count and Countess Andrenyi]]></Desc>
       <Scenes>
         <ScID>115</ScID>
         <ScID>74</ScID>
@@ -3523,7 +3540,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>29</ID>
       <SortOrder>18</SortOrder>
-      <Title><![CDATA[The Evidence of Colonel Arbuthnot]]></Title>
+      <Title><![CDATA[Chapter 16]]></Title>
+      <Desc><![CDATA[The Evidence of Colonel Arbuthnot]]></Desc>
       <Scenes>
         <ScID>167</ScID>
         <ScID>101</ScID>
@@ -3534,7 +3552,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>11</ID>
       <SortOrder>19</SortOrder>
-      <Title><![CDATA[The Evidence of Mr Hardman]]></Title>
+      <Title><![CDATA[Chapter 17]]></Title>
+      <Desc><![CDATA[The Evidence of Mr Hardman]]></Desc>
       <Scenes>
         <ScID>71</ScID>
         <ScID>126</ScID>
@@ -3546,7 +3565,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>15</ID>
       <SortOrder>20</SortOrder>
-      <Title><![CDATA[The Evidence of the Italian]]></Title>
+      <Title><![CDATA[Chapter 18]]></Title>
+      <Desc><![CDATA[The Evidence of the Italian]]></Desc>
       <Scenes>
         <ScID>85</ScID>
         <ScID>69</ScID>
@@ -3556,7 +3576,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>8</ID>
       <SortOrder>21</SortOrder>
-      <Title><![CDATA[The Evidence of Miss Debenham]]></Title>
+      <Title><![CDATA[Chapter 19]]></Title>
+      <Desc><![CDATA[The Evidence of Miss Debenham]]></Desc>
       <Scenes>
         <ScID>35</ScID>
         <ScID>113</ScID>
@@ -3568,7 +3589,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>17</ID>
       <SortOrder>22</SortOrder>
-      <Title><![CDATA[The Evidence of the German Lady’s-Maid]]></Title>
+      <Title><![CDATA[Chapter 20]]></Title>
+      <Desc><![CDATA[The Evidence of the German Lady’s-Maid]]></Desc>
       <Scenes>
         <ScID>102</ScID>
         <ScID>122</ScID>
@@ -3582,7 +3604,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>33</ID>
       <SortOrder>23</SortOrder>
-      <Title><![CDATA[Summary of the Passenger’s Evidence]]></Title>
+      <Title><![CDATA[Chapter 21]]></Title>
+      <Desc><![CDATA[Summary of the Passenger’s Evidence]]></Desc>
       <Scenes>
         <ScID>24</ScID>
       </Scenes>
@@ -3590,7 +3613,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>20</ID>
       <SortOrder>24</SortOrder>
-      <Title><![CDATA[The Evidence of the Weapon]]></Title>
+      <Title><![CDATA[Chapter 22]]></Title>
+      <Desc><![CDATA[The Evidence of the Weapon]]></Desc>
       <Scenes>
         <ScID>25</ScID>
       </Scenes>
@@ -3598,7 +3622,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>3</ID>
       <SortOrder>25</SortOrder>
-      <Title><![CDATA[The Evidence of the Passenger’s Luggage]]></Title>
+      <Title><![CDATA[Chapter 23]]></Title>
+      <Desc><![CDATA[The Evidence of the Passenger’s Luggage]]></Desc>
       <Scenes>
         <ScID>4</ScID>
         <ScID>135</ScID>
@@ -3611,13 +3636,15 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>9</ID>
       <SortOrder>26</SortOrder>
-      <Title><![CDATA[Hercule Poirot sits back and thinks]]></Title>
+      <Title><![CDATA[Part 3]]></Title>
+      <Desc><![CDATA[Hercule Poirot sits back and thinks]]></Desc>
       <SectionStart>-1</SectionStart>
     </CHAPTER>
     <CHAPTER>
       <ID>2</ID>
       <SortOrder>27</SortOrder>
-      <Title><![CDATA[Which of Them?]]></Title>
+      <Title><![CDATA[Chapter 24]]></Title>
+      <Desc><![CDATA[Which of Them?]]></Desc>
       <Scenes>
         <ScID>46</ScID>
       </Scenes>
@@ -3625,17 +3652,20 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>35</ID>
       <SortOrder>28</SortOrder>
-      <Title><![CDATA[Ten Questions]]></Title>
+      <Title><![CDATA[Chapter 25]]></Title>
+      <Desc><![CDATA[Ten Questions]]></Desc>
     </CHAPTER>
     <CHAPTER>
       <ID>31</ID>
       <SortOrder>29</SortOrder>
-      <Title><![CDATA[Certain Suggestive Points]]></Title>
+      <Title><![CDATA[Chapter 26]]></Title>
+      <Desc><![CDATA[Certain Suggestive Points]]></Desc>
     </CHAPTER>
     <CHAPTER>
       <ID>18</ID>
       <SortOrder>30</SortOrder>
-      <Title><![CDATA[The Grease Spot on a Hungarian Passport]]></Title>
+      <Title><![CDATA[Chapter 27]]></Title>
+      <Desc><![CDATA[The Grease Spot on a Hungarian Passport]]></Desc>
       <Scenes>
         <ScID>131</ScID>
         <ScID>108</ScID>
@@ -3644,7 +3674,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>28</ID>
       <SortOrder>31</SortOrder>
-      <Title><![CDATA[The Christian Name of Princess Dragomiroff]]></Title>
+      <Title><![CDATA[Chapter 28]]></Title>
+      <Desc><![CDATA[The Christian Name of Princess Dragomiroff]]></Desc>
       <Scenes>
         <ScID>152</ScID>
       </Scenes>
@@ -3652,7 +3683,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>12</ID>
       <SortOrder>32</SortOrder>
-      <Title><![CDATA[A Second Interview with Colonel Arbuthnot]]></Title>
+      <Title><![CDATA[Chapter 29]]></Title>
+      <Desc><![CDATA[A Second Interview with Colonel Arbuthnot]]></Desc>
       <Scenes>
         <ScID>43</ScID>
         <ScID>40</ScID>
@@ -3663,7 +3695,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>26</ID>
       <SortOrder>33</SortOrder>
-      <Title><![CDATA[The Identity of Mary Debenham]]></Title>
+      <Title><![CDATA[Chapter 30]]></Title>
+      <Desc><![CDATA[The Identity of Mary Debenham]]></Desc>
       <Scenes>
         <ScID>109</ScID>
         <ScID>57</ScID>
@@ -3672,7 +3705,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>21</ID>
       <SortOrder>34</SortOrder>
-      <Title><![CDATA[Further Surprising Revelations]]></Title>
+      <Title><![CDATA[Chapter 31]]></Title>
+      <Desc><![CDATA[Further Surprising Revelations]]></Desc>
       <Scenes>
         <ScID>151</ScID>
         <ScID>91</ScID>
@@ -3683,7 +3717,8 @@ Some weak, some strong]]></Desc>
     <CHAPTER>
       <ID>7</ID>
       <SortOrder>35</SortOrder>
-      <Title><![CDATA[Poirot Propounds Two Solutions]]></Title>
+      <Title><![CDATA[Chapter 32]]></Title>
+      <Desc><![CDATA[Poirot Propounds Two Solutions]]></Desc>
       <Scenes>
         <ScID>166</ScID>
         <ScID>175</ScID>

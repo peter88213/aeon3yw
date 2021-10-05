@@ -87,7 +87,8 @@
     <CHAPTER>
       <ID>1</ID>
       <SortOrder>1</SortOrder>
-      <Title><![CDATA[Chapter One]]></Title>
+      <Title><![CDATA[Chapter 1]]></Title>
+      <Desc><![CDATA[Chapter One]]></Desc>
       <Scenes>
         <ScID>1</ScID>
         <ScID>2</ScID>
