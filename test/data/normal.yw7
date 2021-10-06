@@ -242,7 +242,7 @@
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -257,7 +257,7 @@
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -318,7 +318,7 @@
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -375,7 +375,7 @@
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -469,7 +469,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -505,7 +505,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -692,7 +692,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>17</CharID>
@@ -825,7 +825,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
@@ -841,7 +841,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -895,7 +895,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -977,7 +977,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -993,7 +993,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>12</CharID>
@@ -1070,7 +1070,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1146,7 +1146,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1182,7 +1182,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1200,7 +1200,7 @@ This explains the different times of death and the different types of stabbing
         <Field_SceneType>1</Field_SceneType>
       </Fields>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -1234,7 +1234,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1250,7 +1250,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>16</CharID>
@@ -1385,7 +1385,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>15</CharID>
@@ -1401,7 +1401,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -1432,7 +1432,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1447,7 +1447,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1499,7 +1499,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -1530,7 +1530,7 @@ This explains the different times of death and the different types of stabbing
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -1564,7 +1564,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1699,7 +1699,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -1977,7 +1977,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
@@ -2268,7 +2268,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>17</CharID>
@@ -2285,7 +2285,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2383,7 +2383,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>17</CharID>
@@ -2473,7 +2473,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2489,7 +2489,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -2643,7 +2643,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2658,7 +2658,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2674,7 +2674,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2796,7 +2796,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -2849,7 +2849,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -2879,7 +2879,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -2992,7 +2992,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -3044,7 +3044,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -3101,7 +3101,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
     </SCENE>
     <SCENE>
@@ -3113,7 +3113,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>17</CharID>
@@ -3149,7 +3149,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -3165,7 +3165,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
@@ -3181,7 +3181,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>
@@ -3252,7 +3252,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
@@ -3344,7 +3344,7 @@ Some weak, some strong]]></Desc>
       <WordCount>0</WordCount>
       <LetterCount>0</LetterCount>
       <Status>1</Status>
-      <SpecificDateTime>-0001-01-01 00:00:00</SpecificDateTime>
+      <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>3</CharID>

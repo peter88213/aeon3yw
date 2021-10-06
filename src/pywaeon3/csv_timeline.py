@@ -43,7 +43,10 @@ class CsvTimeline(FileExport):
     _START_DATE_TIME_LABEL = 'Start Date'
     _END_DATE_TIME_LABEL = 'End Date'
 
-    # Events assigned to the "narrative arc" (case insensitive) become
+    NULL_DATE = '0001-01-01'
+    NULL_TIME = '00:00:00'
+
+    # Events assigned to the "varrative" become
     # regular scenes, the others become Notes scenes.
 
     def __init__(self, filePath, **kwargs):
@@ -275,8 +278,8 @@ class CsvTimeline(FileExport):
                             self.scenes[scId].lastsMinutes = str(lastsMinutes)
 
                     else:
-                        self.scenes[scId].date = '-0001-01-01'
-                        self.scenes[scId].time = '00:00:00'
+                        self.scenes[scId].date = self.NULL_DATE
+                        self.scenes[scId].time = self.NULL_TIME
 
                     if self.sceneDescLabel in row:
                         self.scenes[scId].desc = row[self.sceneDescLabel]
