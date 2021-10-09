@@ -19,16 +19,16 @@
 ## Requirements
 
 - Windows.
-- [Python 3.7+](https://www.python.org).
+- [Python 3.7+](https://www.python.org). 
 - [yWriter](http://spacejock.com/yWriter7.html).
 - [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2](https://peter88213.github.io/aeon2yw).
 
 
 ## Download and install
 
-[Download the latest release (version 0.2.2)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.2.2.zip)
+[Download the latest release (version 0.2.3)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.2.3.zip)
 
-- Unzip the downloaded zipfile "aeon3yw_v0.2.2.zip" into a new folder.
+- Unzip the downloaded zipfile "aeon3yw_v0.2.3.zip" into a new folder.
 - Move into this new folder and launch **install.bat**. This installs the script for the local user.
 - Create a shortcut on the desktop when asked.
 - Start Aeon Timeline 3 and import the "yWriter" template from the "sample" folder.
