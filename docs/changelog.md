@@ -8,6 +8,12 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v0.4.0 Alpha release
+
+- Import character and location properties.
+
+Based on PyWriter v3.24.3 and paeon v0.6.0
+
 ### v0.2.4 Alpha release
 
 Process incomplete date/time stamps as possible with Aeon Timeline 3.

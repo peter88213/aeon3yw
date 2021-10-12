@@ -8,93 +8,184 @@
   <CHARACTERS>
     <CHARACTER>
       <ID>1</ID>
-      <Title><![CDATA[Conductor]]></Title>
+      <Title><![CDATA[Hardman]]></Title>
+      <Desc />
       <SortOrder>1</SortOrder>
+      <AKA />
+      <Bio><![CDATA[The lover of Daisy Armstrong’s nurse maid]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>2</ID>
-      <Title><![CDATA[Hubbard]]></Title>
+      <Title><![CDATA[Foscarelli]]></Title>
+      <Desc><![CDATA[Excessively talkative, prone to drift off-topic]]></Desc>
       <SortOrder>2</SortOrder>
+      <AKA><![CDATA[The Italian]]></AKA>
+      <Bio><![CDATA[Chauffer to the Armstrong household at the time of Daisy’s kidnapping.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>3</ID>
-      <Title><![CDATA[Poirot]]></Title>
+      <Title><![CDATA[Valet]]></Title>
+      <Desc><![CDATA[Unemotional.]]></Desc>
       <SortOrder>3</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Acting as Mr Ratchett’s personal valet, he was the personal servant of Colonel Armstrong, Daisy’s father.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>4</ID>
-      <Title><![CDATA[M. Bouc]]></Title>
+      <Title><![CDATA[Count]]></Title>
+      <Desc><![CDATA[Protective of his wife]]></Desc>
       <SortOrder>4</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Countess Andrenyi’s husband]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>5</ID>
       <Title><![CDATA[Coroner]]></Title>
+      <Desc />
       <SortOrder>5</SortOrder>
+      <AKA />
+      <Bio />
     </CHARACTER>
     <CHARACTER>
       <ID>6</ID>
       <Title><![CDATA[MacQueen]]></Title>
+      <Desc><![CDATA[Fluent in French.]]></Desc>
       <SortOrder>6</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Ratchett's personal secretary, his father was the prosecutor in the failed case.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>7</ID>
       <Title><![CDATA[Arbuthnot]]></Title>
+      <Desc><![CDATA[Honourable and slightly stupid, according to Poirot.]]></Desc>
       <SortOrder>7</SortOrder>
+      <AKA />
+      <Bio><![CDATA[A friend of Daisy Armstrong’s father.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>8</ID>
-      <Title><![CDATA[Intruder]]></Title>
+      <Title><![CDATA[Nursemaid]]></Title>
+      <Desc />
       <SortOrder>8</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Committed suicide following Daisy Armstrong’s murder, when police suspicion turned to her.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>9</ID>
-      <Title><![CDATA[Ratchett]]></Title>
+      <Title><![CDATA[Hubbard]]></Title>
+      <Desc><![CDATA["Distintively American”, according to fellow passengers.  
+Nosy, gossiping and arrogant.]]></Desc>
       <SortOrder>9</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Real name Linda Arden, she is Daisy Armstrong’s grandmother]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>10</ID>
-      <Title><![CDATA[Greta]]></Title>
+      <Title><![CDATA[M. Bouc]]></Title>
+      <Desc><![CDATA[Racist, distrusts italians
+Prematurely seizes on circumstancial evidence, acts in a “Doctor Watson” role that allows Poirot to talk to the reader by correcting him.]]></Desc>
       <SortOrder>10</SortOrder>
+      <AKA />
+      <Bio><![CDATA[A friend of Poirot’s who formerly worked for Belgian police, and is now Director of the company running the Orient Express.
+
+He prematurely seizes on circumstancial evidence, acting as a “Dr Watson” within the plot. His primary purpose is to have Poirot correct him and explain his thoughts to him.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>11</ID>
-      <Title><![CDATA[Count]]></Title>
+      <Title><![CDATA[Daisy]]></Title>
+      <Desc />
       <SortOrder>11</SortOrder>
+      <AKA />
+      <Bio />
     </CHARACTER>
     <CHARACTER>
       <ID>12</ID>
-      <Title><![CDATA[Mary]]></Title>
+      <Title><![CDATA[Ratchett]]></Title>
+      <Desc><![CDATA[Older man in his 60s, gives off a sinister impression to Poirot.]]></Desc>
       <SortOrder>12</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Real name Cassetti, kidnapped and murdered Daisy Armstrong.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>13</ID>
-      <Title><![CDATA[Valet]]></Title>
+      <Title><![CDATA[Sonia Armstrong]]></Title>
+      <Desc />
       <SortOrder>13</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Mother of murder victim Daisy Armstrong, she miscarried and died as a result of stress from the assault]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>14</ID>
-      <Title><![CDATA[Hardman]]></Title>
+      <Title><![CDATA[Countess]]></Title>
+      <Desc />
       <SortOrder>14</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Sonia Armstrong’s sister. With her strongest connection to Daisy Armstrong, she does not actively participate in the murder.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>15</ID>
-      <Title><![CDATA[Foscarelli]]></Title>
+      <Title><![CDATA[Hildegarde]]></Title>
+      <Desc />
       <SortOrder>15</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Lady’s maid working for Princess Dragomiroff.]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>16</ID>
-      <Title><![CDATA[Princess]]></Title>
+      <Title><![CDATA[Poirot]]></Title>
+      <Desc><![CDATA[Short, bald man devoted to fashion and tidiness.
+Uses innocent appearance to lull unsuspecting suspects to talk openly around him.]]></Desc>
       <SortOrder>16</SortOrder>
+      <AKA />
+      <Bio />
     </CHARACTER>
     <CHARACTER>
       <ID>17</ID>
-      <Title><![CDATA[Hildegarde]]></Title>
+      <Title><![CDATA[Conductor]]></Title>
+      <Desc><![CDATA[Dependable and honourable, but not intelligent, according to Poirot.]]></Desc>
       <SortOrder>17</SortOrder>
+      <AKA />
+      <Bio><![CDATA[The father of Daisy’s nurse maid]]></Bio>
     </CHARACTER>
     <CHARACTER>
       <ID>18</ID>
-      <Title><![CDATA[Countess]]></Title>
+      <Title><![CDATA[Intruder]]></Title>
+      <Desc />
       <SortOrder>18</SortOrder>
+      <AKA />
+      <Bio><![CDATA[The unknown murderer is a decoy invented by Poirot to allow the true murderers to escape punishment]]></Bio>
+    </CHARACTER>
+    <CHARACTER>
+      <ID>19</ID>
+      <Title><![CDATA[Mary]]></Title>
+      <Desc />
+      <SortOrder>19</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Countess Andrenyi’s governess]]></Bio>
+    </CHARACTER>
+    <CHARACTER>
+      <ID>20</ID>
+      <Title><![CDATA[Princess]]></Title>
+      <Desc><![CDATA[Ugly, but strong-willed.]]></Desc>
+      <SortOrder>20</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Sonia Armstrong’s godmother]]></Bio>
+    </CHARACTER>
+    <CHARACTER>
+      <ID>21</ID>
+      <Title><![CDATA[Greta]]></Title>
+      <Desc><![CDATA[Sentimental and delicate.]]></Desc>
+      <SortOrder>21</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Daisy Armstrong’s nurse]]></Bio>
+    </CHARACTER>
+    <CHARACTER>
+      <ID>22</ID>
+      <Title><![CDATA[Colonel Armstrong]]></Title>
+      <Desc />
+      <SortOrder>22</SortOrder>
+      <AKA />
+      <Bio><![CDATA[Father of murder victim Daisy Armstrong]]></Bio>
     </CHARACTER>
   </CHARACTERS>
   <SCENES>
@@ -114,8 +205,8 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>8</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>2</CharID>
+        <CharID>17</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -133,8 +224,8 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>25</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -153,8 +244,8 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -173,7 +264,7 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>15</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -192,7 +283,7 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -210,7 +301,7 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -245,7 +336,7 @@
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -260,7 +351,7 @@
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -281,9 +372,9 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>8</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>2</CharID>
-        <CharID>8</CharID>
+        <CharID>17</CharID>
+        <CharID>9</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -304,8 +395,8 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>25</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -321,8 +412,8 @@
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -343,8 +434,8 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>9</CharID>
-        <CharID>10</CharID>
+        <CharID>12</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -363,7 +454,7 @@
       <LastsHours>8</LastsHours>
       <LastsMinutes>50</LastsMinutes>
       <Characters>
-        <CharID>11</CharID>
+        <CharID>4</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -378,9 +469,9 @@
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>7</CharID>
-        <CharID>12</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -402,7 +493,7 @@
       <LastsHours>2</LastsHours>
       <LastsMinutes>37</LastsMinutes>
       <Characters>
-        <CharID>2</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -420,7 +511,7 @@
       <LastsHours>0</LastsHours>
       <LastsMinutes>50</LastsMinutes>
       <Characters>
-        <CharID>13</CharID>
+        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -445,19 +536,19 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>15</LastsMinutes>
       <Characters>
-        <CharID>14</CharID>
-        <CharID>6</CharID>
-        <CharID>12</CharID>
         <CharID>1</CharID>
-        <CharID>15</CharID>
-        <CharID>9</CharID>
-        <CharID>13</CharID>
-        <CharID>10</CharID>
-        <CharID>16</CharID>
-        <CharID>7</CharID>
-        <CharID>2</CharID>
-        <CharID>11</CharID>
+        <CharID>6</CharID>
+        <CharID>19</CharID>
         <CharID>17</CharID>
+        <CharID>2</CharID>
+        <CharID>12</CharID>
+        <CharID>3</CharID>
+        <CharID>21</CharID>
+        <CharID>20</CharID>
+        <CharID>7</CharID>
+        <CharID>9</CharID>
+        <CharID>4</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -472,9 +563,9 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>6</CharID>
-        <CharID>9</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -493,7 +584,7 @@ This explains the different times of death and the different types of stabbing
       <LastsMinutes>10</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -508,7 +599,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>6</CharID>
       </Characters>
     </SCENE>
@@ -528,7 +619,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>9</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
-        <CharID>10</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -546,7 +637,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>1</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -565,7 +656,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>2</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -583,7 +674,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -602,7 +693,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -620,7 +711,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>7</CharID>
       </Characters>
     </SCENE>
@@ -642,7 +733,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>8</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -661,7 +752,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -679,8 +770,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
+        <CharID>16</CharID>
         <CharID>3</CharID>
-        <CharID>13</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -695,8 +786,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>17</CharID>
-        <CharID>3</CharID>
+        <CharID>15</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -715,7 +806,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>5</LastsHours>
       <LastsMinutes>30</LastsMinutes>
       <Characters>
-        <CharID>13</CharID>
+        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -737,8 +828,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>14</LastsMinutes>
       <Characters>
-        <CharID>10</CharID>
-        <CharID>2</CharID>
+        <CharID>21</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -756,7 +847,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -774,8 +865,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>12</CharID>
-        <CharID>3</CharID>
+        <CharID>19</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -794,7 +885,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>17</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -812,8 +903,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>2</CharID>
-        <CharID>10</CharID>
+        <CharID>9</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -829,7 +920,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
-        <CharID>12</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -859,7 +950,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>7</CharID>
       </Characters>
     </SCENE>
@@ -882,8 +973,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>11</CharID>
+        <CharID>17</CharID>
+        <CharID>4</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -928,7 +1019,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>19</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -946,7 +1037,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -964,7 +1055,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>2</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -980,8 +1071,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>10</CharID>
+        <CharID>16</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -996,8 +1087,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>12</CharID>
-        <CharID>3</CharID>
+        <CharID>19</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1039,7 +1130,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>16</CharID>
+        <CharID>20</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1057,8 +1148,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
         <CharID>16</CharID>
+        <CharID>20</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1073,7 +1164,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>6</CharID>
       </Characters>
     </SCENE>
@@ -1094,7 +1185,7 @@ This explains the different times of death and the different types of stabbing
       <LastsMinutes>0</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>1</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1116,7 +1207,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>6</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>2</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1134,7 +1225,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1149,8 +1240,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>10</CharID>
+        <CharID>16</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1168,8 +1259,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>6</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>12</CharID>
+        <CharID>16</CharID>
+        <CharID>19</CharID>
         <CharID>7</CharID>
       </Characters>
     </SCENE>
@@ -1185,7 +1276,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1222,7 +1313,7 @@ This explains the different times of death and the different types of stabbing
       <LastsMinutes>0</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>9</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1237,8 +1328,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>2</CharID>
+        <CharID>16</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1253,8 +1344,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
+        <CharID>20</CharID>
         <CharID>16</CharID>
-        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1272,7 +1363,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>19</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1291,7 +1382,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>5</LastsHours>
       <LastsMinutes>30</LastsMinutes>
       <Characters>
-        <CharID>15</CharID>
+        <CharID>2</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1312,8 +1403,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>25</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -1335,8 +1426,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>2</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1354,7 +1445,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1373,7 +1464,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1388,8 +1479,8 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>15</CharID>
-        <CharID>3</CharID>
+        <CharID>2</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1419,8 +1510,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>14</CharID>
-        <CharID>3</CharID>
+        <CharID>1</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1435,7 +1526,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1450,7 +1541,7 @@ This explains the different times of death and the different types of stabbing
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1469,7 +1560,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>9</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>18</CharID>
+        <CharID>14</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1487,7 +1578,7 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>8</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1517,8 +1608,8 @@ This explains the different times of death and the different types of stabbing
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
+        <CharID>16</CharID>
         <CharID>3</CharID>
-        <CharID>13</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1551,7 +1642,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>30</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -1567,7 +1658,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1585,8 +1676,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>9</CharID>
-        <CharID>1</CharID>
+        <CharID>12</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1608,7 +1699,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>4</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>13</CharID>
+        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1627,8 +1718,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>29</LastsMinutes>
       <Characters>
-        <CharID>16</CharID>
-        <CharID>17</CharID>
+        <CharID>20</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1664,8 +1755,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>15</CharID>
+        <CharID>16</CharID>
+        <CharID>2</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1687,7 +1778,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>6</LastsHours>
       <LastsMinutes>45</LastsMinutes>
       <Characters>
-        <CharID>16</CharID>
+        <CharID>20</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1702,8 +1793,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1743,8 +1834,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>8</CharID>
-        <CharID>9</CharID>
+        <CharID>18</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1766,7 +1857,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>2</LastsHours>
       <LastsMinutes>50</LastsMinutes>
       <Characters>
-        <CharID>12</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1784,8 +1875,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>10</CharID>
+        <CharID>16</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1804,7 +1895,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>12</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1822,7 +1913,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1882,7 +1973,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1904,7 +1995,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>2</LastsHours>
       <LastsMinutes>46</LastsMinutes>
       <Characters>
-        <CharID>17</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1926,7 +2017,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>4</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>15</CharID>
+        <CharID>2</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1944,7 +2035,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1963,9 +2054,9 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>15</CharID>
-        <CharID>13</CharID>
+        <CharID>17</CharID>
+        <CharID>2</CharID>
+        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1981,7 +2072,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -1999,8 +2090,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>10</CharID>
+        <CharID>16</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2019,7 +2110,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2060,7 +2151,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>6</LastsHours>
       <LastsMinutes>45</LastsMinutes>
       <Characters>
-        <CharID>17</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2079,7 +2170,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2100,7 +2191,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>8</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2118,8 +2209,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>18</CharID>
+        <CharID>16</CharID>
+        <CharID>14</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2137,8 +2228,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>12</CharID>
+        <CharID>16</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2179,7 +2270,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>17</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2197,8 +2288,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2217,7 +2308,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>7</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>12</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2236,7 +2327,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2254,9 +2345,9 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>18</CharID>
-        <CharID>11</CharID>
+        <CharID>16</CharID>
+        <CharID>14</CharID>
+        <CharID>4</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2271,8 +2362,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>17</CharID>
-        <CharID>3</CharID>
+        <CharID>15</CharID>
+        <CharID>16</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -2288,8 +2379,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2310,8 +2401,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>17</CharID>
+        <CharID>16</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2352,8 +2443,8 @@ Some weak, some strong]]></Desc>
       <LastsMinutes>20</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2371,7 +2462,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>19</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2386,8 +2477,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>17</CharID>
-        <CharID>3</CharID>
+        <CharID>15</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2405,8 +2496,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>2</CharID>
+        <CharID>16</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2428,18 +2519,18 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>14</CharID>
-        <CharID>6</CharID>
-        <CharID>12</CharID>
         <CharID>1</CharID>
-        <CharID>15</CharID>
-        <CharID>13</CharID>
-        <CharID>10</CharID>
-        <CharID>16</CharID>
-        <CharID>7</CharID>
-        <CharID>2</CharID>
-        <CharID>11</CharID>
+        <CharID>6</CharID>
+        <CharID>19</CharID>
         <CharID>17</CharID>
+        <CharID>2</CharID>
+        <CharID>3</CharID>
+        <CharID>21</CharID>
+        <CharID>20</CharID>
+        <CharID>7</CharID>
+        <CharID>9</CharID>
+        <CharID>4</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2461,7 +2552,7 @@ Some weak, some strong]]></Desc>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>9</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2476,8 +2567,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>14</CharID>
+        <CharID>16</CharID>
+        <CharID>1</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2508,8 +2599,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>8</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>2</CharID>
+        <CharID>17</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2528,7 +2619,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2546,8 +2637,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2565,8 +2656,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>2</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>18</CharID>
+        <CharID>16</CharID>
+        <CharID>14</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2584,8 +2675,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2606,8 +2697,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>25</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>4</CharID>
+        <CharID>16</CharID>
+        <CharID>10</CharID>
         <CharID>5</CharID>
       </Characters>
     </SCENE>
@@ -2630,8 +2721,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>17</CharID>
-        <CharID>8</CharID>
+        <CharID>15</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2646,7 +2737,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2661,8 +2752,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>12</CharID>
+        <CharID>16</CharID>
+        <CharID>19</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2677,20 +2768,20 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>15</CharID>
+        <CharID>16</CharID>
+        <CharID>2</CharID>
         <CharID>7</CharID>
-        <CharID>11</CharID>
-        <CharID>18</CharID>
-        <CharID>14</CharID>
-        <CharID>10</CharID>
-        <CharID>6</CharID>
-        <CharID>17</CharID>
         <CharID>4</CharID>
+        <CharID>14</CharID>
+        <CharID>1</CharID>
+        <CharID>21</CharID>
+        <CharID>6</CharID>
+        <CharID>15</CharID>
+        <CharID>10</CharID>
+        <CharID>19</CharID>
         <CharID>12</CharID>
         <CharID>9</CharID>
-        <CharID>2</CharID>
-        <CharID>16</CharID>
+        <CharID>20</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2711,7 +2802,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>8</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2729,7 +2820,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>1</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2748,7 +2839,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2766,7 +2857,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2784,7 +2875,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2799,8 +2890,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>9</CharID>
+        <CharID>16</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2818,7 +2909,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>2</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>7</CharID>
       </Characters>
     </SCENE>
@@ -2898,7 +2989,7 @@ Some weak, some strong]]></Desc>
       <LastsMinutes>20</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>9</CharID>
+        <CharID>12</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2919,7 +3010,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2937,8 +3028,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>15</CharID>
+        <CharID>16</CharID>
+        <CharID>2</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2956,8 +3047,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
+        <CharID>20</CharID>
         <CharID>16</CharID>
-        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -2979,8 +3070,8 @@ Some weak, some strong]]></Desc>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
         <CharID>6</CharID>
-        <CharID>1</CharID>
-        <CharID>8</CharID>
+        <CharID>17</CharID>
+        <CharID>18</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3010,7 +3101,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3031,8 +3122,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
-        <CharID>2</CharID>
+        <CharID>17</CharID>
+        <CharID>9</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3047,8 +3138,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3070,7 +3161,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>10</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>14</CharID>
+        <CharID>1</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3088,8 +3179,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>14</CharID>
+        <CharID>16</CharID>
+        <CharID>1</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3116,7 +3207,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>17</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3137,7 +3228,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>1</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3152,8 +3243,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>17</CharID>
+        <CharID>16</CharID>
+        <CharID>15</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3169,7 +3260,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3184,8 +3275,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>10</CharID>
+        <CharID>16</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3203,7 +3294,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>30</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3221,7 +3312,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>10</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
         <CharID>7</CharID>
       </Characters>
     </SCENE>
@@ -3240,7 +3331,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>20</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3256,7 +3347,7 @@ Some weak, some strong]]></Desc>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
         <CharID>7</CharID>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3274,7 +3365,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3292,8 +3383,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>40</LastsMinutes>
       <Characters>
-        <CharID>9</CharID>
-        <CharID>13</CharID>
+        <CharID>12</CharID>
+        <CharID>3</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3312,8 +3403,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>5</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
-        <CharID>1</CharID>
+        <CharID>16</CharID>
+        <CharID>17</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3331,8 +3422,8 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>0</LastsMinutes>
       <Characters>
-        <CharID>9</CharID>
-        <CharID>10</CharID>
+        <CharID>12</CharID>
+        <CharID>21</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3347,8 +3438,8 @@ Some weak, some strong]]></Desc>
       <SpecificDateTime>0001-01-01 00:00:00</SpecificDateTime>
       <SpecificDateMode>-1</SpecificDateMode>
       <Characters>
+        <CharID>16</CharID>
         <CharID>3</CharID>
-        <CharID>13</CharID>
       </Characters>
     </SCENE>
     <SCENE>
@@ -3366,7 +3457,7 @@ Some weak, some strong]]></Desc>
       <LastsHours>0</LastsHours>
       <LastsMinutes>3</LastsMinutes>
       <Characters>
-        <CharID>3</CharID>
+        <CharID>16</CharID>
       </Characters>
     </SCENE>
   </SCENES>
