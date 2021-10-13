@@ -60,7 +60,7 @@ See [below](#custom-configuration)
 ## csv export from Aeon Timeline 3
 
 - The csv file exported by Aeon Timeline 3 must be **comma**-separated.
-- At least the "Event" and "Narrative Folder" checkboxes must be ticked.
+- Make sure all *Item Types for Export* checkboxes are ticked.
 
 ![Aeon 3 Export settings](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/csv_export.png)
 
