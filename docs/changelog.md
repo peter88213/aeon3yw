@@ -8,6 +8,12 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v0.4.1 Alpha release 
+
+- Update libraries and help text.
+
+Based on paeon v0.6.2 and PyWriter v3.26.1
+
 ### v0.4.0 Alpha release
 
 - Import character and location properties.
