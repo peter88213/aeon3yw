@@ -8,6 +8,12 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v0.4.2 Optional update
+
+Apply paeon update to minimize the amount of unused code.
+
+Based on paeon v0.10.1 and PyWriter v3.26.1
+
 ### v0.4.1 Alpha release 
 
 - Update libraries and help text.
