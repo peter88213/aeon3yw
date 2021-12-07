@@ -3,7 +3,6 @@
 	<name>aeon3yw</name>
 	<comment></comment>
 	<projects>
-		<project>paeon</project>
 		<project>PyWriter</project>
 	</projects>
 	<buildSpec>
