@@ -21,27 +21,12 @@ SUFFIX = ''
 APPNAME = 'aeon3yw'
 
 SETTINGS = dict(
-    part_number_prefix='Part',
-    chapter_number_prefix='Chapter',
-    type_character='Character',
-    type_location='Location',
-    type_item='Item',
-    part_desc_label='Label',
-    chapter_desc_label='Label',
-    scene_desc_label='Summary',
-    scene_title_label='Label',
-    notes_label='Notes',
-    tag_label='Tags',
-    location_label='Location',
-    item_label='Item',
-    character_label='Participant',
-    viewpoint_label='Viewpoint',
-    character_bio_label='Summary',
-    character_aka_label='Nickname',
-    character_desc_label1='Characteristics',
-    character_desc_label2='Traits',
-    character_desc_label3='',
-    location_desc_label='Summary',
+    part_heading_prefix='Part',
+    chapter_heading_prefix='Chapter',
+    label_event='Event',
+    label_character='Character',
+    label_location='Location',
+    label_item='Item',
 )
 
 

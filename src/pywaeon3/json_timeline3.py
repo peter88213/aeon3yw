@@ -28,32 +28,26 @@ class JsonTimeline3(Novel):
     DESCRIPTION = 'Aeon Timeline 3 project'
     SUFFIX = ''
 
-    # JSON[data][items][byId][<uid>]
-
-    ITEM_DESCRIPTION = 'summary'
-    ITEM_START_DATE = 'startDate'
-    ITEM_DURATION = 'duration'
-    ITEM_LABEL = 'label'
-    ITEM_TAGS = 'tags'
-    ITEM_TYPE = 'type'
-    ITEM_ID = 'id'
-
-    # JSON[definitions][types][byId]
-
-    TYPE_EVENT = 'defaultEvent'
-    TYPE_CHARACTER = 'defaultPerson'
-    TYPE_LOCATION = 'defaultLocation'
-    TYPE_NARRATIVE = 'defaultNarrative'
-
-    # JSON[definitions][types][byId][<uid>]
-
-    TYPE_LABEL = 'label'
-
-    # Events assigned to the "narrative" become
-    # regular scenes, the others become Notes scenes.
-
     DATE_LIMIT = (datetime(100, 1, 1) - datetime.min).total_seconds()
     # Dates before 100-01-01 can not be displayed properly in yWriter
+
+    def __init__(self, filePath, **kwargs):
+        """Extend the superclass constructor,
+        defining instance variables.
+        """
+        Novel.__init__(self, filePath, **kwargs)
+
+        # JSON[definitions][types][byId]
+
+        self.LABEL_EVENT = kwargs['label_event']
+        self.LABEL_CHARACTER = kwargs['label_character']
+        self.LABEL_LOCATION = kwargs['label_location']
+        self.LABEL_ITEM = kwargs['label_item']
+
+        # Misc.
+
+        self.partHdPrefix = kwargs['part_heading_prefix']
+        self.chapterHdPrefix = kwargs['chapter_heading_prefix']
 
     def read(self):
         """Extract the JSON part of the Aeon Timeline 3 file located at filePath, 
@@ -77,18 +71,32 @@ class JsonTimeline3(Novel):
         except('JSONDecodeError'):
             return 'ERROR: Invalid JSON data.'
 
-        # Make sure there is an "AD" era.
+        #--- Find types.
 
-        eras = jsonData['definitions']['calendar']['eras']
-        adEra = None
+        typeEvent = None
+        typeCharacter = None
+        typeLocation = None
+        typeItem = None
+        NarrativeFolderTypes = []
 
-        for i in range(len(eras)):
+        for uid in jsonData['definitions']['types']['byId']:
 
-            if eras[i]['name'] == 'AD':
-                adEra = i
-                break
+            if jsonData['definitions']['types']['byId'][uid]['isNarrativeFolder']:
+                NarrativeFolderTypes.append(uid)
 
-        #--- Create characters, locations, and items.
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_EVENT:
+                typeEvent = uid
+
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_CHARACTER:
+                typeCharacter = uid
+
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_LOCATION:
+                typeLocation = uid
+
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_ITEM:
+                typeItem = uid
+
+        #--- Read items.
 
         crIdsByGuid = {}
         lcIdsByGuid = {}
@@ -104,7 +112,8 @@ class JsonTimeline3(Novel):
         for uid in jsonData['data']['items']['byId']:
             dataItem = jsonData['data']['items']['byId'][uid]
 
-            if dataItem[self.ITEM_TYPE] == self.TYPE_EVENT:
+            if dataItem['type'] == typeEvent:
+
                 #--- Create scenes.
 
                 eventCount += 1
@@ -113,9 +122,22 @@ class JsonTimeline3(Novel):
                 self.scenes[scId] = Scene()
                 self.scenes[scId].status = 1
                 # Set scene status = "Outline"
-                self.scenes[scId].title = dataItem[self.ITEM_LABEL]
-                self.scenes[scId].desc = dataItem[self.ITEM_DESCRIPTION]
-                timestamp = dataItem[self.ITEM_START_DATE]['timestamp']
+                self.scenes[scId].isNotesScene = True
+                # Will be set to False later if it is part of the narrative.
+                self.scenes[scId].title = dataItem['label']
+                self.scenes[scId].desc = dataItem['summary']
+                timestamp = dataItem['startDate']['timestamp']
+
+                #--- Get scene tags
+
+                for tagId in dataItem['tags']:
+
+                    if self.scenes[scId].tags is None:
+                        self.scenes[scId].tags = []
+
+                    self.scenes[scId].tags.append(jsonData['data']['tags'][tagId])
+
+                #--- Get scene date, time, and duration.
 
                 if timestamp is not None and timestamp >= self.DATE_LIMIT:
                     # Restrict date/time calculation to dates within yWriter's range
@@ -125,28 +147,85 @@ class JsonTimeline3(Novel):
                     self.scenes[scId].date = startDateTime[0]
                     self.scenes[scId].time = startDateTime[1]
 
-            elif dataItem[self.ITEM_TYPE] == self.TYPE_NARRATIVE:
+                    # Calculate duration
+
+                    if dataItem['duration']['years'] > 0 or dataItem['duration']['months'] > 0:
+                        endYear = sceneStart.year + dataItem['duration']['years']
+                        endMonth = sceneStart.month
+
+                        if dataItem['duration']['months'] > 0:
+                            endYear += dataItem['duration']['months'] // 12
+                            endMonth += dataItem['duration']['months']
+
+                            while endMonth > 12:
+                                endMonth -= 12
+
+                        sceneDuration = datetime(endYear, endMonth, sceneStart.day) - \
+                            datetime(sceneStart.year, sceneStart.month, sceneStart.day)
+                        lastsDays = sceneDuration.days
+                        lastsHours = sceneDuration.seconds // 3600
+                        lastsMinutes = (sceneDuration.seconds % 3600) // 60
+
+                    else:
+                        lastsDays = 0
+                        lastsHours = 0
+                        lastsMinutes = 0
+
+                    lastsDays += dataItem['duration']['weeks'] * 7
+                    lastsDays += dataItem['duration']['days']
+                    lastsDays += dataItem['duration']['hours'] // 24
+                    lastsHours += dataItem['duration']['hours'] % 24
+                    lastsHours += dataItem['duration']['minutes'] // 60
+                    lastsMinutes += dataItem['duration']['minutes'] % 60
+                    lastsMinutes += dataItem['duration']['seconds'] // 60
+                    lastsHours += lastsMinutes // 60
+                    lastsMinutes %= 60
+                    lastsDays += lastsHours // 24
+                    lastsHours %= 24
+                    self.scenes[scId].lastsDays = str(lastsDays)
+                    self.scenes[scId].lastsHours = str(lastsHours)
+                    self.scenes[scId].lastsMinutes = str(lastsMinutes)
+
+            elif dataItem['type'] in NarrativeFolderTypes:
+
                 #--- Create chapters.
 
                 chapterCount += 1
                 chId = str(chapterCount)
                 chIdsByGuid[uid] = chId
                 self.chapters[chId] = Chapter()
-                self.chapters[chId].title = dataItem[self.ITEM_LABEL]
-                self.chapters[chId].desc = dataItem[self.ITEM_DESCRIPTION]
+                self.chapters[chId].title = dataItem['label']
+                self.chapters[chId].desc = dataItem['summary']
 
-            elif dataItem[self.ITEM_TYPE] == self.TYPE_CHARACTER:
+            elif dataItem['type'] == typeCharacter:
+
                 #--- Create characters.
 
                 characterCount += 1
                 crId = str(characterCount)
                 crIdsByGuid[uid] = crId
                 self.characters[crId] = Character()
-                self.characters[crId].title = dataItem[self.ITEM_LABEL]
-                self.characters[crId].desc = dataItem[self.ITEM_DESCRIPTION]
+
+                if dataItem['shortLabel']:
+                    self.characters[crId].title = dataItem['shortLabel']
+
+                else:
+                    self.characters[crId].title = dataItem['label']
+
+                self.characters[crId].fullName = dataItem['label']
+                self.characters[crId].desc = dataItem['summary']
                 self.srtCharacters.append(crId)
 
-            elif dataItem[self.ITEM_TYPE] == self.TYPE_LOCATION:
+                #--- Get character tags.
+
+                for tagId in dataItem['tags']:
+
+                    if self.characters[crId].tags is None:
+                        self.characters[crId].tags = []
+
+                    self.characters[crId].tags.append(jsonData['data']['tags'][tagId])
+
+            elif dataItem['type'] == typeLocation:
 
                 #--- Create locations.
 
@@ -154,12 +233,20 @@ class JsonTimeline3(Novel):
                 lcId = str(locationCount)
                 lcIdsByGuid[uid] = lcId
                 self.locations[lcId] = WorldElement()
-                self.locations[crId].title = dataItem[self.ITEM_LABEL]
-                self.locations[crId].desc = dataItem[self.ITEM_DESCRIPTION]
+                self.locations[crId].title = dataItem['label']
+                self.locations[crId].desc = dataItem['summary']
                 self.srtLocations.append(lcId)
 
-            '''
-            elif dataItem[self.ITEM_TYPE] == self.TYPE_ITEM:
+                #--- Get location tags.
+
+                for tagId in dataItem['tags']:
+
+                    if self.locations[lcId].tags is None:
+                        self.locations[lcId].tags = []
+
+                    self.locations[lcId].tags.append(jsonData['data']['tags'][tagId])
+
+            elif dataItem['type'] == typeItem:
 
                 #--- Create items.
 
@@ -167,12 +254,20 @@ class JsonTimeline3(Novel):
                 itId = str(itemCount)
                 itIdsByGuid[uid] = itId
                 self.items[itId] = WorldElement()
-                self.items[itId].title = dataItem[self.ITEM_LABEL]
-                self.items[itId].desc = dataItem[self.ITEM_DESCRIPTION]
+                self.items[itId].title = dataItem['label']
+                self.items[itId].desc = dataItem['summary']
                 self.srtItems.append(itId)
-            '''
 
-        #--- Build the narrative structure.
+                #--- Get item tags.
+
+                for tagId in dataItem['tags']:
+
+                    if self.items[itId].tags is None:
+                        self.items[itId].tags = []
+
+                    self.items[itId].tags.append(jsonData['data']['tags'][tagId])
+
+        #--- Build a narrative structure with 2 or 3 levels.
 
         for narrative0 in jsonData['data']['narrative']['children']:
 
@@ -190,17 +285,39 @@ class JsonTimeline3(Novel):
                         if narrative2['id'] in scIdsByGuid:
                             self.chapters[chIdsByGuid[narrative1['id']]].srtScenes.append(
                                 scIdsByGuid[narrative2['id']])
+                            self.scenes[scIdsByGuid[narrative2['id']]].isNotesScene = False
                             self.chapters[chIdsByGuid[narrative1['id']]].chLevel = 0
 
                 elif narrative1['id'] in scIdsByGuid:
-                    self.chapters[chIdsByGuid[narrative1['id']]].srtScenes.append(scIdsByGuid[narrative1['id']])
+                    self.chapters[chIdsByGuid[narrative0['id']]].srtScenes.append(scIdsByGuid[narrative1['id']])
+                    self.scenes[scIdsByGuid[narrative1['id']]].isNotesScene = False
                     self.chapters[chIdsByGuid[narrative0['id']]].chLevel = 0
 
-        # Create a dummy chapter, if there is no other structure.
+        #--- Auto-number untitled chapters.
+
+        partCount = 0
+        chapterCount = 0
+
+        for chId in self.srtChapters:
+
+            if self.chapters[chId].chLevel == 1:
+                partCount += 1
+
+                if not self.chapters[chId].title:
+                    self.chapters[chId].title = self.partHdPrefix + ' ' + str(partCount)
+
+            else:
+                chapterCount += 1
+
+                if not self.chapters[chId].title:
+                    self.chapters[chId].title = self.chapterHdPrefix + ' ' + str(chapterCount)
+
+        #--- Create a dummy chapter, if there is no other structure.
+        # This is because yWriter needs at least one chapter.
 
         if self.chapters == {}:
             self.chapters['1'] = Chapter()
-            self.chapters['1'].title = 'Chapter 1'
+            self.chapters['1'].title = self.chapterHdPrefix + ' 1'
             self.chapters['1'].chType = 0
             self.srtChapters.append('1')
 
