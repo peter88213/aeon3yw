@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aeon Timeline 3 csv to yWriter converter 
+"""Aeon Timeline 3 to yWriter converter 
 
 Version @release
 Requires Python 3.7 or above
@@ -15,7 +15,7 @@ from pywriter.ui.ui import Ui
 from pywriter.ui.ui_tk import UiTk
 from pywriter.config.configuration import Configuration
 
-from pywaeon3.csv_converter import CsvConverter
+from pywaeon3.json_converter import JsonConverter
 
 SUFFIX = ''
 APPNAME = 'aeon3yw'
@@ -51,7 +51,7 @@ def run(sourcePath, silentMode=True, installDir=''):
         ui = Ui('')
 
     else:
-        ui = UiTk('Aeon Timeline 3 csv to yWriter converter @release')
+        ui = UiTk('Aeon Timeline 3 to yWriter converter @release')
 
     #--- Try to get persistent configuration data
 
@@ -75,7 +75,7 @@ def run(sourcePath, silentMode=True, installDir=''):
     kwargs.update(configuration.settings)
     kwargs.update(configuration.options)
 
-    converter = CsvConverter()
+    converter = JsonConverter()
     converter.ui = ui
     converter.run(sourcePath, **kwargs)
     ui.start()
@@ -83,11 +83,11 @@ def run(sourcePath, silentMode=True, installDir=''):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Aeon Timeline 3 csv to yWriter converter',
+        description='Aeon Timeline 3 to yWriter converter',
         epilog='')
     parser.add_argument('sourcePath',
                         metavar='Sourcefile',
-                        help='The path of the csv timeline file.')
+                        help='The path of the .aeon file.')
 
     parser.add_argument('--silent',
                         action="store_true",
