@@ -212,8 +212,7 @@ class JsonTimeline3(Novel):
                 chId = str(chapterCount)
                 chIdsByGuid[uid] = chId
                 self.chapters[chId] = Chapter()
-                self.chapters[chId].title = dataItem['label']
-                self.chapters[chId].desc = dataItem['summary']
+                self.chapters[chId].desc = dataItem['label']
 
             elif dataItem['type'] == typeCharacter:
 
@@ -293,25 +292,33 @@ class JsonTimeline3(Novel):
 
                 #--- Assign characters.
 
-                scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
-                crId = crIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
+                try:
+                    scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
+                    crId = crIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
 
-                if self.scenes[scId].characters is None:
-                    self.scenes[scId].characters = []
+                    if self.scenes[scId].characters is None:
+                        self.scenes[scId].characters = []
 
-                self.scenes[scId].characters.append(crId)
+                    self.scenes[scId].characters.append(crId)
+
+                except:
+                    pass
 
             elif jsonData['data']['relationships']['byId'][uid]['reference'] == refLocation:
 
                 #--- Assign locations.
 
-                scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
-                lcId = lcIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
+                try:
+                    scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
+                    lcId = lcIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
 
-                if self.scenes[scId].locations is None:
-                    self.scenes[scId].locations = []
+                    if self.scenes[scId].locations is None:
+                        self.scenes[scId].locations = []
 
-                self.scenes[scId].locations.append(lcId)
+                    self.scenes[scId].locations.append(lcId)
+
+                except:
+                    pass
 
         #--- Build a narrative structure with 2 or 3 levels.
 
@@ -358,13 +365,18 @@ class JsonTimeline3(Novel):
                 if not self.chapters[chId].title:
                     self.chapters[chId].title = self.chapterHdPrefix + ' ' + str(chapterCount)
 
-        #--- Create a dummy chapter, if there is no other structure.
-        # This is because yWriter needs at least one chapter.
+        #--- Create a "Notes" chapter for non-narrative scenes.
 
-        if self.chapters == {}:
-            self.chapters['1'] = Chapter()
-            self.chapters['1'].title = self.chapterHdPrefix + ' 1'
-            self.chapters['1'].chType = 0
-            self.srtChapters.append('1')
+        chId = str(partCount + chapterCount + 1)
+        self.chapters[chId] = Chapter()
+        self.chapters[chId].title = 'Other events'
+        self.chapters[chId].desc = 'Scenes generated from events that ar not assigned to the narrative structure.'
+        self.chapters[chId].chType = 1
+        self.srtChapters.append(chId)
+
+        for scId in self.scenes:
+
+            if self.scenes[scId].isNotesScene:
+                self.chapters[chId].srtScenes.append(scId)
 
         return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'
