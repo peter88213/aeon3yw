@@ -23,10 +23,12 @@ APPNAME = 'aeon3yw'
 SETTINGS = dict(
     part_heading_prefix='Part',
     chapter_heading_prefix='Chapter',
-    label_event='Event',
-    label_character='Character',
-    label_location='Location',
-    label_item='Item',
+    label_event_type='Event',
+    label_character_type='Character',
+    label_location_type='Location',
+    label_item_type='Item',
+    label_participant_ref='Participant',
+    label_location_ref='Location',
 )
 
 

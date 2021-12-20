@@ -39,10 +39,15 @@ class JsonTimeline3(Novel):
 
         # JSON[definitions][types][byId]
 
-        self.LABEL_EVENT = kwargs['label_event']
-        self.LABEL_CHARACTER = kwargs['label_character']
-        self.LABEL_LOCATION = kwargs['label_location']
-        self.LABEL_ITEM = kwargs['label_item']
+        self.labelEventType = kwargs['label_event_type']
+        self.labelCharacterType = kwargs['label_character_type']
+        self.labelLocationType = kwargs['label_location_type']
+        self.labelItemType = kwargs['label_item_type']
+
+        # JSON[definitions][references][byId]
+
+        self.labelParticipantRef = kwargs['label_participant_ref']
+        self.labelLocationRef = kwargs['label_location_ref']
 
         # Misc.
 
@@ -84,17 +89,30 @@ class JsonTimeline3(Novel):
             if jsonData['definitions']['types']['byId'][uid]['isNarrativeFolder']:
                 NarrativeFolderTypes.append(uid)
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_EVENT:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelEventType:
                 typeEvent = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_CHARACTER:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelCharacterType:
                 typeCharacter = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_LOCATION:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelLocationType:
                 typeLocation = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.LABEL_ITEM:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelItemType:
                 typeItem = uid
+
+        #--- Find references.
+
+        refParticipant = None
+        refLocation = None
+
+        for uid in jsonData['definitions']['references']['byId']:
+
+            if jsonData['definitions']['references']['byId'][uid]['label'] == self.labelParticipantRef:
+                refParticipant = uid
+
+            elif jsonData['definitions']['references']['byId'][uid]['label'] == self.labelLocationRef:
+                refLocation = uid
 
         #--- Read items.
 
@@ -233,8 +251,8 @@ class JsonTimeline3(Novel):
                 lcId = str(locationCount)
                 lcIdsByGuid[uid] = lcId
                 self.locations[lcId] = WorldElement()
-                self.locations[crId].title = dataItem['label']
-                self.locations[crId].desc = dataItem['summary']
+                self.locations[lcId].title = dataItem['label']
+                self.locations[lcId].desc = dataItem['summary']
                 self.srtLocations.append(lcId)
 
                 #--- Get location tags.
@@ -266,6 +284,34 @@ class JsonTimeline3(Novel):
                         self.items[itId].tags = []
 
                     self.items[itId].tags.append(jsonData['data']['tags'][tagId])
+
+        #--- Read relationships.
+
+        for uid in jsonData['data']['relationships']['byId']:
+
+            if jsonData['data']['relationships']['byId'][uid]['reference'] == refParticipant:
+
+                #--- Assign characters.
+
+                scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
+                crId = crIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
+
+                if self.scenes[scId].characters is None:
+                    self.scenes[scId].characters = []
+
+                self.scenes[scId].characters.append(crId)
+
+            elif jsonData['data']['relationships']['byId'][uid]['reference'] == refLocation:
+
+                #--- Assign locations.
+
+                scId = scIdsByGuid[jsonData['data']['relationships']['byId'][uid]['subject']]
+                lcId = lcIdsByGuid[jsonData['data']['relationships']['byId'][uid]['object']]
+
+                if self.scenes[scId].locations is None:
+                    self.scenes[scId].locations = []
+
+                self.scenes[scId].locations.append(lcId)
 
         #--- Build a narrative structure with 2 or 3 levels.
 
