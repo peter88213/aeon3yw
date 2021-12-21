@@ -172,11 +172,11 @@ class JsonTimeline3(Novel):
                         endMonth = sceneStart.month
 
                         if dataItem['duration']['months'] > 0:
-                            endYear += dataItem['duration']['months'] // 12
                             endMonth += dataItem['duration']['months']
 
                             while endMonth > 12:
                                 endMonth -= 12
+                                endYear += 1
 
                         sceneDuration = datetime(endYear, endMonth, sceneStart.day) - \
                             datetime(sceneStart.year, sceneStart.month, sceneStart.day)
