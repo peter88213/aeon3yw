@@ -303,7 +303,8 @@ class JsonTimeline3(Novel):
                     if self.scenes[scId].characters is None:
                         self.scenes[scId].characters = []
 
-                    self.scenes[scId].characters.append(crId)
+                    if not crId in self.scenes[scId].characters:
+                        self.scenes[scId].characters.append(crId)
 
                 except:
                     pass
@@ -319,7 +320,8 @@ class JsonTimeline3(Novel):
                     if self.scenes[scId].locations is None:
                         self.scenes[scId].locations = []
 
-                    self.scenes[scId].locations.append(lcId)
+                    if not lcId in self.scenes[scId].locations:
+                        self.scenes[scId].locations.append(lcId)
 
                 except:
                     pass
