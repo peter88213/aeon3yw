@@ -15,7 +15,7 @@ from pywriter.ui.ui import Ui
 from pywriter.ui.ui_tk import UiTk
 from pywriter.config.configuration import Configuration
 
-from pywaeon3.aeon3_converter import Aeon3Converter
+from pywaeon3.pywaeon3_converter import Pywaeon3Converter
 
 SUFFIX = ''
 APPNAME = 'aeon3yw'
@@ -76,7 +76,7 @@ def run(sourcePath, silentMode=True, installDir=''):
     kwargs.update(configuration.settings)
     kwargs.update(configuration.options)
 
-    converter = Aeon3Converter()
+    converter = Pywaeon3Converter()
     converter.ui = ui
     converter.run(sourcePath, **kwargs)
     ui.start()

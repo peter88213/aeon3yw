@@ -11,7 +11,7 @@ from pywaeon3.json_timeline3 import JsonTimeline3
 from pywaeon3.csv_timeline3 import CsvTimeline3
 
 
-class Aeon3Converter(YwCnvUi):
+class Pywaeon3Converter(YwCnvUi):
     """A converter class for JSON timeline import."""
     CREATE_SOURCE_CLASSES = [JsonTimeline3, CsvTimeline3]
 
