@@ -39,20 +39,21 @@ class JsonTimeline3(Novel):
 
         # JSON[definitions][types][byId]
 
-        self.labelEventType = kwargs['label_event_type']
-        self.labelCharacterType = kwargs['label_character_type']
-        self.labelLocationType = kwargs['label_location_type']
-        self.labelItemType = kwargs['label_item_type']
+        self.labelEventType = kwargs['type_event']
+        self.labelCharacterType = kwargs['type_character']
+        self.labelLocationType = kwargs['type_location']
+        self.labelItemType = kwargs['type_item']
 
         # JSON[definitions][references][byId]
 
-        self.labelParticipantRef = kwargs['label_participant_ref']
-        self.labelLocationRef = kwargs['label_location_ref']
+        self.labelParticipantRef = kwargs['character_label']
+        self.labelLocationRef = kwargs['location_label']
+        self.labelItemRef = kwargs['item_label']
 
         # Misc.
 
-        self.partHdPrefix = kwargs['part_heading_prefix']
-        self.chapterHdPrefix = kwargs['chapter_heading_prefix']
+        self.partHdPrefix = kwargs['part_number_prefix']
+        self.chapterHdPrefix = kwargs['chapter_number_prefix']
 
     def read(self):
         """Extract the JSON part of the Aeon Timeline 3 file located at filePath, 
@@ -231,6 +232,9 @@ class JsonTimeline3(Novel):
 
                 self.characters[crId].fullName = dataItem['label']
                 self.characters[crId].desc = dataItem['summary']
+                self.characters[crId].bio = dataItem['summary']
+                self.characters[crId].aka = dataItem['summary']
+                self.characters[crId].notes = dataItem['summary']
                 self.srtCharacters.append(crId)
 
                 #--- Get character tags.

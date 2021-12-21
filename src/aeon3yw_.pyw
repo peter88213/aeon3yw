@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aeon Timeline 3 csv to yWriter converter 
+"""Aeon Timeline 3 to yWriter converter 
 
 Version @release
 Requires Python 3.7 or above
@@ -15,7 +15,7 @@ from pywriter.ui.ui import Ui
 from pywriter.ui.ui_tk import UiTk
 from pywriter.config.configuration import Configuration
 
-from pywaeon3.csv_converter import CsvConverter
+from pywaeon3.aeon3_converter import Aeon3Converter
 
 SUFFIX = ''
 APPNAME = 'aeon3yw'
@@ -23,18 +23,19 @@ APPNAME = 'aeon3yw'
 SETTINGS = dict(
     part_number_prefix='Part',
     chapter_number_prefix='Chapter',
+    type_event='Event',
     type_character='Character',
     type_location='Location',
     type_item='Item',
+    character_label='Participant',
+    location_label='Location',
+    item_label='Item',
     part_desc_label='Label',
     chapter_desc_label='Label',
     scene_desc_label='Summary',
     scene_title_label='Label',
     notes_label='Notes',
     tag_label='Tags',
-    location_label='Location',
-    item_label='Item',
-    character_label='Participant',
     viewpoint_label='Viewpoint',
     character_bio_label='Summary',
     character_aka_label='Nickname',
@@ -51,7 +52,7 @@ def run(sourcePath, silentMode=True, installDir=''):
         ui = Ui('')
 
     else:
-        ui = UiTk('Aeon Timeline 3 csv to yWriter converter @release')
+        ui = UiTk('Aeon Timeline 3 to yWriter converter @release')
 
     #--- Try to get persistent configuration data
 
@@ -75,7 +76,7 @@ def run(sourcePath, silentMode=True, installDir=''):
     kwargs.update(configuration.settings)
     kwargs.update(configuration.options)
 
-    converter = CsvConverter()
+    converter = Aeon3Converter()
     converter.ui = ui
     converter.run(sourcePath, **kwargs)
     ui.start()
@@ -83,11 +84,11 @@ def run(sourcePath, silentMode=True, installDir=''):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Aeon Timeline 3 csv to yWriter converter',
+        description='Aeon Timeline 3 to yWriter converter',
         epilog='')
     parser.add_argument('sourcePath',
                         metavar='Sourcefile',
-                        help='The path of the csv timeline file.')
+                        help='The path of the .aeon or .csv file.')
 
     parser.add_argument('--silent',
                         action="store_true",
