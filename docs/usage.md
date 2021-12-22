@@ -23,13 +23,35 @@ usage: `aeon3yw.pyw [--silent] Sourcefile`
 
 `Sourcefile` 
 
-The path of the Aeon Timeline 3 csv export file.
+The path of the .aeon or .csv file.
 
 #### optional arguments:
 
 `--silent`  suppress error messages and the request to confirm overwriting
 
-## Set up your timeline for export
+## Document hierarchy
+
+In the narrative of an **".aeon" project file**, the top three levels of hierarchy are considered. There are two alternatives:
+
+### 1. Three level narrative structure
+
+- First narrative level (narrative folder) = first document level (chapter beginning an new section).
+- Second narrative level (narrative folder) = second document level (chapter).
+- Third narrative level (event) = third document level (scene).
+
+### 2. Two level narrative structure
+
+- First narrative level (narrative folder) = second document level (chapter).
+- Second narrative level (event) = third document level (scene).
+
+When using a **".csv" export file** instead, the document structure is given by the label in the *Narrative Position* row:
+
+- **Part** = first document level (chapter beginning an new section)).
+- **Chapter** = second document level (chapter).
+- **Scene** = third document level (scene). 
+
+
+## Set up your timeline for conversion
 
 The aeon3yw distribution comes with a "yWriter.aeonTpl" Aeon 3 template in the "sample" folder. You can install it via the *Aeon Timeline Preferences*.
 
@@ -57,7 +79,7 @@ In the "Advanced settings" make sure a "Viewpoint" relationship exists for chara
 See [below](#custom-configuration)
 
 
-## csv export from Aeon Timeline 3
+## csv export from Aeon Timeline 3 (optional)
 
 - The csv file exported by Aeon Timeline 3 must be **comma**-separated.
 - Make sure all *Item Types for Export* checkboxes are ticked.
@@ -82,7 +104,7 @@ An optional project configuration file named `aeon3yw.ini` can be placed in your
 
 The aeon3yw distribution comes with a sample configuration file located in the `sample` subfolder. It contains aeon3yw's default settings and options. You can copy this file to the global configuration folder and edit it.
 
-- The SETTINGS section mainly refers to "labels", i.e. The csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon Timeline setup. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
+- The SETTINGS section mainly refers to "labels" in your Timeline settings. In case you use csv export, the labels are the csv field contents of the first row, which denote the columns. They might have to be adapted to your specific Aeon Timeline setup. If you change them, the program might behave differently than described in the description of the conversion rules below. Make sure the indicated csv fields contain data that can be processed by yWriter.
 - Comment lines begin with a `#` number sign. In the example, they refer to the code line immediately above.
 
 This is the configuration explained: 
@@ -98,61 +120,105 @@ chapter_number_prefix = Chapter
 
 # Prefix to the chapter number in the chapter's heading.
 
+type_event = Event
+
+# Label of the "Event" item type representing scenes. (.aeon only)
+
+type_character = Character
+
+# Label of the "Character" item type representing characters. 
+
+type_location = Location
+
+# Label of the "Location" item type representing locations. 
+
+type_item = Item
+
+# Label of the "Item" item type representing items. 
+
+character_label = Participant
+
+# Label of the "Participant" role type representing a list of 
+# characters associated to an event. 
+
+location_label = Location
+
+# Label of the "Location" role type representing a list of 
+# locations associated to an event. 
+
+item_label = Item
+
+# Label of the "Item" role type representing a list of 
+# items associated to an event. (not part of the template)
+
 part_desc_label = Label
 
 # Label of the csv field whose contents are imported
-# as the part's description to yWriter.
+# as the part's description to yWriter. (.csv only)
 
 chapter_desc_label = Label
 
 # Label of the csv field whose contents are imported
-# as the chapter's description to yWriter.
+# as the chapter's description to yWriter. (.csv only)
 
 scene_desc_label = Summary
 
 # Label of the csv field whose contents are imported
-# as the scene's description to yWriter.
+# as the scene's description to yWriter. (.csv only)
 
 scene_title_label = Label
 
 # Label of the csv field whose contents are imported
-# as the scene's title to yWriter.
+# as the scene's title to yWriter. (.csv only)
 
 notes_label = Notes
 
-# Label of the csv field whose contents are imported
-# as the scene's notes to yWriter.
+# Label of the "Notes" property of events and characters.
 
 tag_label = Tags
 
 # Label of the csv field whose contents are imported
-# as the scene's tags to yWriter.
-
-location_label = Location
-
-# Label of the csv field whose contents are imported
-# as the scene's locations to yWriter.
-
-item_label = Item
-
-# Label of the csv field whose contents are imported
-# as the scene's items to yWriter.
-
-character_label = Participant
-
-# Label of the csv field whose contents are imported
-# as the scene's characters to yWriter.
+# as the scene's tags to yWriter. (.csv only)
 
 viewpoint_label = Viewpoint
 
-# Label of the csv field whose contents are imported
-# as the scene's viewpoint to yWriter.
+# Label of the "Viewpoint" property of events.
 
+character_bio_label = Summary
+
+# Label of the csv field whose contents are imported
+# as the character's biography to yWriter. (.csv only)
+
+character_aka_label = Nickname
+
+# Label of the "Nickname" property of characters.
+
+character_desc_label1 = Characteristics
+
+# Label of the character property imported as first part of 
+# the character description.
+
+character_desc_label2 = Traits
+
+# Label of the character property imported as second part of 
+# the character description.
+
+character_desc_label3 = 
+
+# Label of the character property imported as third part of 
+# the character description.
+
+location_desc_label = Summary
+
+# Label of the csv field whose contents are imported
+# as the location's description to yWriter. (.csv only)
 
 ```
 
-Note: Your custom configuration file does not have to contain all the entries listed above. 
-The changed entries are sufficient. 
+Note: Your custom configuration file does not have to contain all the entries listed above. The changed entries are sufficient. 
+
+- *.csv only* means that this label isn't configurable for *.aeon* import.
+- *.aeon only* means that this label isn't configurable for *.csv* import.
 
 ## Conversion rules
 
