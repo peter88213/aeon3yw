@@ -5,7 +5,8 @@
 ## Features
 
 - The release comes with a template for Aeon Timeline 3 that provides a suitable narrative folder structure and a "Viewpoint" character role.
-- The aeon3yw Python script converts Aeon's csv export into a new yWriter project.
+- The aeon3yw Python script read the *.aeon* project file and generates a new yWriter project from it.
+- Alternatively, it converts Aeon's csv export into a new yWriter project.
 - Events belonging to the narrative structure are converted to yWriter scenes.
 - Chapters are created according to the "Narrative Folder" structure.
 - Events not belonging to the narrative structure are converted to "Notes" scenes and placed in a "Notes" chapter.
