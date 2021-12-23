@@ -8,6 +8,12 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v0.6.1 Beta release: Enable non-Windows operation 
+
+- Catch an exception that is thrown when evaluating a Windows environment variable under a non-Windows OS.
+
+Based on PyWriter v3.28.1
+
 ### v0.6.0 Beta release: Read the .aeon file format 
 
 - Read the native .aeon file format. CSV is optional.
