@@ -27,9 +27,9 @@
 
 ## Download and install
 
-[Download the latest release (version 0.6.1)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.6.1.zip)
+[Download the latest release (version 0.6.2)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v0.6.2.zip)
 
-- Unzip the downloaded zipfile "aeon3yw_v0.6.1.zip" into a new folder.
+- Unzip the downloaded zipfile "aeon3yw_v0.6.2.zip" into a new folder.
 - Move into this new folder and launch **install.bat**. This installs the script for the local user.
 - Create a shortcut on the desktop when asked.
 - Start Aeon Timeline 3 and import the "yWriter" template from the "sample" folder.

@@ -10,6 +10,7 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 """
 import os
 import argparse
+from pathlib import Path
 
 from pywriter.ui.ui import Ui
 from pywriter.ui.ui_tk import UiTk
@@ -96,7 +97,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     try:
-        installDir = os.getenv('APPDATA').replace('\\', '/') + '/pyWriter/' + APPNAME + '/config/'
+        installDir = str(Path.home()).replace('\\', '/') + '/.pywriter/' + APPNAME + '/config/'
 
     except:
         installDir = ''

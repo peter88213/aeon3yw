@@ -94,7 +94,7 @@ You can override the default settings by providing a configuration file. Be alwa
 ### Global configuration
 
 An optional global configuration file can be placed in the configuration directory in your user profile. It is applied to any project. Its entries override aeon3yw's built-in constants. This is the path:
-`c:\Users\<user name>\AppData\Roaming\PyWriter\aeon3yw\config\aeon3yw.ini`
+`c:\Users\<user name>\.pywriter\aeon3yw\config\aeon3yw.ini`
   
 ### Local project configuration
 
@@ -245,7 +245,7 @@ The column labels refer to timelines based on the "yWriter" template.
 
 ## Installation path
 
-The **install.bat** installation script installs *aeon3yw.pyw* in the user profile. This is the installation path: 
+The **install.bat** installation script installs *aeon3yw.pyw* in the user profile. This is the installation path on Windows: 
 
-`c:\Users\<user name>\AppData\Roaming\PyWriter\aeon3yw`
+`c:\Users\<user name>\.pywriter\aeon3yw`
     
