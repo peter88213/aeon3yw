@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="aeon3yw" basedir=".">
-	<property name="release" value="0.6.2" />
-	<property name="src" location="../src" />
-	<property name="test" location="../test" />
-	<property name="build" location="../build" />
-	<property name="dist" location="../dist" />
-	<property name="docs" location="../docs" />
-	<property name="project-name" value="${ant.project.name}" />
-	<property name="release-name" value="${project-name}_v${release}" />
+	<property name="version" value="0.6.2" />
+	<property name="test-app" value="aeon3yw" />
+	
+	<property name="source-path" location="../src" />
+	<property name="test-path" location="../test" />
+	<property name="build-path" location="../build" />
+	<property name="dist-path" location="../dist" />
+	<property name="docs-path" location="../docs" />
+	<property name="application" value="${ant.project.name}" />
+	<property name="release" value="${application}_v${version}" />
 
 	<target name="build" description="inline all library modules">
-		<delete file="${test}/aeon3yw.pyw" />
+		<delete file="${test-path}/${test-app}.pyw" />
 		<exec executable="python" failonerror="true">
-		    <arg value="${src}/build_aeon3yw.py"/>
-		</exec>
-		<fixcrlf encoding="utf-8" eol="lf" srcdir="${test}" includes="**/*.pyw" />
-	</target>
-
-	<target name="test" description="inline all library modules">
-		<exec executable="python" failonerror="true">
-		    <arg value="${test}/test_aeon3yw.py"/>
+		    <arg value="${source-path}/build_${test-app}.py"/>
 		</exec>
 	</target>
 
-	<target name="dist" description="generate the distribution">
-		<delete dir="${build}" />
-		<mkdir dir="${build}" />
-		<delete dir="${dist}" />
-		<mkdir dir="${dist}" />
-		<mkdir dir="${build}/${release-name}" />
+	<target name="test" description="integration test">
+		<copy file="${test-path}/test_${test-app}_.py" tofile="${test-path}/test_${test-app}.py" />
+		<replace encoding="utf-8" file="${test-path}/test_${test-app}.py" token="${test-app}_" value="${test-app}" />
+		<exec executable="python" failonerror="true">
+		    <arg value="${test-path}/test_${test-app}.py"/>
+		</exec>
+	</target>
 
-		<copy todir="${build}/${release-name}/sample"> 
+	<target name="dist" description="generate the distribution">		
+		<delete dir="${build-path}" />
+		<delete dir="${dist-path}" />
+		<mkdir dir="${build-path}" />
+		<mkdir dir="${dist-path}" />
+		<mkdir dir="${build-path}/${release}" />
+		
+		<copy file="${test-path}/${test-app}.pyw" tofile="${build-path}/${release}/${application}.pyw" />
+		<replace encoding="utf-8" file="${build-path}/${release}/${application}.pyw" token="@version" value="${version}" />
+		
+		<copy file="${source-path}/setup.pyw" todir="${build-path}/${release}" />		
+		<replace encoding="utf-8" file="${build-path}/${release}/setup.pyw" token="@version" value="${version}" />
+
+		<copy file="../LICENSE" todir="${build-path}/${release}" />	
+		<copy file="${docs-path}/usage.md" tofile="${build-path}/${release}/README.md" />
+		
+		<fixcrlf encoding="utf-8" eol="lf" srcdir="${build-path}/${release}" includes="**/*.*" />
+		
+		<copy todir="${build-path}/${release}/sample" failonerror="false"> 
 			<fileset dir="../sample" />
-		</copy>
+		</copy>		
+			
+		<zip destfile="${dist-path}/${release}.zip" basedir="${build-path}/${release}" />
 		
-	
-		<copy file="${test}/aeon3yw.pyw" tofile="${build}/${release-name}/aeon3yw.pyw" />
-		<replace encoding="utf-8" file="${build}/${release-name}/aeon3yw.pyw" token="@release" value="${release}" />
-
-		<copy file="${src}/setup.pyw" todir="${build}/${release-name}" />		
-		<replace encoding="utf-8" file="${build}/${release-name}/setup.pyw" token="@release" value="${release}" />
-		
-		
-		<copy file="../LICENSE" todir="${build}/${release-name}" />
-		<copy file="${docs}/usage.md" tofile="${build}/${release-name}/README.md" />
-
-		<fixcrlf encoding="utf-8" eol="lf" srcdir="${build}/${release-name}" includes="**/*.*" />
-
-		<zip destfile="${dist}/${release-name}.zip" basedir="${build}/${release-name}" />
-
-		<copy file="${docs}/template/index.md" overwrite="True" todir="${docs}" />
-		<replace encoding="utf-8" file="${docs}/index.md" token="0.99.0" value="${release}" />
+		<copy file="${docs-path}/template/index.md" overwrite="True" todir="${docs-path}" />
+		<replace encoding="utf-8" file="${docs-path}/index.md" token="0.99.0" value="${version}" />
 	</target>
 
 	<target name="clean" description="clean up">		
-		<delete file="${test}/aeon3yw.pyw" />
+		<delete file="${test-path}/${test-app}.pyw" />
+		<delete file="${test-path}/test_${test-app}.py" />		
 	</target>
 
 </project>
