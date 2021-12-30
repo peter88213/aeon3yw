@@ -34,10 +34,10 @@
 		<mkdir dir="${build-path}/${release}" />
 		
 		<copy file="${test-path}/${test-app}.pyw" tofile="${build-path}/${release}/${application}.pyw" />
-		<replace encoding="utf-8" file="${build-path}/${release}/${application}.pyw" token="@version" value="${version}" />
+		<replace encoding="utf-8" file="${build-path}/${release}/${application}.pyw" token="@release" value="${version}" />
 		
 		<copy file="${source-path}/setup.pyw" todir="${build-path}/${release}" />		
-		<replace encoding="utf-8" file="${build-path}/${release}/setup.pyw" token="@version" value="${version}" />
+		<replace encoding="utf-8" file="${build-path}/${release}/setup.pyw" token="@release" value="${version}" />
 
 		<copy file="../LICENSE" todir="${build-path}/${release}" />	
 		<copy file="${docs-path}/usage.md" tofile="${build-path}/${release}/README.md" />
