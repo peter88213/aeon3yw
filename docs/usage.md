@@ -245,7 +245,7 @@ The column labels refer to timelines based on the "yWriter" template.
 
 ## Installation path
 
-The **install.bat** installation script installs *aeon3yw.pyw* in the user profile. This is the installation path on Windows: 
+The setup script installs *aeon3yw.pyw* in the user profile. This is the installation path on Windows: 
 
 `c:\Users\<user name>\.pywriter\aeon3yw`
     
