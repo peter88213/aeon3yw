@@ -1,4 +1,4 @@
-"""Modules for processing Aeon Timeline 3 project files.
+"""Package for processing Aeon Timeline 3 project files.
 
 Modules:
 
