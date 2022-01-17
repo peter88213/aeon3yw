@@ -1,6 +1,6 @@
 """Provide a class for Aeon Timeline 3 csv representation.
 
-Copyright (c) 2021 Peter Triesberger
+Copyright (c) 2022 Peter Triesberger
 For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
@@ -60,7 +60,7 @@ class CsvTimeline3(Novel):
         """Extend the superclass constructor,
         defining instance variables.
         """
-        Novel.__init__(self, filePath, **kwargs)
+        super().__init__(filePath, **kwargs)
         self.labels = []
         self.partNrPrefix = kwargs['part_number_prefix']
 
