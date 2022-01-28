@@ -469,4 +469,4 @@ class JsonTimeline3(Novel):
             if self.scenes[scId].isNotesScene:
                 self.chapters[chId].srtScenes.append(scId)
 
-        return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'
+        return 'SUCCESS'

@@ -240,17 +240,17 @@ class CsvTimeline3(Novel):
                         self.srtItems.append(itId)
 
         except(FileNotFoundError):
-            return 'ERROR: "' + os.path.normpath(self.filePath) + '" not found.'
+            return 'ERROR: "{}" not found.'.format(os.path.normpath(self.filePath))
 
         except:
-            return 'ERROR: Can not parse csv file "' + os.path.normpath(self.filePath) + '".'
+            return 'ERROR: Can not parse csv file "{}".'.format(os.path.normpath(self.filePath))
 
         try:
 
             for label in [self._SCENE_FIELD, self.sceneTitleField, self._START_DATE_TIME_FIELD, self._END_DATE_TIME_FIELD]:
 
                 if not label in self.labels:
-                    return 'ERROR: Label "' + label + '" is missing.'
+                    return 'ERROR: Label "{}" is missing.'.format(label)
 
             scIdsByStruc = {}
             chIdsByStruc = {}
@@ -380,7 +380,7 @@ class CsvTimeline3(Novel):
                 self.scenes[scId].status = 1
 
         except(FileNotFoundError):
-            return 'ERROR: "' + os.path.normpath(self.filePath) + '" not found.'
+            return 'ERROR: "{}" not found.'.format(os.path.normpath(self.filePath))
 
         except(KeyError):
             return 'ERROR: Wrong csv structure.'
@@ -389,7 +389,7 @@ class CsvTimeline3(Novel):
             return 'ERROR: Wrong date/time format.'
 
         except:
-            return 'ERROR: Can not parse "' + os.path.normpath(self.filePath) + '".'
+            return 'ERROR: Can not parse "{}".'.format(os.path.normpath(self.filePath))
 
         # Build the chapter structure as defined with Aeon v3.
 
@@ -426,4 +426,4 @@ class CsvTimeline3(Novel):
         self.chapters[chId].srtScenes = otherEvents
         self.srtChapters.append(chId)
 
-        return 'SUCCESS: Data read from "' + os.path.normpath(self.filePath) + '".'
+        return 'SUCCESS'

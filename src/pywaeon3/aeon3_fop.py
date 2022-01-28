@@ -18,10 +18,10 @@ def scan_file(filePath):
             binInput = f.read()
 
     except(FileNotFoundError):
-        return 'ERROR: "' + os.path.normpath(filePath) + '" not found.'
+        return 'ERROR: "{}" not found.'.format(os.path.normpath(filePath))
 
     except:
-        return 'ERROR: Cannot read "' + os.path.normpath(filePath) + '".'
+        return 'ERROR: Cannot read "{}".'.format(os.path.normpath(filePath))
 
     # JSON part: all characters between the first and last curly bracket.
 
@@ -51,6 +51,6 @@ def scan_file(filePath):
         jsonStr = codecs.decode(bytes(chrData), encoding='utf-8')
 
     except:
-        return 'ERROR: Cannot decode "' + os.path.normpath(filePath) + '".'
+        return 'ERROR: Cannot decode "{}".'.format(os.path.normpath(filePath))
 
     return jsonStr
