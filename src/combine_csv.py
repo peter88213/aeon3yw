@@ -20,7 +20,7 @@ labels = []
 for filename in os.listdir(directory):
 
     if filename.endswith('.csv') and filename != RESULT:
-        print('Reading ' + filename)
+        print(f'Reading {filename}')
 
         with open(filename, newline='') as csvfile:
             reader = csv.DictReader(csvfile)
@@ -44,7 +44,7 @@ if len(result):
         for row in result:
             writer.writerow(row)
 
-        print(RESULT + ' written.')
+        print(f'{RESULT} written.')
 
 else:
     print('No csv file found.')
