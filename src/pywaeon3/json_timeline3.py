@@ -4,7 +4,6 @@ Copyright (c) 2022 Peter Triesberger
 For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
-import os
 import json
 from datetime import datetime
 from datetime import timedelta
@@ -70,13 +69,13 @@ class JsonTimeline3(Novel):
         fetching the relevant data.
         Extend the superclass.
 
-        Return a message beginning with SUCCESS or ERROR.
+        Return a message beginning with the ERROR constant in case of error.
         """
 
         jsonPart = scan_file(self.filePath)
 
         if not jsonPart:
-            return f'{ERROR}: No JSON part found.'
+            return f'{ERROR}No JSON part found.'
 
         elif jsonPart.startswith(ERROR):
             return jsonPart
@@ -85,7 +84,7 @@ class JsonTimeline3(Novel):
             jsonData = json.loads(jsonPart)
 
         except('JSONDecodeError'):
-            return f'{ERROR}: Invalid JSON data.'
+            return f'{ERROR}Invalid JSON data.'
 
         #--- Find types.
 
@@ -470,4 +469,4 @@ class JsonTimeline3(Novel):
             if self.scenes[scId].isNotesScene:
                 self.chapters[chId].srtScenes.append(scId)
 
-        return 'SUCCESS'
+        return 'Timeline data converted to novel structure.'

@@ -8,6 +8,13 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v1.0.0 Public release
+
+- Rework the error messaging system.
+- Refactor.
+
+Based on PyWriter v5.0.0
+
 ### v0.6.2  Beta release: Support non-Windows OS
 
 - Move installation and configuration to another location (see instructions for use).

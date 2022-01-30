@@ -96,7 +96,7 @@ class CsvTimeline3(Novel):
     def read(self):
         """Parse the timeline structure.
 
-        Return a message beginning with SUCCESS or ERROR.
+        Return a message beginning with the ERROR constant in case of error.
         """
 
         def get_lcIds(lcTitles):
@@ -241,17 +241,17 @@ class CsvTimeline3(Novel):
                         self.srtItems.append(itId)
 
         except(FileNotFoundError):
-            return f'{ERROR}: "{os.path.normpath(self.filePath)}" not found.'
+            return f'{ERROR}"{os.path.normpath(self.filePath)}" not found.'
 
         except:
-            return f'{ERROR}: Can not parse csv file "{os.path.normpath(self.filePath)}".'
+            return f'{ERROR}Can not parse csv file "{os.path.normpath(self.filePath)}".'
 
         try:
 
             for label in [self._SCENE_FIELD, self.sceneTitleField, self._START_DATE_TIME_FIELD, self._END_DATE_TIME_FIELD]:
 
                 if not label in self.labels:
-                    return f'{ERROR}: Label "{label}" is missing.'
+                    return f'{ERROR}Label "{label}" is missing.'
 
             scIdsByStruc = {}
             chIdsByStruc = {}
@@ -381,16 +381,16 @@ class CsvTimeline3(Novel):
                 self.scenes[scId].status = 1
 
         except(FileNotFoundError):
-            return f'{ERROR}: "{os.path.normpath(self.filePath)}" not found.'
+            return f'{ERROR}"{os.path.normpath(self.filePath)}" not found.'
 
         except(KeyError):
-            return f'{ERROR}: Wrong csv structure.'
+            return f'{ERROR}Wrong csv structure.'
 
         except(ValueError):
-            return f'{ERROR}: Wrong date/time format.'
+            return f'{ERROR}Wrong date/time format.'
 
         except:
-            return f'{ERROR}: Can not parse "{os.path.normpath(self.filePath)}".'
+            return f'{ERROR}Can not parse "{os.path.normpath(self.filePath)}".'
 
         # Build the chapter structure as defined with Aeon v3.
 
@@ -427,4 +427,4 @@ class CsvTimeline3(Novel):
         self.chapters[chId].srtScenes = otherEvents
         self.srtChapters.append(chId)
 
-        return 'SUCCESS'
+        return 'Timeline data converted to novel structure.'

@@ -20,10 +20,10 @@ def scan_file(filePath):
             binInput = f.read()
 
     except(FileNotFoundError):
-        return f'{ERROR}: "{os.path.normpath(filePath)}" not found.'
+        return f'{ERROR}"{os.path.normpath(filePath)}" not found.'
 
     except:
-        return f'{ERROR}: Cannot read "{os.path.normpath(filePath)}".'
+        return f'{ERROR}Cannot read "{os.path.normpath(filePath)}".'
 
     # JSON part: all characters between the first and last curly bracket.
 
@@ -47,12 +47,12 @@ def scan_file(filePath):
                     break
 
     if level != 0:
-        return f'{ERROR}: Corrupted data.'
+        return f'{ERROR}Corrupted data.'
 
     try:
         jsonStr = codecs.decode(bytes(chrData), encoding='utf-8')
 
     except:
-        return f'{ERROR}: Cannot decode "{os.path.normpath(filePath)}".'
+        return f'{ERROR}Cannot decode "{os.path.normpath(filePath)}".'
 
     return jsonStr
