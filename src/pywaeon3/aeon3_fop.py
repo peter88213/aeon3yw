@@ -7,6 +7,8 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 import os
 import codecs
 
+from pywriter.pywriter_globals import ERROR
+
 
 def scan_file(filePath):
     """Read and scan the project file.
@@ -18,10 +20,10 @@ def scan_file(filePath):
             binInput = f.read()
 
     except(FileNotFoundError):
-        return 'ERROR: "{}" not found.'.format(os.path.normpath(filePath))
+        return f'{ERROR}: "{os.path.normpath(filePath)}" not found.'
 
     except:
-        return 'ERROR: Cannot read "{}".'.format(os.path.normpath(filePath))
+        return f'{ERROR}: Cannot read "{os.path.normpath(filePath)}".'
 
     # JSON part: all characters between the first and last curly bracket.
 
@@ -45,12 +47,12 @@ def scan_file(filePath):
                     break
 
     if level != 0:
-        return 'ERROR: Corrupted data.'
+        return f'{ERROR}: Corrupted data.'
 
     try:
         jsonStr = codecs.decode(bytes(chrData), encoding='utf-8')
 
     except:
-        return 'ERROR: Cannot decode "{}".'.format(os.path.normpath(filePath))
+        return f'{ERROR}: Cannot decode "{os.path.normpath(filePath)}".'
 
     return jsonStr

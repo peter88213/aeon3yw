@@ -9,6 +9,7 @@ import json
 from datetime import datetime
 from datetime import timedelta
 
+from pywriter.pywriter_globals import ERROR
 from pywriter.model.novel import Novel
 from pywriter.model.scene import Scene
 from pywriter.model.chapter import Chapter
@@ -75,16 +76,16 @@ class JsonTimeline3(Novel):
         jsonPart = scan_file(self.filePath)
 
         if not jsonPart:
-            return 'ERROR: No JSON part found.'
+            return f'{ERROR}: No JSON part found.'
 
-        elif jsonPart.startswith('ERROR'):
+        elif jsonPart.startswith(ERROR):
             return jsonPart
 
         try:
             jsonData = json.loads(jsonPart)
 
         except('JSONDecodeError'):
-            return 'ERROR: Invalid JSON data.'
+            return f'{ERROR}: Invalid JSON data.'
 
         #--- Find types.
 

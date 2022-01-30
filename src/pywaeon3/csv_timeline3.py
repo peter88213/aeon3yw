@@ -9,6 +9,7 @@ import csv
 
 from datetime import datetime
 
+from pywriter.pywriter_globals import ERROR
 from pywriter.model.novel import Novel
 from pywriter.model.scene import Scene
 from pywriter.model.chapter import Chapter
@@ -240,17 +241,17 @@ class CsvTimeline3(Novel):
                         self.srtItems.append(itId)
 
         except(FileNotFoundError):
-            return 'ERROR: "{}" not found.'.format(os.path.normpath(self.filePath))
+            return f'{ERROR}: "{os.path.normpath(self.filePath)}" not found.'
 
         except:
-            return 'ERROR: Can not parse csv file "{}".'.format(os.path.normpath(self.filePath))
+            return f'{ERROR}: Can not parse csv file "{os.path.normpath(self.filePath)}".'
 
         try:
 
             for label in [self._SCENE_FIELD, self.sceneTitleField, self._START_DATE_TIME_FIELD, self._END_DATE_TIME_FIELD]:
 
                 if not label in self.labels:
-                    return 'ERROR: Label "{}" is missing.'.format(label)
+                    return f'{ERROR}: Label "{label}" is missing.'
 
             scIdsByStruc = {}
             chIdsByStruc = {}
@@ -380,16 +381,16 @@ class CsvTimeline3(Novel):
                 self.scenes[scId].status = 1
 
         except(FileNotFoundError):
-            return 'ERROR: "{}" not found.'.format(os.path.normpath(self.filePath))
+            return f'{ERROR}: "{os.path.normpath(self.filePath)}" not found.'
 
         except(KeyError):
-            return 'ERROR: Wrong csv structure.'
+            return f'{ERROR}: Wrong csv structure.'
 
         except(ValueError):
-            return 'ERROR: Wrong date/time format.'
+            return f'{ERROR}: Wrong date/time format.'
 
         except:
-            return 'ERROR: Can not parse "{}".'.format(os.path.normpath(self.filePath))
+            return f'{ERROR}: Can not parse "{os.path.normpath(self.filePath)}".'
 
         # Build the chapter structure as defined with Aeon v3.
 
