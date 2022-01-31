@@ -447,13 +447,13 @@ class JsonTimeline3(Novel):
                 partCount += 1
 
                 if not self.chapters[chId].title:
-                    self.chapters[chId].title = self.partHdPrefix + ' ' + str(partCount)
+                    self.chapters[chId].title = f'{self.partHdPrefix} {partCount}'
 
             else:
                 chapterCount += 1
 
                 if not self.chapters[chId].title:
-                    self.chapters[chId].title = self.chapterHdPrefix + ' ' + str(chapterCount)
+                    self.chapters[chId].title = f'{self.chapterHdPrefix} {chapterCount}'
 
         #--- Create a "Notes" chapter for non-narrative scenes.
 
