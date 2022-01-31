@@ -88,7 +88,7 @@ class CorruptedData(unittest.TestCase):
         Expected result: program abort with error message.
         """
         message = scan_file(TEST_DATA)
-        self.assertEqual(message, f'{ERROR} Corrupted data.')
+        self.assertEqual(message, f'{ERROR}Corrupted data.')
 
 
 class FileAccessError(unittest.TestCase):
@@ -123,4 +123,4 @@ class FileAccessError(unittest.TestCase):
         # Make sure that the test file doesn't exist
 
         message = scan_file(TEST_DATA)
-        self.assertEqual(message, f'{ERROR} "' + os.path.normpath(TEST_DATA) + '" not found.')
+        self.assertEqual(message, f'{ERROR}"' + os.path.normpath(TEST_DATA) + '" not found.')
