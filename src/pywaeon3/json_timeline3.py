@@ -39,30 +39,30 @@ class JsonTimeline3(Novel):
 
         # JSON[definitions][types][byId]
 
-        self.labelEventType = kwargs['type_event']
-        self.labelCharacterType = kwargs['type_character']
-        self.labelLocationType = kwargs['type_location']
-        self.labelItemType = kwargs['type_item']
+        self._labelEventType = kwargs['type_event']
+        self._labelCharacterType = kwargs['type_character']
+        self._labelLocationType = kwargs['type_location']
+        self._labelItemType = kwargs['type_item']
 
         # JSON[definitions][properties][byId]
 
-        self.labelNotesProperty = kwargs['notes_label']
-        self.labelChrDesc1Property = kwargs['character_desc_label1']
-        self.labelChrDesc2Property = kwargs['character_desc_label2']
-        self.labelChrDesc3Property = kwargs['character_desc_label3']
-        self.labelAkaProperty = kwargs['character_aka_label']
-        self.labelViewpointProperty = kwargs['viewpoint_label']
+        self._labelNotesProperty = kwargs['notes_label']
+        self._labelChrDesc1Property = kwargs['character_desc_label1']
+        self._labelChrDesc2Property = kwargs['character_desc_label2']
+        self._labelChrDesc3Property = kwargs['character_desc_label3']
+        self._labelAkaProperty = kwargs['character_aka_label']
+        self._labelViewpointProperty = kwargs['viewpoint_label']
 
         # JSON[definitions][references][byId]
 
-        self.labelParticipantRef = kwargs['character_label']
-        self.labelLocationRef = kwargs['location_label']
-        self.labelItemRef = kwargs['item_label']
+        self._labelParticipantRef = kwargs['character_label']
+        self._labelLocationRef = kwargs['location_label']
+        self._labelItemRef = kwargs['item_label']
 
         # Misc.
 
-        self.partHdPrefix = kwargs['part_number_prefix']
-        self.chapterHdPrefix = kwargs['chapter_number_prefix']
+        self._partHdPrefix = kwargs['part_number_prefix']
+        self._chapterHdPrefix = kwargs['chapter_number_prefix']
 
     def read(self):
         """Extract the JSON part of the Aeon Timeline 3 file located at filePath, 
@@ -99,16 +99,16 @@ class JsonTimeline3(Novel):
             if jsonData['definitions']['types']['byId'][uid]['isNarrativeFolder']:
                 NarrativeFolderTypes.append(uid)
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelEventType:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self._labelEventType:
                 typeEventUid = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelCharacterType:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self._labelCharacterType:
                 typeCharacterUid = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelLocationType:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self._labelLocationType:
                 typeLocationUid = uid
 
-            elif jsonData['definitions']['types']['byId'][uid]['label'] == self.labelItemType:
+            elif jsonData['definitions']['types']['byId'][uid]['label'] == self._labelItemType:
                 typeItemUid = uid
 
         #--- Find properties.
@@ -122,22 +122,22 @@ class JsonTimeline3(Novel):
 
         for uid in jsonData['definitions']['properties']['byId']:
 
-            if jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelNotesProperty:
+            if jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelNotesProperty:
                 typeNotesUid = uid
 
-            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelChrDesc1Property:
+            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelChrDesc1Property:
                 propChrDesc1Uid = uid
 
-            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelChrDesc2Property:
+            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelChrDesc2Property:
                 propChrDesc2Uid = uid
 
-            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelChrDesc3Property:
+            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelChrDesc3Property:
                 propChrDesc3Uid = uid
 
-            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelAkaProperty:
+            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelAkaProperty:
                 propAkaUid = uid
 
-            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self.labelViewpointProperty:
+            elif jsonData['definitions']['properties']['byId'][uid]['label'] == self._labelViewpointProperty:
                 propViewpointUid = uid
 
         #--- Find references.
@@ -147,10 +147,10 @@ class JsonTimeline3(Novel):
 
         for uid in jsonData['definitions']['references']['byId']:
 
-            if jsonData['definitions']['references']['byId'][uid]['label'] == self.labelParticipantRef:
+            if jsonData['definitions']['references']['byId'][uid]['label'] == self._labelParticipantRef:
                 refParticipant = uid
 
-            elif jsonData['definitions']['references']['byId'][uid]['label'] == self.labelLocationRef:
+            elif jsonData['definitions']['references']['byId'][uid]['label'] == self._labelLocationRef:
                 refLocation = uid
 
         #--- Read items.
@@ -447,13 +447,13 @@ class JsonTimeline3(Novel):
                 partCount += 1
 
                 if not self.chapters[chId].title:
-                    self.chapters[chId].title = f'{self.partHdPrefix} {partCount}'
+                    self.chapters[chId].title = f'{self._partHdPrefix} {partCount}'
 
             else:
                 chapterCount += 1
 
                 if not self.chapters[chId].title:
-                    self.chapters[chId].title = f'{self.chapterHdPrefix} {chapterCount}'
+                    self.chapters[chId].title = f'{self._chapterHdPrefix} {chapterCount}'
 
         #--- Create a "Notes" chapter for non-narrative scenes.
 
