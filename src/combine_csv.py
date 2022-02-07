@@ -33,7 +33,7 @@ for filename in os.listdir(directory):
             for row in reader:
                 result.append(row)
 
-if len(result):
+if result:
 
     # Write result to a new csv file.
 
