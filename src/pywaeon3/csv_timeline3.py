@@ -210,7 +210,7 @@ class CsvTimeline3(Novel):
                         if self.characterAkaField in aeonEntity:
                             self.characters[crId].aka = aeonEntity[self.characterAkaField]
 
-                        if self.tagField in aeonEntity and aeonEntity[self.tagField] != '':
+                        if self.tagField in aeonEntity and aeonEntity[self.tagField]:
                             self.characters[crId].tags = aeonEntity[self.tagField].split(internalDelimiter)
 
                         if self.notesField in aeonEntity:
@@ -350,7 +350,7 @@ class CsvTimeline3(Novel):
                 if self.notesField in aeonEntity:
                     self.scenes[scId].sceneNotes = aeonEntity[self.notesField]
 
-                if self.tagField in aeonEntity and aeonEntity[self.tagField] != '':
+                if self.tagField in aeonEntity and aeonEntity[self.tagField]:
                     self.scenes[scId].tags = aeonEntity[self.tagField].split(internalDelimiter)
 
                 if self.locationField in aeonEntity:
