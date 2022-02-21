@@ -5,7 +5,7 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 """
 import os
 import unittest
-from pywaeon3.json_timeline3 import JsonTimeline3
+from aeon3ywlib.json_timeline3 import JsonTimeline3
 from shutil import copyfile
 
 TEST_PATH = os.getcwd() + '/../test'

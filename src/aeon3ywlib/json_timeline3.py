@@ -15,7 +15,7 @@ from pywriter.model.chapter import Chapter
 from pywriter.model.world_element import WorldElement
 from pywriter.model.character import Character
 
-from pywaeon3.aeon3_fop import scan_file
+from aeon3ywlib.aeon3_fop import scan_file
 
 
 class JsonTimeline3(Novel):

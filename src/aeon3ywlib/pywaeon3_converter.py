@@ -7,8 +7,8 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 from pywriter.converter.yw_cnv_ff import YwCnvFf
 from pywriter.converter.new_project_factory import NewProjectFactory
 
-from pywaeon3.json_timeline3 import JsonTimeline3
-from pywaeon3.csv_timeline3 import CsvTimeline3
+from aeon3ywlib.json_timeline3 import JsonTimeline3
+from aeon3ywlib.csv_timeline3 import CsvTimeline3
 
 
 class Pywaeon3Converter(YwCnvFf):

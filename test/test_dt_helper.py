@@ -6,7 +6,7 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 """
 import unittest
 
-from pywaeon3.dt_helper import fix_iso_dt
+from aeon3ywlib.dt_helper import fix_iso_dt
 
 TEST_DT = [
     ['BC 333-04-05', None],

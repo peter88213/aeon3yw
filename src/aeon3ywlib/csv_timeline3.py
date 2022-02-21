@@ -16,7 +16,7 @@ from pywriter.model.chapter import Chapter
 from pywriter.model.world_element import WorldElement
 from pywriter.model.character import Character
 
-from pywaeon3.dt_helper import fix_iso_dt
+from aeon3ywlib.dt_helper import fix_iso_dt
 
 
 class CsvTimeline3(Novel):

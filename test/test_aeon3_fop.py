@@ -11,7 +11,7 @@ import stat
 from shutil import copyfile
 
 from pywriter.pywriter_globals import ERROR
-from pywaeon3.aeon3_fop import scan_file
+from aeon3ywlib.aeon3_fop import scan_file
 
 TEST_DATA_REF = 'data/fop/normal.aeon'
 TEST_JSON_REF = 'data/fop/normal.json'
