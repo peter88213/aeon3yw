@@ -8,6 +8,10 @@ Published under the MIT License (https://opensource.org/licenses/mit-license.php
 
 def fix_iso_dt(dateTimeStr):
     """Return a date/time string with a four-number year.
+    
+    Positional arguments:
+        dateTimeStr -- str: date/time as read in from Aeon3 csv export.
+    
     This is required for comparing date/time strings, 
     and by the datetime.fromisoformat() method.
 
@@ -23,15 +27,11 @@ def fix_iso_dt(dateTimeStr):
         return None
 
     dt = dateTimeStr.split(' ')
-
     if len(dt) == 1:
         dt.append('00:00:00')
-
     date = dt[0].split('-')
-
     while len(date) < 3:
         date.append('01')
-
     if int(date[0]) < 100:
         return None
 

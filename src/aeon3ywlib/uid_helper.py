@@ -18,8 +18,6 @@ def get_uid():
     """
     sizes = [8, 4, 4, 4, 12]
     guid = []
-
     for size in sizes:
         guid.append(get_substring(size))
-
     return '-'.join(guid)

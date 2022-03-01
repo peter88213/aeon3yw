@@ -3,23 +3,20 @@
 
 Version @release
 Requires Python 3.6+
-Copyright (c) 2021 Peter Triesberger
+Copyright (c) 2022 Peter Triesberger
 For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
 import os
 import argparse
 from pathlib import Path
-
 from pywriter.ui.ui import Ui
 from pywriter.ui.ui_tk import UiTk
 from pywriter.config.configuration import Configuration
-
 from aeon3ywlib.pywaeon3_converter import Pywaeon3Converter
 
 SUFFIX = ''
 APPNAME = 'aeon3yw'
-
 SETTINGS = dict(
     part_number_prefix='Part',
     chapter_number_prefix='Chapter',
@@ -47,35 +44,25 @@ SETTINGS = dict(
 
 
 def run(sourcePath, silentMode=True, installDir=''):
-
     if silentMode:
         ui = Ui('')
-
     else:
         ui = UiTk('Aeon Timeline 3 to yWriter converter @release')
 
     #--- Try to get persistent configuration data
-
     sourceDir = os.path.dirname(sourcePath)
-
     if not sourceDir:
         sourceDir = './'
-
     else:
         sourceDir = f'{sourceDir}/'
-
     iniFileName = f'{APPNAME}.ini'
     iniFiles = [f'{installDir}{iniFileName}', f'{sourceDir}{iniFileName}']
-
     configuration = Configuration(SETTINGS)
-
     for iniFile in iniFiles:
         configuration.read(iniFile)
-
     kwargs = {'suffix': SUFFIX}
     kwargs.update(configuration.settings)
     kwargs.update(configuration.options)
-
     converter = Pywaeon3Converter()
     converter.ui = ui
     converter.run(sourcePath, **kwargs)
@@ -89,17 +76,13 @@ if __name__ == '__main__':
     parser.add_argument('sourcePath',
                         metavar='Sourcefile',
                         help='The path of the .aeon or .csv file.')
-
     parser.add_argument('--silent',
                         action="store_true",
                         help='suppress error messages and the request to confirm overwriting')
     args = parser.parse_args()
-
     try:
         homeDir = str(Path.home()).replace('\\', '/')
         installDir = f'{homeDir}/.pywriter/{APPNAME}/config/'
-
     except:
         installDir = ''
-
     run(args.sourcePath, args.silent, installDir)
