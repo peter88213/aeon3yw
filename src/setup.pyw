@@ -106,8 +106,8 @@ def install(pywriterPath):
 
     # Install a configuration file, if needed.
     try:
-        if not os.path.isfile(f'{cnfDir}{file.name}'):
-            copyfile(f'{SAMPLE_PATH}{file.name}', f'{cnfDir}{file.name}')
+        if not os.path.isfile(f'{cnfDir}{INI_FILE}'):
+            copyfile(f'{SAMPLE_PATH}{INI_FILE}', f'{cnfDir}{INI_FILE}')
             output(f'Copying "{INI_FILE}"')
         else:
             output(f'Keeping "{INI_FILE}"')

@@ -8,6 +8,14 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v1.0.1
+
+- Fix a bug in the setup script where the INI file is not installed.
+- Improve the code quality.
+- Improve the documentation.
+
+Based on PyWriter v5.0.2
+
 ### v1.0.0
 
 - Rework the error messaging system.
