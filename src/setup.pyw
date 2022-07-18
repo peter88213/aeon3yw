@@ -8,6 +8,7 @@ For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
 import os
+import sys
 import stat
 from shutil import copyfile
 from pathlib import Path
@@ -123,6 +124,9 @@ def install(pywriterPath):
         output(Template(SHORTCUT_MESSAGE).safe_substitute(mapping))
 
 if __name__ == '__main__':
+    scriptPath = os.path.abspath(sys.argv[0])
+    scriptDir = os.path.dirname(scriptPath)
+    os.chdir(scriptDir)
 
     # Open a tk window.
     root.geometry("800x600")
@@ -135,7 +139,11 @@ if __name__ == '__main__':
 
     # Run the installation.
     homePath = str(Path.home()).replace('\\', '/')
-    install(f'{homePath}/.pywriter/')
+    pywriterPath = f'{homePath}/.pywriter/'
+    try:
+        install(pywriterPath)
+    except Exception as ex:
+        output(str(ex))
 
     # Show options: open installation folders or quit.
     root.openButton = Button(text="Open installation folder", command=lambda: open_folder(f'{homePath}/.pywriter/{APPNAME}'))

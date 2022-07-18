@@ -8,6 +8,13 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v1.0.2 Update setup script
+
+- Change the working dir to the script dir on startup in order to avoid "file not found" error.
+- Catch exceptions in the setup script.
+
+Based on PyWriter v5.18.0
+
 ### v1.0.1
 
 - Fix a bug in the setup script where the INI file is not installed.
