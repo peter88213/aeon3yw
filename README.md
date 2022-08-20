@@ -7,19 +7,9 @@ For more information, see the [project homepage](https://peter88213.github.io/ae
 
 *aeon3yw* depends on the [pywriter](https://github.com/peter88213/PyWriter) library which must be present in your file system. It is organized as an Eclipse PyDev project. The official release branch on GitHub is *main*.
 
-### Mandatory directory structure for building the application script
+## Important
 
-```
-.
-├── PyWriter/
-│   └── src/
-│       └── pywriter/
-└── aeon3yw/
-    ├── src/
-    ├── test/
-    └── tools/ 
-        └── build.xml
-```
+Please note that the program has not yet been extensively tested. To me, it's actually just a proof of concept. I probably won't develop the program further. Feel free to copy the project and modify it to your own liking.
 
 ### Conventions
 
