@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Install the aeon3yw script. 
 
 Version @release
@@ -18,7 +17,6 @@ try:
 except ModuleNotFoundError:
     print('The tkinter module is missing. Please install the tk support package for your python3 version.')
     sys.exit(1)
-
 
 APPNAME = 'aeon3yw'
 VERSION = ' @release'
@@ -68,6 +66,7 @@ def open_folder(installDir):
                 # Mac
             except:
                 pass
+
 
 def install(pywriterPath):
     """Install the script."""
@@ -122,6 +121,7 @@ def install(pywriterPath):
     # Ask for shortcut creation.
     if not simpleUpdate:
         output(Template(SHORTCUT_MESSAGE).safe_substitute(mapping))
+
 
 if __name__ == '__main__':
     scriptPath = os.path.abspath(sys.argv[0])

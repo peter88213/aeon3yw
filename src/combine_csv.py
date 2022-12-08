@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Combine csv files
 
 Requires Python 3.7 or above

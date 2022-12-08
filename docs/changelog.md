@@ -8,6 +8,13 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v1.0.3 Prepare for Python 3.11
+
+- Remove "shebang" to make the program run with Python 3.11. 
+- Replace deprecated locale.getdefaultlocale() by locale.getlocale()
+
+Based on PyWriter v5.18.0
+
 ### v1.0.2 Update setup script
 
 - Change the working dir to the script dir on startup in order to avoid "file not found" error.

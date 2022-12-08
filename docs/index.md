@@ -19,15 +19,15 @@
  
 ## Requirements
 
-- [Python](https://www.python.org/) from version 3.6 to 3.10. Beware: Version 3.11 is not recommended.
+- [Python](https://www.python.org/) from version 3.6.
 - [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2](https://peter88213.github.io/aeon2yw).
 
 
 ## Download and install
 
-[Download the latest release (version 1.0.2)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v1.0.2.zip)
+[Download the latest release (version 1.0.3)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/dist/aeon3yw_v1.0.3.zip)
 
-- Unzip the downloaded zipfile "aeon3yw_v1.0.2.zip" into a new folder.
+- Unzip the downloaded zipfile "aeon3yw_v1.0.3.zip" into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the script for the local user.
 - Create a shortcut on the desktop when asked.
 - Start Aeon Timeline 3 and import the "yWriter" template from the "sample" folder.

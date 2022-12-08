@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Aeon Timeline 3 to yWriter converter 
 
 Version @release

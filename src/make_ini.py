@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Helper file for aeon3yw test.
 
 Create config file.

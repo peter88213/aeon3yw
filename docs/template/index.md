@@ -19,7 +19,7 @@
  
 ## Requirements
 
-- [Python](https://www.python.org/) from version 3.6 to 3.10. Beware: Version 3.11 is not recommended.
+- [Python](https://www.python.org/) from version 3.6.
 - [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2](https://peter88213.github.io/aeon2yw).
 
 
