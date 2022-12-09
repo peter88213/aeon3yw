@@ -1,5 +1,5 @@
 # aeon3yw
-Generate a yWriter project from an Aeon Timeline 3 csv export.
+Generate a yWriter project from an Aeon Timeline 3 project file.
 
 For more information, see the [project homepage](https://peter88213.github.io/aeon3yw) with description and download instructions.
 
