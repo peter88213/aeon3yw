@@ -19,7 +19,7 @@
  
 ## Requirements
 
-- [Python](https://www.python.org/) version 3.6+.
+- [Python](https://www.python.org/) version 3.6+. The easiest way to install Python on your PC may be via the Microsoft store.
 - [Aeon Timeline 3](https://www.aeontimeline.com/). Note: There is a separate [converter for Aeon Timeline 2](https://peter88213.github.io/aeon2yw).
 
 
