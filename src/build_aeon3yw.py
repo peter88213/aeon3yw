@@ -18,6 +18,8 @@ TARGET_FILE = f'{BUILD}aeon3yw.pyw'
 
 
 def main():
+    # inliner.run(SOURCE_FILE, TARGET_FILE, 'aeon3ywlib', '../src/', copyPyWriter=True)
+    # inliner.run(TARGET_FILE, TARGET_FILE, 'pywriter', '../../PyWriter/src/', copyPyWriter=True)
     inliner.run(SOURCE_FILE, TARGET_FILE, 'aeon3ywlib', '../src/')
     inliner.run(TARGET_FILE, TARGET_FILE, 'pywriter', '../src/')
     print('Done.')

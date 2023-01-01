@@ -8,6 +8,12 @@
 
 See the [GitHub "features" project](https://github.com/peter88213/aeon3yw/projects/1).
 
+### v1.0.4
+
+- Make it run on old Windows versions: Restore the original pywriter_globals module from PyWriter v5.18.0 to get rid of internationalization code.
+
+Based on PyWriter v5.18.0
+
 ### v1.0.3 Prepare for Python 3.11
 
 - Remove "shebang" to make the program run with Python 3.11. 
