@@ -1,16 +1,13 @@
 """Provide a factory class for a document object to read and a new yWriter project.
 
-Copyright (c) 2022 Peter Triesberger
-For further information see https://github.com/peter88213/PyWriter
+Copyright (c) 2023 Peter Triesberger
+For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
 import os
 from pywriter.pywriter_globals import ERROR
 from pywriter.converter.file_factory import FileFactory
 from pywriter.yw.yw7_file import Yw7File
-from pywriter.html.html_import import HtmlImport
-from pywriter.html.html_outline import HtmlOutline
-from pywriter.html.html_fop import read_html_file
 
 
 class NewProjectFactory(FileFactory):
@@ -38,29 +35,16 @@ class NewProjectFactory(FileFactory):
         """
         if not self._canImport(sourcePath):
             return f'{ERROR}This document is not meant to be written back.', None, None
-        
+
         fileName, __ = os.path.splitext(sourcePath)
         targetFile = Yw7File(f'{fileName}{Yw7File.EXTENSION}', **kwargs)
-        if sourcePath.endswith('.html'):
-            # The source file might be an outline or a "work in progress".
-            message, content = read_html_file(sourcePath)
-            if message.startswith(ERROR):
-                return message, None, None
-            
-            if "<h3" in content.lower():
-                sourceFile = HtmlOutline(sourcePath, **kwargs)
-            else:
-                sourceFile = HtmlImport(sourcePath, **kwargs)
-            return 'Source and target objects created.', sourceFile, targetFile
-            
-        else:
-            for fileClass in self._fileClasses:
-                if fileClass.SUFFIX is not None:
-                    if sourcePath.endswith(f'{fileClass.SUFFIX}{fileClass.EXTENSION}'):
-                        sourceFile = fileClass(sourcePath, **kwargs)
-                        return 'Source and target objects created.', sourceFile, targetFile
-                    
-            return f'{ERROR}File type of "{os.path.normpath(sourcePath)}" not supported.', None, None
+        for fileClass in self._fileClasses:
+            if fileClass.SUFFIX is not None:
+                if sourcePath.endswith(f'{fileClass.SUFFIX}{fileClass.EXTENSION}'):
+                    sourceFile = fileClass(sourcePath, **kwargs)
+                    return 'Source and target objects created.', sourceFile, targetFile
+
+        return f'{ERROR}File type of "{os.path.normpath(sourcePath)}" not supported.', None, None
 
     def _canImport(self, sourcePath):
         """Check whether the source file can be imported to yWriter.
@@ -75,5 +59,5 @@ class NewProjectFactory(FileFactory):
         for suffix in self.DO_NOT_IMPORT:
             if fileName.endswith(suffix):
                 return False
-        
+
         return True

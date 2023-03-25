@@ -5,7 +5,7 @@ For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
 from pywriter.converter.yw_cnv_ff import YwCnvFf
-from pywriter.converter.new_project_factory import NewProjectFactory
+from aeon3ywlib.new_project_factory import NewProjectFactory
 from aeon3ywlib.json_timeline3 import JsonTimeline3
 from aeon3ywlib.csv_timeline3 import CsvTimeline3
 

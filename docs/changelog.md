@@ -8,6 +8,12 @@
 
 See the [GitHub "Features" project](https://github.com/users/peter88213/projects/8/views/1).
 
+### v1.0.5
+
+- Refactor: Discard unused HTML file classes by creating a custom NewProjectFactory class.
+
+Based on PyWriter v5.18.0
+
 ### v1.0.4
 
 - Make it run on old Windows versions: Restore the original pywriter_globals module from PyWriter v5.18.0 to get rid of internationalization code.
