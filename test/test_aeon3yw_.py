@@ -1,7 +1,6 @@
-""" Regression test for the aeon3yw project.
+"""Regression test for the aeon3yw project.
 
-Test suite for aeon3yw.pyw.
-
+Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/aeon3yw
 Published under the MIT License (https://opensource.org/licenses/mit-license.php)
 """
@@ -9,7 +8,6 @@ from shutil import copyfile
 import os
 import unittest
 import aeon3yw_
-
 
 # Test environment
 
