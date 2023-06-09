@@ -16,7 +16,7 @@ import aeon3yw_
 
 TEST_PATH = os.getcwd() + '/../test'
 TEST_DATA_PATH = TEST_PATH + '/data/'
-TEST_EXEC_PATH = TEST_PATH + '/yw7/'
+TEST_EXEC_PATH = TEST_PATH + '/'
 
 # To be placed in TEST_DATA_PATH:
 NORMAL_YW7 = TEST_DATA_PATH + 'normal.yw7'
