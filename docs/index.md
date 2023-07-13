@@ -1,6 +1,6 @@
 [![Screenshot: Example](Screenshots/screen01.png)](https://raw.githubusercontent.com/peter88213/aeon3yw/main/docs/Screenshots/screen01.png)
 
-[yWriter](http://spacejock.com/yWriter7.html) is a free word processor written by Australian author and programmer Simon Haynes. yWriter's strengths are structuring novels and controlling the progress during the writing process. With the *aeon2yw* Python script, you can convert a novel outline created with Aeon Timeline 3 into a new yWriter project.
+[yWriter](http://spacejock.com/yWriter7.html) is a free word processor written by Australian author and programmer Simon Haynes. yWriter's strengths are structuring novels and controlling the progress during the writing process. With the *aeon3yw* Python script, you can convert a novel outline created with Aeon Timeline 3 into a new yWriter project.
 
 ## Features
 
