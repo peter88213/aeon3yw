@@ -109,7 +109,7 @@ The aeon3yw distribution comes with a sample configuration file located in the `
 
 This is the configuration explained: 
 
-```
+```ini
 [SETTINGS]
 
 part_number_prefix = Part
